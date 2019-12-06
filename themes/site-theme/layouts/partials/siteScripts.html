@@ -2,7 +2,7 @@
 
 {{ $script := .Site.Data.webpack_assets.app }}
 {{ with $script.js }}
-  <script defer src="{{ absURL (printf "%s%s" "/dist/" .) }}"></script>
+  <script src="{{ absURL (printf "%s%s" "/dist/" .) }}"></script>
 {{ end }}
 
 {{ if eq .Title "Home" }}
