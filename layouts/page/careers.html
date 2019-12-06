@@ -86,16 +86,16 @@
     <div class="flex flex-wrap items-stretch w-5/6 md:w-3/4 mx-auto">
         {{ range (where .Site.Pages "Type" "careers" ) }}
         <div class="flex flex-wrap w-full xl:w-1/2 text-left">
-            <div class="flex flex-wrap w-full md:w-11/12 bg-white border border-color-e6e6e6 hover:border-color-02DACA mb-6 p-4 rounded service-box-{{ .UniqueID }}">
+            <div class="flex flex-wrap w-full md:w-11/12 bg-white border border-color-e6e6e6 hover:border-color-02DACA mb-6 p-4 rounded service-box-{{ .File.UniqueID }}">
                 <div class="w-2/12 mx-auto">
-                    <img class="pt-1half mx-auto not-rotated-service-icon service-box-icon-{{ .UniqueID }}" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575055112/Georgia%20Technologies/Shape_Copy_3_gwhgj8.svg">
+                    <img class="pt-1half mx-auto not-rotated-service-icon service-box-icon-{{ .File.UniqueID }}" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575055112/Georgia%20Technologies/Shape_Copy_3_gwhgj8.svg">
                     <!-- <i class="text-3xl pl-1 fas fa-angle-down service-box-icon-{{ .Params.name | lower | urlize }}"></i> -->
                 </div>
                 <div class="w-10/12 sm:w-8/12 pb-3 pr-5">
                     <h2 class="font-copy text-lg xxl:text-xl leading-tight pb-2">{{ .Params.name }}</h2>
                     <h3 class="font-copy text-12px text-color-02A89B uppercase">{{ .Params.career_subtitle }}</h3>
-                    <p class="hidden font-copy text-base font-thin leading-tight pt-3 pb-6 job-description-{{ .UniqueID }}">{{ .Params.career_description }}</p>
-                    <a href="/careers/{{ .Params.name | lower | urlize }}/" class="hidden bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 py-2 px-8 service-box-button-{{ .UniqueID }}">
+                    <p class="hidden font-copy text-base font-thin leading-tight pt-3 pb-6 job-description-{{ .File.UniqueID }}">{{ .Params.career_description }}</p>
+                    <a href="/careers/{{ .Params.name | lower | urlize }}/" class="hidden bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 py-2 px-8 service-box-button-{{ .File.UniqueID }}">
                         Learn More
                     </a>
                 </div>
@@ -105,16 +105,16 @@
             </div>
         </div>
         <script>
-            var jobBox_{{ .UniqueID | safeJS }} = document.querySelector('.service-box-{{ .UniqueID }}');
-            var jobboxIcon_{{ .UniqueID | safeJS }} = document.querySelector('.service-box-icon-{{ .UniqueID }}');
-            var jobboxDescription_{{ .UniqueID | safeJS }} = document.querySelector('.job-description-{{ .UniqueID }}');
-            var jobboxButton_{{ .UniqueID | safeJS }} = document.querySelector('.service-box-button-{{ .UniqueID }}');
+            var jobBox_{{ .File.UniqueID | safeJS }} = document.querySelector('.service-box-{{ .File.UniqueID }}');
+            var jobboxIcon_{{ .File.UniqueID | safeJS }} = document.querySelector('.service-box-icon-{{ .File.UniqueID }}');
+            var jobboxDescription_{{ .File.UniqueID | safeJS }} = document.querySelector('.job-description-{{ .File.UniqueID }}');
+            var jobboxButton_{{ .File.UniqueID | safeJS }} = document.querySelector('.service-box-button-{{ .File.UniqueID }}');
             
-            jobBox_{{ .UniqueID | safeJS }}.onclick = function() {
-                jobBox_{{ .UniqueID | safeJS }}.classList.toggle('border-color-02DACA');
-                jobboxIcon_{{ .UniqueID | safeJS }}.classList.toggle('rotate-service-icon');
-                jobboxDescription_{{ .UniqueID | safeJS }}.classList.toggle('hidden');
-                jobboxButton_{{ .UniqueID | safeJS }}.classList.toggle('hidden');
+            jobBox_{{ .File.UniqueID | safeJS }}.onclick = function() {
+                jobBox_{{ .File.UniqueID | safeJS }}.classList.toggle('border-color-02DACA');
+                jobboxIcon_{{ .File.UniqueID | safeJS }}.classList.toggle('rotate-service-icon');
+                jobboxDescription_{{ .File.UniqueID | safeJS }}.classList.toggle('hidden');
+                jobboxButton_{{ .File.UniqueID | safeJS }}.classList.toggle('hidden');
             };
         </script>
         {{ end }}

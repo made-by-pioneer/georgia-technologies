@@ -27,12 +27,12 @@
     <div class="flex flex-wrap w-5/6 md:w-4/5 xl:w-3/4 mx-auto">
         {{ range (where .Site.Pages "Type" "employees" ) }}
         <style>
-            .employee-picture-{{ .UniqueID }} {
+            .employee-picture-{{ .File.UniqueID }} {
                 background-image: url("{{ .Params.head_shot }}")
             }
         </style>
         <div class="flex flex-wrap w-full sm:w-1/2 lg:w-1/4">
-            <div class='w-full bg-cover sm:bg-contain bg-center bg-no-repeat lg:mr-5 xxl:mr-0 employee-picture-{{ .UniqueID }}'>
+            <div class='w-full bg-cover sm:bg-contain bg-center bg-no-repeat lg:mr-5 xxl:mr-0 employee-picture-{{ .File.UniqueID }}'>
                 <div class="py-32"></div>
             </div>
             <div class="w-5/6 md:w-7/12 lg:w-5/6 mx-auto pt-2 pb-12 lg:py-2">
