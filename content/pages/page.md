@@ -1,0 +1,10 @@
++++
+date = "2019-04-24T05:00:00+00:00"
+type = "page"
+layout = "INSERT LAYOUT HERE"
+url = "/INSERT URL HERE"
+title = "INSERT PAGE TITLE HERE"
+page_status = "USE THIS FIELD FOR EDITING BODY WITH CSS"
+publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
+meta_description = "META DESCRIPTION GOES HERE"
++++

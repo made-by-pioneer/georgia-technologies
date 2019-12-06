@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
+    <div class="flex flex-wrap w-11/12 md:w-5/6 lg:w-7/12 mx-auto">
+        <div class="sm:flex w-full items-center">
+            <h1 class="font-copy text-xl pr-8">{{ .Page.Params.name }}</h1>
+            <h6 class="font-copy text-12px p-2 text-center border mb-8 sm:mb-0">{{ .Page.Params.type_of_position }}</h6>
+            <a href="{{ .Params.homepage_list.buttons.second_button.button_link }}" class="w-full sm:w-auto bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 text-center ml-auto py-2 px-8">
+                Apply for this Job
+            </a>
+        </div>
+        <div class="w-full">
+            <h4 class="font-copy text-12px text-color-02A89B uppercase mt-8 sm:mt-0 pt-1">{{ .Page.Params.career_subtitle }}</h4>
+            <p class="font-copy text-base font-thin leading-tight pt-3 pb-6 job-description">{{ .Page.Params.career_description }}</p>
+            <h5 class="font-copy text-lg pt-8 pb-2">Qualifications</h5>
+            <ul class="w-full list-disc list-inside font-copy text-base pb-8">
+                {{ range .Page.Params.qualifications }}
+                <li><span class="-ml-2">{{ . }}</span></li>
+                {{ end }}
+            </ul>
+            <h5 class="font-copy text-lg pt-8 pb-2">Education and Experience</h5>
+            <p class="font-copy text-base font-thin leading-tight pt-3 pb-6 job-education-requirement">{{ .Page.Params.education_experience }}</p>
+            <h5 class="font-copy text-lg pt-8 pb-2">Salary Range and Benefits</h5>
+            <p class="font-copy text-base font-thin leading-tight pt-3 pb-6 job-salary-and-benefits">{{ .Page.Params.salary_benefits }}</p>
+            {{ if .Page.Params.more_information }}
+            <p class="font-copy text-base font-thin leading-tight pt-12 pb-48 job-contact">{{ .Page.Params.more_information }}</p>
+            {{ else }}
+            <p class="font-copy text-base font-thin leading-tight pt-12 pb-48 job-contact">For more information regarding this position, contact David Rogers at 912-682-7445.</p>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

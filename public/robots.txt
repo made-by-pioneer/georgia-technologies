@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /
+
+
+
+Sitemap: https://georgia-techno.netlify.com/sitemapindex.xml

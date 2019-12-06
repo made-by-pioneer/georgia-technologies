@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Example</title>
+    <link>https://georgia-techno.netlify.com/pages/</link>
+    <description>Recent content in Pages on Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 May 2019 05:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://georgia-techno.netlify.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Search</title>
+      <link>https://georgia-techno.netlify.com/search/</link>
+      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://georgia-techno.netlify.com/about/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/about/</guid>
+      <description>We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999.
+All of our support staff are Microsoft Certified and have extensive knowledge of the latest trends in technology. Our technical staff members have been trained on industry-specific hardware, software and hold a variety of applicable certifications.
+The foundation for providing reliable services and fulfilling the needs of our clients is in part due to our mission as a company: to provide the very best service to everyone.</description>
+    </item>
+    
+    <item>
+      <title>Examples of development elements</title>
+      <link>https://georgia-techno.netlify.com/devele/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/devele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INSERT PAGE TITLE HERE</title>
+      <link>https://georgia-techno.netlify.com/insert-url-here/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/insert-url-here/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thank You</title>
+      <link>https://georgia-techno.netlify.com/thank-you/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/thank-you/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

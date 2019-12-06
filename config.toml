@@ -1,0 +1,246 @@
+baseURL = "https://georgia-techno.netlify.com/"
+languageCode = "en-us"
+theme = "site-theme"
+title = "Example"
+enableRobotsTXT = true
+
+[params.meta]
+description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
+
+[[menu.desktop]]
+    identifier = "Managed Services"
+    name = "Managed Services"
+    url = "/page-1/"
+    weight = 1
+[[menu.desktop]]
+    identifier = "Industries"
+    name = "Industries"
+    url = ""
+    weight = 2
+[[menu.desktop]]
+    identifier = "About"
+    name = "About"
+    url = "#bottom"
+    weight = 3
+[[menu.desktop]]
+    identifier = "Contact"
+    name = "Contact"
+    url = "/page-4"
+    weight = 4
+[[menu.desktop]]
+    identifier = "Bill Pay"
+    name = "Bill Pay"
+    url = "/page-4"
+    weight = 4
+[[menu.desktop]]
+    identifier = "Client Login"
+    name = "Client Login"
+    url = "/page-4"
+    weight = 4
+[[menu.mobile]]
+    identifier = "Managed Services"
+    name = "Managed Services"
+    weight = 1
+        [[menu.mobile]]
+            identifier = "IT Management"
+            name = "IT Management"
+            url = "/page-11/"
+            weight = 1
+            parent = "Managed Services"
+        [[menu.mobile]]
+            identifier = "Tech Consulting"
+            name = "Tech Consulting"
+            url = "/page-11/"
+            weight = 2
+            parent = "Managed Services"
+        [[menu.mobile]]
+            identifier = "Data Backup"
+            name = "Data Backup"
+            url = "/page-11/"
+            weight = 3
+            parent = "Managed Services"
+        [[menu.mobile]]
+            identifier = "Disaster Recovery"
+            name = "Disaster Recovery"
+            url = "/page-11/"
+            weight = 4
+            parent = "Managed Services"
+        [[menu.mobile]]
+            identifier = "Phone Systems"
+            name = "Phone Systems"
+            url = "/page-11/"
+            weight = 5
+            parent = "Managed Services"
+        [[menu.mobile]]
+            identifier = "Cloud Services"
+            name = "Cloud Services"
+            url = "/page-11/"
+            weight = 6
+            parent = "Managed Services"
+        [[menu.mobile]]
+            identifier = "Surveillance Systems"
+            name = "Surveillance Systems"
+            url = "/page-11/"
+            weight = 7
+            parent = "Managed Services"
+        [[menu.mobile]]
+            identifier = "Access Control"
+            name = "Access Control"
+            url = "/page-11/"
+            weight = 8
+            parent = "Managed Services"
+[[menu.mobile]]
+    identifier = "Industries We Serve"
+    name = "Industries We Serve"
+    weight = 2
+        [[menu.mobile]]
+            identifier = "Healthcare"
+            name = "Healthcare"
+            url = "/page-11/"
+            weight = 1
+            parent = "Industries We Serve"
+        [[menu.mobile]]
+            identifier = "Business"
+            name = "Business"
+            url = "/page-11/"
+            weight = 2
+            parent = "Industries We Serve"
+        [[menu.mobile]]
+            identifier = "Manufacturing"
+            name = "Manufacturing"
+            url = "/page-11/"
+            weight = 3
+            parent = "Industries We Serve"
+        [[menu.mobile]]
+            identifier = "Construction"
+            name = "Construction"
+            url = "/page-11/"
+            weight = 4
+            parent = "Industries We Serve"
+        [[menu.mobile]]
+            identifier = "Government"
+            name = "Government"
+            url = "/page-11/"
+            weight = 5
+            parent = "Industries We Serve"
+        [[menu.mobile]]
+            identifier = "Education"
+            name = "Education"
+            url = "/page-11/"
+            weight = 6
+            parent = "Industries We Serve"
+        [[menu.mobile]]
+            identifier = "Non-Profits"
+            name = "Non-Profits"
+            url = "/page-11/"
+            weight = 7
+            parent = "Industries We Serve"
+[[menu.mobile]]
+    identifier = "About Us"
+    name = "About Us"
+    weight = 3
+        [[menu.mobile]]
+            identifier = "Meet the Team"
+            name = "Meet the Team"
+            url = "/page-11/"
+            weight = 1
+            parent = "About Us"
+        [[menu.mobile]]
+            identifier = "Careers"
+            name = "Careers"
+            url = "/page-11/"
+            weight = 2
+            parent = "About Us"
+[[menu.mobile]]
+    identifier = "Contact Us"
+    name = "Contact Us"
+    weight = 4
+        [[menu.mobile]]
+            identifier = "Call us now"
+            name = "Call us now"
+            url = "/page-11/"
+            weight = 1
+            parent = "Contact Us"
+        [[menu.mobile]]
+            identifier = "Email us now"
+            name = "Email us now"
+            url = "/page-11/"
+            weight = 2
+            parent = "Contact Us"
+[params.contact_numbers]
+    Fax = "555.555.5555"
+    Phone = "555.555.5555"
+[params.Logos]
+    dark_logo = "/pageimg/example-logo.png"
+    logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
+    mobile_logo = "/branding/Client Wordmark.svg"
+    footer_logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
+[params.utility_images]
+    thank_you_background = "/pageimg/thank-you-contact.jpg"
+[params.address]
+    city = "Statesboro"
+    state = "GA"
+    street = "P.O. Box 134"
+    zip = 30459
+[params.email]
+    email = "example@example.com"
+[params.tracking]
+    google_analytics = ""
+    cloudinaryUrl = ""
+[params.social_links]
+    facebook = ""
+    insta = ""
+    linkedin = ""
+    pinterest = ""
+[params.publishing_settings]
+    site_in_production = false
+
+[mediaTypes]
+  [mediaTypes."text/noExt"]
+    suffixes = ""
+
+[sitemap]
+    filename = "sitepages.xml"
+
+[outputFormats]
+    [outputFormats.sitemapindex]
+        baseName = "sitemapindex"
+        isPlainText = false
+        mediaType = "application/xml"
+        path = "/"
+    [outputFormats.sitepages]
+        baseName = "sitepages"
+        isPlainText = false
+        mediaType = "application/xml"
+        path = "/"
+    [outputFormats.siteposts]
+        baseName = "siteposts"
+        isPlainText = false
+        mediaType = "application/xml"
+        path = "/"
+    [outputFormats.redirects]
+        baseName = "_redirects"
+        isPlainText = true
+        mediaType = "text/noExt"
+        path = "/"
+    [outputFormats.Algolia]
+        baseName = "algolia"
+        isPlainText = true
+        mediaType = "application/json"
+        notAlternative = true
+
+[outputs]
+  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS", "redirects", "Algolia"]
+
+[params.algolia]
+    appId = ""
+    search_key = ""
+    index_name = ""
+
+[params.extra_tools]
+    algolia_search = true
+    font_awesome = true
+    floating_header = false
+
+[params.news_ticker]
+    headline = "IMPORTANT NEWS TICKER"

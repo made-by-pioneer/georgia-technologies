@@ -1,0 +1,140 @@
+{{ define "main" }}
+
+<div class="flex flex-wrap bg-cover bg-no-repeat z-min1 -mt-16 md:-mt-24 pt-32 pb-20 lg:py-32 xxl:pt-48 xxl:pb-56 hero">
+    <div class="md:flex items-center w-11/12 md:w-5/6 lg:w-11/12 xxl:w-5/6 xxl:max-w-7xl text-center md:ml-5 lg:ml-2 lg:ml-6 xl:ml-2 xxl:ml-auto mx-auto z-50">
+        <h1 class="w-full md:w-7/12 font-copy text-3xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl text-white text-left md:text-right md:ml-auto leading-tight">Managed IT<br class="md:hidden"><span class="pr-2"></span>services for </h1>
+        <div class="flex items-center w-full md:w-5/12 h-32 md:h-56 -mt-8 md:-mt-px mr-auto md:pl-3 xxl:pl-5">
+            <ul class="w-full font-copy text-3xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl text-white text-left -mt-2 md:-mt-1 pt-3">
+                <li class="hidden md:block opacity-50 -mb-2 hero-select-placeholder-top">education</li>
+                <li class="relative flex flex-wrap border-b-4 border-color-02DACA -mb-2 z-50 hero-select">
+                    <a href="/" class="w-full text-transparent hidden md:opacity-50 hover:opacity-100 hero-select-menu-top">education</a>
+                    <a href="/" class="w-full hidden md:opacity-50 hover:opacity-100 hero-select-menu-mid">business</a>
+                    <span class="w-full hover:cursor-pointer hero-select-placeholder-mid">business</span>
+                    <i class="absolute right-0 w-auto text-xl md:text-base lg:text-lg xl:text-xl xxl:text-2xl text-color-02DACA pt-5 md:pt-3 lg:pt-4 xl:pt-5 xxl:pt-8 fas fa-angle-down"></i>
+                    <div class="flex flex-wrap w-full text-transparent hidden -mt-20 hero-select-menu-bot">
+                        <a href="/" class="w-full md:opacity-50 hover:opacity-100">construction</a>
+                        <a href="/" class="w-full md:opacity-50 hover:opacity-100">construction</a>
+                        <a href="/" class="w-full md:opacity-50 hover:opacity-100">construction</a>
+                        <a href="/" class="w-full md:opacity-50 hover:opacity-100">construction</a>
+                        <a href="/" class="w-full md:opacity-50 hover:opacity-100">construction</a>
+                    </div>
+                </li>
+                <li class="hidden md:block opacity-50 hero-select-placeholder-bot">construction</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="bg-cover bg-bottom bg-no-repeat opacity-75 -mt-192 z-min1 hero-pattern">
+    <div class="py-80"></div>
+    <div class="py-6"></div>
+</div>
+
+<div class="flex flex-wrap bg-color-F0F0F0 pt-12 md:pt-24">
+
+    <div class="flex flex-wrap max-w-8xl mx-auto">
+        <div class="flex flex-wrap w-11/12 mx-auto px-5">
+            <div class="w-full md:w-1/2 lg:w-5/12 xxl:w-1/3">
+                <p class="font-copy text-lg xl:text-xl leading-tight pb-12 md:pb-0 md:pr-16">{{ .Params.home_services_text }}</p>
+            </div>
+            <div class="flex flex-wrap items-stretch w-full md:w-1/2 lg:w-7/12 xxl:w-2/3">
+                {{ range (where .Site.Pages "Type" "services" ) }}
+                <div class="flex flex-wrap w-full xl:w-1/2 text-left">
+                    <div class="flex flex-wrap w-full md:w-11/12 bg-white border border-color-e6e6e6 hover:border-color-02DACA mb-6 p-4 rounded service-box-{{ .Params.name | lower | urlize }}">
+                        <div class="w-2/12 mx-auto">
+                            <img class="pt-1half mx-auto not-rotated-service-icon service-box-icon-{{ .Params.name | lower | urlize }}" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575055112/Georgia%20Technologies/Shape_Copy_3_gwhgj8.svg">
+                            <!-- <i class="text-3xl pl-1 fas fa-angle-down service-box-icon-{{ .Params.name | lower | urlize }}"></i> -->
+                        </div>
+                        <div class="w-10/12 pb-3 pr-5">
+                            <h2 class="font-copy text-lg xxl:text-xl leading-tight">{{ .Params.name }}</h2>
+                            <p class="font-copy text-base font-thin leading-tight pt-3 pb-6">{{ .Params.description }}</p>
+                            <a href="/{{ .Params.name | lower | urlize }}/" class="hidden bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 py-2 px-8 service-box-button-{{ .Params.name | lower | urlize }}">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    var serviceBox_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }} = document.querySelector('.service-box-{{ .Params.name | lower | urlize }}');
+                    var serviceboxIcon_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }} = document.querySelector('.service-box-icon-{{ .Params.name | lower | urlize }}');
+                    var serviceboxButton_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }} = document.querySelector('.service-box-button-{{ .Params.name | lower | urlize }}');
+                    
+                    serviceBox_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }}.onclick = function() {
+                        serviceBox_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }}.classList.toggle('border-color-02DACA');
+                        serviceboxIcon_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }}.classList.toggle('rotate-service-icon');
+                        serviceboxButton_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }}.classList.toggle('hidden');
+                    };
+                </script>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap w-full">
+        <div class="flex flex-wrap flex-col-reverse md:flex-row items-center w-11/12 xl:w-2/3 mx-auto pt-32 pb-40 px-5 xl:px-0">
+            <div class="flex flex-wrap w-full md:w-1/2">
+                <h6 class="w-full font-copy text-base sm:text-12px text-color-02A89B uppercase tracking-onehalf pb-1">{{ .Params.homepage_list.subtitle }}</h6>
+                <h3 class="font-copy text-xl md:text-2xl lg:text-3xl leading-tight pb-3">{{ .Params.homepage_list.title }}</h3>
+                <ul class="w-full list-disc list-inside font-copy text-base lg:text-lg pb-8">
+                    {{ range .Params.homepage_list.list_items }}
+                    <li><span class="-ml-4">{{ . }}</span></li>
+                    {{ end }}
+                </ul>
+                <a href="{{ .Params.homepage_list.buttons.first_button.button_link }}" class="w-full sm:w-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 sm:mr-5 py-2 px-8">
+                        {{ .Params.homepage_list.buttons.first_button.button_text }}
+                </a>
+                <a href="{{ .Params.homepage_list.buttons.second_button.button_link }}" class="w-full sm:w-auto bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 text-center py-2 px-8">
+                        {{ .Params.homepage_list.buttons.second_button.button_text }}
+                </a>
+            </div>
+            <div class="w-full md:w-1/2 pb-12 md:pb-0 md:pl-12">
+                <img class="mx-auto" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575058558/Georgia%20Technologies/worry-free-it-solutions_h36lqq.png">
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="flex flex-wrap w-11/12 max-w-8xl mx-auto pb-20 md:pb-0 testimonial-slider">
+        {{ range (where .Site.Pages "Type" "testimonials" )}}
+        <div class="slide">
+            <div class="flex flex-wrap md:flex-no-wrap w-11/12 xl:w-2/3 mx-auto testimonial">
+                <style>
+                    .testimonial-image-{{ .Params.name | urlize }} {
+                        background-image: url("{{ .Params.photo }}");
+                    }
+                </style>
+                <div class="w-2/3 sm:w-7/12 md:w-1/3 lg:w-1/2 bg-contain bg-top-left sm:bg-center bg-no-repeat mb-5 md:mb-0 py-32 testimonial-image-{{ .Params.name | urlize }}"></div>
+                <div class="md:hidden flex flex-wrap w-1/3 sm:w-5/12 h-40 slider-thumbs">
+                    {{ range (where .Site.Pages "Type" "testimonials" )}}
+                        <a class="w-full h-0 mx-2">
+                            <div class="w-16 sm:w-32 p-8 bg-cover bg-right sm:bg-left bg-no-repeat ml-auto sm:ml-0 sm:mr-auto testimonial-image-{{ .Params.name | urlize }}"></div>
+                        </a>
+                    {{ end }}
+                </div>
+                <div class="w-11/12 md:w-2/3 lg:w-1/2 mx-auto md:mx-0 md:mr-auto lg:pl-8">
+                    <p class="font-pt text-base lg:text-lg pb-2 md:px-5 lg:px-0">"{{ .Params.text }}"</p>
+                    <p class="font-copy text-base lg:text-lg md:px-5 lg:px-0">{{ .Params.name }}</p>
+                    <p class="font-copy text-base lg:text-lg text-color-02A89B -mt-2 md:px-5 lg:px-0">{{ .Params.company }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <div id="slider-dots" class="hidden md:flex w-10/12 lg:w-8/12 xl:w-5/12 mx-auto py-8 md:py-4 xl:py-6 pl-12 md:pl-20 xl:pl-8 xxl:max-w-xl">
+        
+    </div>
+
+    <div class="flex flex-wrap w-full mx-auto py-48 max-w-8xl">
+        <h2 class="w-full font-copy text-3xl text-color-02A89B text-center pb-12">{{ .Params.home_partners_title }}</h2>
+        <div class="flex flex-wrap w-3/4 mx-auto">
+            {{ range (where .Site.Pages "Type" "partners" )}}
+            <div class="w-auto mx-auto p-5">
+                <img src="{{ .Params.logo }}">
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
