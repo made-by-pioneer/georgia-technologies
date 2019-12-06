@@ -47,6 +47,7 @@ module.exports = {
       '16': '4rem',
       '20': '5rem',
       '24': '6rem',
+      '24half': '7rem',
       '32': '8rem',
       '40': '10rem',
       '48': '12rem',
@@ -54,7 +55,8 @@ module.exports = {
       '64': '16rem',
       '72': '18rem',
       '80': '19rem',
-      '192': '41rem'
+      '192': '41.03rem',
+      '39half': '39.2rem',
     },
     screens: {
       sm: '576px',
@@ -265,6 +267,7 @@ module.exports = {
     },
     zIndex: {
       auto: 'auto',
+      'min2': '-2',
       'min1': '-1',
       '0': '0',
       '10': '10',

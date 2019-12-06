@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Example</title>
+    <title>Home on Georgia Technologies</title>
     <link>https://georgia-techno.netlify.com/</link>
-    <description>Recent content in Home on Example</description>
+    <description>Recent content in Home on Georgia Technologies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2019 05:00:00 +0000</lastBuildDate>
@@ -116,9 +116,17 @@
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
       <guid>https://georgia-techno.netlify.com/about/</guid>
-      <description>We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999.
-All of our support staff are Microsoft Certified and have extensive knowledge of the latest trends in technology. Our technical staff members have been trained on industry-specific hardware, software and hold a variety of applicable certifications.
+      <description>We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999. All of our support staff are Microsoft Certified and have extensive knowledge of the latest trends in technology. Our technical staff members have been trained on industry-specific hardware, software and hold a variety of applicable certifications.
 The foundation for providing reliable services and fulfilling the needs of our clients is in part due to our mission as a company: to provide the very best service to everyone.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://georgia-techno.netlify.com/contact/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/contact/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -137,6 +145,26 @@ The foundation for providing reliable services and fulfilling the needs of our c
       
       <guid>https://georgia-techno.netlify.com/insert-url-here/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://georgia-techno.netlify.com/privacy-policy/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/privacy-policy/</guid>
+      <description>Georgia Technologies Corporation has a strong commitment to providing excellent service to all of our customers, including respecting their concerns about privacy. We understand that visitors to our website may have questions about whether and how this website collects and uses information. Accordingly, we have prepared this statement to inform you of the privacy principles that govern georgiatechnologies.com.
+Browsing Visitors who browse this website do so on an anonymous basis.</description>
+    </item>
+    
+    <item>
+      <title>Terms of Use</title>
+      <link>https://georgia-techno.netlify.com/terms-of-use/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://georgia-techno.netlify.com/terms-of-use/</guid>
+      <description>The content and information displayed on this web site (&amp;ldquo;Georgia Technologies Information&amp;rdquo;) is the property of Georgia Technologies Corporation and/or other parties. The downloading, reproduction, or retransmission of Georgia Technologies Corporation Information, other than for non-commercial individual use, is strictly prohibited.
+Georgia Technologies Corporation&amp;rsquo;s Internet sites may contain or reference trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes or other proprietary rights of Georgia Technologies Corporation and/or other parties. No license to or right in any such trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes and other proprietary rights of Georgia Technologies Corporation and/or other parties is granted to or conferred upon you.</description>
     </item>
     
     <item>

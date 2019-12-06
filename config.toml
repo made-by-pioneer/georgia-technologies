@@ -1,7 +1,7 @@
 baseURL = "https://georgia-techno.netlify.com/"
 languageCode = "en-us"
 theme = "site-theme"
-title = "Example"
+title = "Georgia Technologies"
 enableRobotsTXT = true
 
 [params.meta]
@@ -168,8 +168,8 @@ description = "This domain is established to be used for illustrative examples i
             weight = 2
             parent = "Contact Us"
 [params.contact_numbers]
-    Fax = "555.555.5555"
-    Phone = "555.555.5555"
+    toll_free = "1-866-489-7427"
+    Phone = "912-489-7427"
 [params.Logos]
     dark_logo = "/pageimg/example-logo.png"
     logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
@@ -180,8 +180,11 @@ description = "This domain is established to be used for illustrative examples i
 [params.address]
     city = "Statesboro"
     state = "GA"
-    street = "P.O. Box 134"
-    zip = 30459
+    street = "216 South Zetterower Ave."
+    zip = 30458
+[params.business_hours]
+    start_time = "8:00am"
+    end_time = "5:00pm"
 [params.email]
     email = "example@example.com"
 [params.tracking]
