@@ -122,11 +122,6 @@
     </div>
 </footer>
 
-{{ $script := .Site.Data.webpack_assets.app }}
-{{ with $script.js }}
-  <script defer src="{{ absURL (printf "%s%s" "/dist/" .) }}"></script>
-{{ end }}
-
 {{ if eq .Site.Params.extra_tools.elevatorJS true }}
 
 <div id="go-to-top-button">
