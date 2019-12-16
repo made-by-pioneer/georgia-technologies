@@ -1,0 +1,16 @@
+---
+label: Testimonial
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: company
+  label: company
+- type: file
+  name: photo
+  label: photo
+- type: textarea
+  name: text
+  label: text
