@@ -1,0 +1,111 @@
+---
+label: Site Data
+hide_body: true
+fields:
+- type: field_group
+  name: contact_numbers
+  label: contact_numbers
+  fields:
+  - type: text
+    name: phone
+    label: phone
+  - type: text
+    name: toll_free
+    label: toll_free
+- type: field_group
+  name: logos
+  label: logos
+  fields:
+  - type: file
+    name: footer_logo
+    label: footer_logo
+  - type: file
+    name: logo
+    label: logo
+  - type: file
+    name: mobile_logo
+    label: mobile_logo
+- type: field_group
+  name: meta
+  label: meta
+  fields:
+  - type: textarea
+    name: description
+    label: description
+- type: field_group
+  name: email
+  label: email
+  fields:
+  - type: text
+    name: email
+    label: email
+- type: field_group
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: facebook
+    label: facebook
+  - type: text
+    name: instagram
+    label: instagram
+- type: field_group
+  name: tracking
+  label: tracking
+  fields:
+  - type: text
+    name: google_analytics
+    label: google_analytics
+  - type: text
+    name: google_maps_key
+    label: google_maps_key
+- type: field_group
+  name: address
+  label: address
+  fields:
+  - type: text
+    name: city
+    label: city
+  - type: text
+    name: state
+    label: state
+  - type: text
+    name: street
+    label: street
+  - type: number
+    name: zip
+    label: zip
+- type: field_group
+  name: business_hours
+  label: business_hours
+  fields:
+  - type: text
+    name: start_time
+    label: start_time
+  - type: text
+    name: end_time
+    label: end_time
+- type: field_group
+  name: news_ticker
+  label: news_ticker
+  fields:
+  - type: text
+    name: headline
+    label: headline
+  - type: text
+    name: link
+    label: link
+- type: field_group
+  name: homepage_hero_select
+  label: homepage_hero_select
+  fields:
+  - type: field_group_list
+    name: industries
+    label: industries
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
