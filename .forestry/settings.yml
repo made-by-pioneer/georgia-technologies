@@ -53,6 +53,9 @@ sections:
   label: Careers
   create: all
   match: "**/*"
+  templates:
+  - career
+  - career-page
 - type: directory
   path: content/services
   label: Services
