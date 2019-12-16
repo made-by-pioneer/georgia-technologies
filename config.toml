@@ -217,56 +217,56 @@ enableRobotsTXT = true
         parent = "Site Navigation"
         weight = 8
 [[menu.footer]]
-    identifier = "Managed IT Services"
+    identifier = "Managed IT Services Top"
     name = "Managed IT Services"
     weight = 2
     [[menu.footer]]
         identifier = "IT Management"
         name = "IT Management"
         url = "/services/it-management/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 1
     [[menu.footer]]
         identifier = "IT Consulting"
         name = "IT Consulting"
         url = "/services/it-consulting/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 2
     [[menu.footer]]
         identifier = "Data Backup"
         name = "Data Backup"
         url = "/services/data-backup-and-disaster-recovery/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 3
     [[menu.footer]]
         identifier = "Disaster Recovery"
         name = "Disaster Recovery"
         url = "/services/data-backup-and-disaster-recovery/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 4
     [[menu.footer]]
         identifier = "Phone Systems"
         name = "Phone Systems"
         url = "/services/phone-systems/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 5
     [[menu.footer]]
         identifier = "Cloud Services"
         name = "Cloud Services"
         url = "/services/cloud-services/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 6
     [[menu.footer]]
         identifier = "Surveillance Systems"
         name = "Surveillance Systems"
         url = "/services/surveillance-and-access-control/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 7
     [[menu.footer]]
         identifier = "Access Control"
         name = "Access Control"
         url = "/services/surveillance-and-access-control/"
-        parent = "Managed IT Services"
+        parent = "Managed IT Services Top"
         weight = 8
 [[menu.footer]]
     identifier = "Industries We Serve"
