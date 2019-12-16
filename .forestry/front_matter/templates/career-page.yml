@@ -5,43 +5,50 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: true
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: text
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: meta_description
-  label: meta_description
+  label: Meta Description
 - type: field_group
   name: top_section
-  label: top_section
+  label: Top Section
   fields:
   - type: text
     name: button_link
-    label: button_link
+    label: Button Link
   - type: text
     name: button_text
-    label: button_text
+    label: Button Text
   - type: file
     name: image
     label: image
 - type: field_group
   name: benefits_section
-  label: benefits_section
+  label: Benefits Section
   fields:
   - type: text
     name: title
@@ -51,20 +58,20 @@ fields:
     label: subtitle
   - type: field_group_list
     name: benefit_list
-    label: benefit_list
+    label: Benefit List
     fields:
     - type: file
       name: icon
       label: icon
     - type: text
       name: name_of_benefit
-      label: name_of_benefit
+      label: Name of Benefit
     - type: textarea
       name: benefit_text
-      label: benefit_text
+      label: Benefit Text
 - type: field_group
   name: current_openings_section
-  label: current_openings_section
+  label: Current Opening Section
   fields:
   - type: text
     name: title
