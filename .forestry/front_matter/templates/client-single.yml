@@ -10,9 +10,14 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - Healthcare and Medical
+    - Professional Services
+    - Manufacturing and Construction
+    - Government and Education
+    - Non-Profits
     source:
-      type: pages
+      type: simple
       section: industries
       file: 
       path: 
