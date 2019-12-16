@@ -20,6 +20,9 @@ sections:
   label: Industries
   create: all
   match: "**/*"
+  templates:
+  - industry-single
+  - industry-list-page
 - type: directory
   path: content/testimonials
   label: Testimonials
