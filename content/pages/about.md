@@ -1,15 +1,16 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-type = "page"
+date = 2019-04-24T05:00:00Z
 layout = "about"
-url = "/about/"
-title = "About"
+meta_description = "Default meta desciption for the page."
 page_status = "about"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
-meta_description = "Default meta desciption for the page."
+title = "About"
+type = "page"
+url = "/about/"
 [top_section]
-title = "About Us"
 button_text = "Call to Find Out How"
+title = "About Us"
+
 +++
 We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999. \
 
