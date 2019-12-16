@@ -1,0 +1,74 @@
+---
+label: Career Page
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page_status
+  label: page_status
+- type: text
+  name: publish_image
+  label: publish_image
+- type: text
+  name: meta_description
+  label: meta_description
+- type: field_group
+  name: top_section
+  label: top_section
+  fields:
+  - type: text
+    name: button_link
+    label: button_link
+  - type: text
+    name: button_text
+    label: button_text
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: benefits_section
+  label: benefits_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: benefit_list
+    label: benefit_list
+    fields:
+    - type: file
+      name: icon
+      label: icon
+    - type: text
+      name: name_of_benefit
+      label: name_of_benefit
+    - type: textarea
+      name: benefit_text
+      label: benefit_text
+- type: field_group
+  name: current_openings_section
+  label: current_openings_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
