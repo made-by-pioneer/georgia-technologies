@@ -1,14 +1,14 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-type = "page"
+date = 2019-04-24T05:00:00Z
 layout = "privacy-policy"
-url = "/privacy-policy/"
-title = "Privacy Policy"
+meta_description = "Default meta desciption for the page."
 page_status = "privacy-policy"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
-meta_description = "Default meta desciption for the page."
-+++
+title = "Privacy Policy"
+type = "page"
+url = "/privacy-policy/"
 
++++
 Georgia Technologies Corporation has a strong commitment to providing excellent service to all of our customers, including respecting their concerns about privacy. We understand that visitors to our website may have questions about whether and how this website collects and uses information. Accordingly, we have prepared this statement to inform you of the privacy principles that govern georgiatechnologies.com.
 
 ### **Browsing**
