@@ -40,3 +40,5 @@ fields:
   - type: textarea
     name: text
     label: text
+pages:
+- content/services/_index.md
