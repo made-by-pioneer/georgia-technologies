@@ -45,9 +45,15 @@ fields:
   name: homepage_hero
   label: Homepage Hero
   fields:
-  - type: text
-    name: title
-    label: title
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Title
 - type: field_group
   name: homepage_list
   label: Homepage List
