@@ -13,7 +13,7 @@ fields:
   label: weight
 - type: field_group
   name: page_content
-  label: page_content
+  label: Page Content
   fields:
   - type: text
     name: title
