@@ -1,0 +1,81 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page_status
+  label: page_status
+- type: text
+  name: publish_image
+  label: publish_image
+- type: text
+  name: meta_description
+  label: meta_description
+- type: textarea
+  name: home_services_text
+  label: home_services_text
+- type: text
+  name: home_partners_title
+  label: home_partners_title
+- type: field_group
+  name: homepage_hero
+  label: homepage_hero
+  fields:
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: homepage_list
+  label: homepage_list
+  fields:
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: list_items
+    label: list_items
+  - type: file
+    name: image
+    label: image
+  - type: field_group
+    name: buttons
+    label: buttons
+    fields:
+    - type: field_group
+      name: first_button
+      label: first_button
+      fields:
+      - type: text
+        name: button_text
+        label: button_text
+      - type: text
+        name: button_link
+        label: button_link
+    - type: field_group
+      name: second_button
+      label: second_button
+      fields:
+      - type: text
+        name: button_text
+        label: button_text
+      - type: text
+        name: button_link
+        label: button_link
