@@ -5,6 +5,15 @@ fields:
 - type: text
   name: name
   label: name
-- type: text
-  name: client_industry
-  label: client_industry
+- name: client_industry
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: industries
+      file: 
+      path: 
+  label: Client Industry
