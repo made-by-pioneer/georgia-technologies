@@ -1,14 +1,14 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-type = "page"
+date = 2019-04-24T05:00:00Z
 layout = "terms-of-use"
-url = "/terms-of-use/"
-title = "Terms of Use"
+meta_description = "Default meta desciption for the page."
 page_status = "terms-of-use"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
-meta_description = "Default meta desciption for the page."
-+++
+title = "Terms of Use"
+type = "page"
+url = "/terms-of-use/"
 
++++
 The content and information displayed on this web site ("Georgia Technologies Information") is the property of Georgia Technologies Corporation and/or other parties. The downloading, reproduction, or retransmission of Georgia Technologies Corporation Information, other than for non-commercial individual use, is strictly prohibited.
 
 Georgia Technologies Corporation's Internet sites may contain or reference trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes or other proprietary rights of Georgia Technologies Corporation and/or other parties. No license to or right in any such trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes and other proprietary rights of Georgia Technologies Corporation and/or other parties is granted to or conferred upon you.
