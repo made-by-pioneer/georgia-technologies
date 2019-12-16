@@ -5,43 +5,52 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+  description: This MUST have a value.
+  config:
+    required: true
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: text
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: meta_description
-  label: meta_description
+  label: Meta Description
 - type: textarea
   name: home_services_text
-  label: home_services_text
+  label: Home Services Text
 - type: text
   name: home_partners_title
-  label: home_partners_title
+  label: Home Partners Title
 - type: field_group
   name: homepage_hero
-  label: homepage_hero
+  label: Homepage Hero
   fields:
   - type: text
     name: title
     label: title
 - type: field_group
   name: homepage_list
-  label: homepage_list
+  label: Homepage List
   fields:
   - type: text
     name: subtitle
@@ -51,7 +60,7 @@ fields:
     label: title
   - type: list
     name: list_items
-    label: list_items
+    label: list items
   - type: file
     name: image
     label: image
@@ -61,21 +70,21 @@ fields:
     fields:
     - type: field_group
       name: first_button
-      label: first_button
+      label: First Button
       fields:
       - type: text
         name: button_text
-        label: button_text
+        label: Button Text
       - type: text
         name: button_link
-        label: button_link
+        label: Button Link
     - type: field_group
       name: second_button
-      label: second_button
+      label: Second Button
       fields:
       - type: text
         name: button_text
-        label: button_text
+        label: Button Text
       - type: text
         name: button_link
-        label: button_link
+        label: Button Link
