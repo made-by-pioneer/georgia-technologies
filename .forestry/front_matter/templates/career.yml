@@ -7,22 +7,34 @@ fields:
   label: name
 - type: text
   name: career_subtitle
-  label: career_subtitle
-- type: text
-  name: type_of_position
-  label: type_of_position
+  label: Career Subtitle
+- name: type_of_position
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Full-Time
+    - Part-Time
+    - Contract
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type of Position
 - type: textarea
   name: career_description
-  label: career_description
+  label: Career Description
 - type: list
   name: qualifications
-  label: qualifications
+  label: Qualifications
 - type: textarea
   name: education_experience
-  label: education_experience
+  label: Education Experience
 - type: textarea
   name: salary_benefits
-  label: salary_benefits
+  label: Salary Benefits
 - type: text
   name: more_information
-  label: more_information
+  label: More Information
