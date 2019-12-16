@@ -1,0 +1,38 @@
+---
+label: About
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page_status
+  label: page_status
+- type: text
+  name: publish_image
+  label: publish_image
+- type: text
+  name: meta_description
+  label: meta_description
+- type: field_group
+  name: top_section
+  label: top_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: button_text
+    label: button_text
