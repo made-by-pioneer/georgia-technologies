@@ -37,8 +37,8 @@ textarea:focus {
 <div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
     <div class="flex flex-wrap w-5/6 md:w-4/5 mx-auto">
         <div class="w-full md:w-2/3 mr-auto">
-            <h3 class="font-copy text-xl leading-tight pb-3 md:pb-0">Let us know how we can help.</h3>
-            <h5 class="font-copy text-base pb-6">Whatever your reason for being here, we’re ready to serve you.</h5>
+            <h3 class="font-copy text-xl leading-tight pb-3 md:pb-0">{{ .Params.top_section.title }}</h3>
+            <h5 class="font-copy text-base pb-6">{{ .Params.top_section.text }}</h5>
         </div>
     </div>
 </div>
@@ -89,19 +89,21 @@ textarea:focus {
         <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 md:px-10 pb-12 md:pb-0 font-copy">
             <div class="w-full pb-6">
                 <p class="w-full">{{ .Site.Title }}</p>
-                <p class="w-full">{{ .Site.Params.address.street }}</p>
-                <p class="w-full">{{ .Site.Params.address.city }}, {{ .Site.Params.address.state }} {{ .Site.Params.address.zip }}</p>
+                <p class="w-full">{{ .Site.Data.global_data.address.street }}</p>
+                <p class="w-full">{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }} {{ .Site.Data.global_data.address.zip }}</p>
             </div>
             <div class="w-full pb-6">
-                <p class="w-full">Monday - Friday, {{ .Site.Params.business_hours.start_time }} - {{ .Site.Params.business_hours.end_time }} EST</p>
+                <p class="w-full">Monday - Friday, {{ .Site.Data.global_data.business_hours.start_time }} - {{ .Site.Data.global_data.business_hours.end_time }} EST</p>
             </div>
             <div class="w-full pb-6">
-                <p class="w-full">Phone: {{ .Site.Params.contact_numbers.phone }}</p>
-                <p class="w-full">Toll-Free: {{ .Site.Params.contact_numbers.toll_free }}</p>
+                <p class="w-full">Phone: {{ .Site.Data.global_data.contact_numbers.phone }}</p>
+                <p class="w-full">Toll-Free: {{ .Site.Data.global_data.contact_numbers.toll_free }}</p>
             </div>
         </div>
         <div class="flex flex-wrap w-full lg:w-1/3">
-            <img src="https://res.cloudinary.com/pioneer-design/image/upload/v1575165228/Georgia%20Technologies/Testimonial_Photo_esck7c.png">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.1104327970684!2d-81.78116848452518!3d32.44297870824865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fa40acb3eb004f%3A0x87bfc6f95fdc586!2s216%20S%20Zetterower%20Ave%2C%20Statesboro%2C%20GA%2030458!5e0!3m2!1sen!2sus!4v1576524554683!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Data.global_data.tracking.google_maps_key }}&callback=initMap"
+  type="text/javascript"></script>
         </div>
     </div>
 </div>

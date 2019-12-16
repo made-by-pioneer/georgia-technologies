@@ -1,11 +1,5 @@
 {{ define "main" }}
 
-<style>
-.careers-top-photo {
-    background-image: url("https://res.cloudinary.com/pioneer-design/image/upload/v1575165228/Georgia%20Technologies/Testimonial_Photo_esck7c.png")
-}
-</style>
-
 <div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
     <div class="flex flex-wrap w-5/6 md:w-4/5 mx-auto">
         <div class="w-2/3 mr-auto">
@@ -18,14 +12,20 @@
     </div>
 </div>
 
+<style>
+.careers-top-photo {
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.top_section.image }}")
+}
+</style>
+
 <div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
     <div class="flex flex-wrap flex-col-reverse sm:flex-row items-start w-5/6 md:w-4/5 xl:w-3/4 mx-auto">
         <div class="w-full sm:w-1/2 sm:pr-6 md:pr-12 paragraph-content">
             <div class="font-copy text-base -mb-6 pb-6">
                 {{ .Content }}
             </div>
-            <a href="/" class="flex items-center w-full font-copy text-base text-color-02A89B text-center mb-3 pb-12">
-                <span>Learn More About Georgia Technologies</span>
+            <a href="{{ .Params.top_section.button_link }}" class="flex items-center w-full font-copy text-base text-color-02A89B text-center mb-3 pb-12">
+                <span>{{ .Params.top_section.button_text }}</span>
                 <span class="text-lg text-black pl-5"><i class="fas fa-angle-right"></i></span>
             </a>
         </div>
@@ -37,51 +37,26 @@
 
 <div class="flex flex-wrap pt-24 mx-auto max-w-8xl">
     <div class="flex flex-wrap w-3/4 mx-auto">
-        <h5 class="w-full font-copy text-12px text-color-02A89B uppercase">careers at georgia technologies</h5>
-        <h3 class="w-full font-copy text-xl md:text-3xl leading-tight pb-6">Benefits</h3>
+        <h5 class="w-full font-copy text-12px text-color-02A89B uppercase">{{ .Params.benefits_section.subtitle }}</h5>
+        <h3 class="w-full font-copy text-xl md:text-3xl leading-tight pb-6">{{ .Params.benefits_section.title }}</h3>
+        {{ range .Params.benefits_section.benefit_list }}
         <div class="flex w-full sm:w-1/2 pb-12 pr-8">
             <div class="w-auto pr-2">
-                <img class="w-8" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575573498/Georgia%20Technologies/network_check_qisjz2.svg">
+                <img class="w-8" src="https://res.cloudinary.com/pioneer-design/image/upload{{ .icon }}">
             </div>
             <div class="w-11/12">
-                <h4 class="font-copy text-lg">Health, Vision, and Dental Insurance</h4>
-                <p class="font-copy text-base opacity-75">From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer</p>
+                <h4 class="font-copy text-lg">{{ .name_of_benefit }}</h4>
+                <p class="font-copy text-base opacity-75">{{ .benefit_text }}</p>
             </div>
         </div>
-        <div class="flex w-full sm:w-1/2 pb-12 pr-8">
-            <div class="w-auto pr-2">
-                <img class="w-8" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575573498/Georgia%20Technologies/network_check_qisjz2.svg">
-            </div>
-            <div class="w-11/12">
-                <h4 class="font-copy text-lg">Health, Vision, and Dental Insurance</h4>
-                <p class="font-copy text-base opacity-75">From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer</p>
-            </div>
-        </div>
-        <div class="flex w-full sm:w-1/2 pb-12 pr-8">
-            <div class="w-auto pr-2">
-                <img class="w-8" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575573498/Georgia%20Technologies/network_check_qisjz2.svg">
-            </div>
-            <div class="w-11/12">
-                <h4 class="font-copy text-lg">Health, Vision, and Dental Insurance</h4>
-                <p class="font-copy text-base opacity-75">From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer</p>
-            </div>
-        </div>
-        <div class="flex w-full sm:w-1/2 pb-12 pr-8">
-            <div class="w-auto pr-2">
-                <img class="w-8" src="https://res.cloudinary.com/pioneer-design/image/upload/v1575573498/Georgia%20Technologies/network_check_qisjz2.svg">
-            </div>
-            <div class="w-11/12">
-                <h4 class="font-copy text-lg">Health, Vision, and Dental Insurance</h4>
-                <p class="font-copy text-base opacity-75">From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer</p>
-            </div>
-        </div>
+        {{ end }}
     </div>
 </div>
 
-<div class="flex flex-wrap pt-24 pb-40 mx-auto max-w-8xl">
+<div id="career-openings" class="flex flex-wrap pt-24 pb-40 mx-auto max-w-8xl">
     <div class="flex flex-wrap w-3/4 mx-auto">
-        <h5 class="w-full font-copy text-12px text-color-02A89B uppercase">careers at georgia technologies</h5>
-        <h3 class="w-full font-copy text-xl md:text-3xl leading-tight pb-6">Current Openings</h3>
+        <h5 class="w-full font-copy text-12px text-color-02A89B uppercase">{{ .Params.current_openings_section.subtitle }}</h5>
+        <h3 class="w-full font-copy text-xl md:text-3xl leading-tight pb-6">{{ .Params.current_openings_section.title }}</h3>
     </div>
     <div class="flex flex-wrap items-stretch w-5/6 md:w-3/4 mx-auto">
         {{ range (where .Site.Pages "Type" "careers" ) }}

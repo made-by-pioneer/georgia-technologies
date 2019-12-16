@@ -15,89 +15,25 @@
   </div>
   <div class="flex flex-wrap items-start max-w-8xl mx-auto pt-12 px-12 lg:px-24">
     <div class="w-full md:w-1/4 pb-12 lg:pb-0">
-      <img class="w-48" src="{{ .Site.Params.logos.footer_logo }}">
+      <img class="w-48" src="{{ .Site.Data.global_data.logos.footer_logo }}">
     </div>
-    <div class="flex flex-wrap w-full md:w-1/4 pb-12 lg:pb-0 sm:px-5 font-copy text-white">
-      <h6 class="font-copy sm:text-12px text-color-02A89B uppercase tracking-onehalf pb-2">Site Navigation</h6>
-      <a href="/" class="w-full font-calibre text-base pb-1">
-        Home
-      </a>
-      <a href="/our-company/" class="w-full font-copy text-base pb-1">
-        Managed IT Services
-      </a>
-      <a href="/our-history/" class="w-full text-base pb-1">
-        Industries
-      </a>
-      <a href="/our-team/" class="w-full text-base pb-1">
-        About
-      </a>
-      <a href="/companies-we-represent/" class="w-full text-base pb-1">
-        Contact
-      </a>
-      <a href="/insurance-faqs/" class="w-full text-base pb-1">
-        Bill Pay
-      </a>
-      <a href="/contact-us/" class="w-full text-base pb-1">
-        Client Login
-      </a>
-      <a href="/quote/" class="w-full text-base pb-1">
-        Remote Support
-      </a>
-    </div>
-    <div class="flex flex-wrap w-full md:w-1/4 pb-12 lg:pb-0 sm:px-5 font-copy text-white">
-      <h6 class="font-copy sm:text-12px text-color-02A89B uppercase tracking-onehalf pb-2">Managed IT services</h6>
-      <a href="/products/business/risk-management/" class="w-full text-base pb-1">
-        IT Management
-      </a>
-      <a href="/products/business/business-property/" class="w-full text-base pb-1">
-        IT Consulting
-      </a>
-      <a href="/products/business/business-liability/" class="w-full text-base pb-1">
-        Data Backup
-      </a>
-      <a href="/products/business/business-umbrella/" class="w-full text-base pb-1">
-        Disaster Recovery
-      </a>
-      <a href="/products/business/commercial-auto/" class="w-full text-base pb-1">
-        Phone Systems
-      </a>
-      <a href="/products/business/workers-comp/" class="w-full text-base pb-1">
-        Cloud Services
-      </a>
-      <a href="/products/business/inland-marine/" class="w-full text-base pb-1">
-        Surveillance Systems
-      </a>
-      <a href="/products/business/builders-risk/" class="w-full text-base pb-1">
-        Access Control
-      </a>
-    </div>
-    <div class="flex flex-wrap w-full md:w-1/4 pb-12 lg:pb-0 sm:px-5 font-copy text-white">
-      <h6 class="font-copy sm:text-12px text-color-02A89B uppercase tracking-onehalf pb-2">Industries we serve</h6>
-      <a href="/products/life-insurance/life-insurance/" class="w-full text-base pb-1">
-        Healthcare and Medical
-      </a>
-      <a href="/products/life-insurance/group-benefits/" class="w-full text-base pb-1">
-        Professional Services
-      </a>
-      <a href="/products/life-insurance/group-benefits/" class="w-full text-base pb-1">
-        Manufacturing
-      </a>
-      <a href="/products/life-insurance/group-benefits/" class="w-full text-base pb-1">
-        Construction
-      </a>
-      <a href="/products/life-insurance/group-benefits/" class="w-full text-base pb-1">
-        Government
-      </a>
-      <a href="/products/life-insurance/group-benefits/" class="w-full text-base pb-1">
-        Education
-      </a>
-      <a href="/products/life-insurance/group-benefits/" class="w-full text-base pb-1">
-        Non-profits
-      </a>
-    </div>
+    {{ $currentNode := . }}
+      {{ range .Site.Menus.footer }}
+        {{ if .HasChildren }}
+          <div class="flex flex-wrap w-full md:w-1/4 pb-12 lg:pb-0 sm:px-5 font-copy text-white">
+            <h6 class="w-full font-copy sm:text-12px text-color-02A89B uppercase tracking-onehalf pb-2">{{ .Name }}</h6>
+            <ul class="" role="menu">
+              {{ range .Children }}
+                <li class="pb-1"><a href="{{.URL}}" class="w-full font-copy text-base" >{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ else }}
+      {{ end }}
+    {{ end }}
     <div class="flex flex-wrap items-center w-full pt-16">
         <div class="w-full lg:w-1/3 text-center pb-8 lg:pb-0 opacity-50">
-          <p class="font-copy text-xs text-white">Copyright &copy; {{ dateFormat "2006" now }} {{ .Site.Title }} | All Rights Reserved.</p>
+          <p class="font-copy text-12px text-white">Copyright &copy; {{ dateFormat "2006" now }} {{ .Site.Title }} | All Rights Reserved.</p>
         </div>
         <div class="flex flex-wrap w-full lg:w-1/3 mx-auto text-center pb-8 lg:pb-0">
           <div class="flex flex-wrap w-full text-center h-24">
@@ -116,7 +52,7 @@
           </div>
         </div>
         <div class="w-full lg:w-1/3 text-center pb-8 lg:pb-0 opacity-50">
-          <p class="font-copy text-xs text-white">Follow us on <a href="https://www.facebook.com/LeeHillandJohnstonInsurors/"><i class="text-base px-1 fab fa-facebook-square"></i> <span class="pr-1">Facebook</span></a> and <a href="https://www.instagram.com/leehilljohnstoninsurors/"><i class="text-base pl-2 pr-1 fab fa-instagram"></i> Instagram</a></p>
+          <p class="font-copy text-12px text-white">Follow us on <a href="https://www.facebook.com/LeeHillandJohnstonInsurors/"><i class="text-base px-1 fab fa-facebook-square"></i> <span class="pr-1">Facebook</span></a> and <a href="https://www.instagram.com/leehilljohnstoninsurors/"><i class="text-base pl-2 pr-1 fab fa-instagram"></i> Instagram</a></p>
         </div>
       </div>
     </div>

@@ -10,13 +10,13 @@
     "name": "{{ .Site.Author.name }}"
   },
   {{- end }}
-  {{ if .Site.Params.description -}}
-  "description": "{{ .Params.meta_description }}",
+  {{ if .Site.Data.global_data.meta.description -}}
+  "description": "{{ .Site.Data.global_data.meta.description }}",
   {{- end }}
   {{ with .Site.Params.image -}}
   "image": "{{ .url | absURL }}",
   {{- end }}
-  "thumbnailUrl": "{{ if .Site.Params.tracking.cloudinaryURL }}{{ .Site.Params.tracking.cloudinaryURL }}{{ else }}{{ .Site.BaseURL }}{{ end }}{{ .Site.Params.logos.logo }}",
+  "thumbnailUrl": "{{ .Site.Data.global_data.logos.logo }}",
   "name": "{{ .Site.Title }}"
 }
 </script>
@@ -39,7 +39,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ if .Site.Params.tracking.cloudinaryURL }}{{ .Site.Params.tracking.cloudinaryURL }}{{ else }}{{ .Site.BaseURL }}{{ end }}{{ .Param "publish_image" }}"
+    "url": "{{ if .Site.Params.tracking.cloudinary_url }}{{ .Site.Params.tracking.cloudinary_url }}{{ else }}{{ .Site.BaseURL }}{{ end }}{{ .Param "publish_image" }}"
   },
   "genre": "{{ .Type }}",
   {{ with .Params.tags -}}
@@ -59,7 +59,7 @@
     "name": "{{ .Site.Title }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ if .Site.Params.tracking.cloudinaryURL }}{{ .Site.Params.tracking.cloudinaryURL }}{{ else }}{{ .Site.BaseURL }}{{ end }}{{ .Site.Params.logos.logo }}"
+      "url": "{{ .Site.Data.global_data.logos.logo }}"
     }
   },
   {{ if .Params.author -}}

@@ -232,6 +232,7 @@ module.exports = {
       '6xl': '72rem',
       '7xl': '80rem',
       '8xl': '88rem',
+      '9xl': '92rem',
       full: '100%',
     },
     maxHeight: {

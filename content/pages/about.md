@@ -7,6 +7,9 @@ title = "About"
 page_status = "about"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 meta_description = "Default meta desciption for the page."
+[top_section]
+title = "About Us"
+button_text = "Call to Find Out How"
 +++
 We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999. \
 

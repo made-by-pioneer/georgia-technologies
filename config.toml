@@ -4,28 +4,25 @@ theme = "site-theme"
 title = "Georgia Technologies"
 enableRobotsTXT = true
 
-[params.meta]
-description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
-
 [[menu.desktop]]
     identifier = "Managed Services"
     name = "Managed Services"
-    url = "/page-1/"
+    url = "/services/"
     weight = 1
 [[menu.desktop]]
     identifier = "Industries"
     name = "Industries"
-    url = ""
+    url = "/industries/"
     weight = 2
 [[menu.desktop]]
     identifier = "About"
     name = "About"
-    url = "#bottom"
+    url = "/about/"
     weight = 3
 [[menu.desktop]]
     identifier = "Contact"
     name = "Contact"
-    url = "/page-4"
+    url = "/contact/"
     weight = 4
 [[menu.desktop]]
     identifier = "Bill Pay"
@@ -44,49 +41,49 @@ description = "This domain is established to be used for illustrative examples i
         [[menu.mobile]]
             identifier = "IT Management"
             name = "IT Management"
-            url = "/page-11/"
+            url = "/services/it-management/"
             weight = 1
             parent = "Managed Services"
         [[menu.mobile]]
             identifier = "Tech Consulting"
             name = "Tech Consulting"
-            url = "/page-11/"
+            url = "/services/it-consulting/"
             weight = 2
             parent = "Managed Services"
         [[menu.mobile]]
             identifier = "Data Backup"
             name = "Data Backup"
-            url = "/page-11/"
+            url = "/services/data-backup-and-disaster-recovery/"
             weight = 3
             parent = "Managed Services"
         [[menu.mobile]]
             identifier = "Disaster Recovery"
             name = "Disaster Recovery"
-            url = "/page-11/"
+            url = "/services/data-backup-and-disaster-recovery/"
             weight = 4
             parent = "Managed Services"
         [[menu.mobile]]
             identifier = "Phone Systems"
             name = "Phone Systems"
-            url = "/page-11/"
+            url = "/services/phone-systems/"
             weight = 5
             parent = "Managed Services"
         [[menu.mobile]]
             identifier = "Cloud Services"
             name = "Cloud Services"
-            url = "/page-11/"
+            url = "/services/cloud-services/"
             weight = 6
             parent = "Managed Services"
         [[menu.mobile]]
             identifier = "Surveillance Systems"
             name = "Surveillance Systems"
-            url = "/page-11/"
+            url = "/services/surveillance-and-access-control/"
             weight = 7
             parent = "Managed Services"
         [[menu.mobile]]
             identifier = "Access Control"
             name = "Access Control"
-            url = "/page-11/"
+            url = "/services/surveillance-and-access-control/"
             weight = 8
             parent = "Managed Services"
 [[menu.mobile]]
@@ -96,43 +93,43 @@ description = "This domain is established to be used for illustrative examples i
         [[menu.mobile]]
             identifier = "Healthcare"
             name = "Healthcare"
-            url = "/page-11/"
+            url = "/industries/healthcare-and-medical/"
             weight = 1
             parent = "Industries We Serve"
         [[menu.mobile]]
             identifier = "Business"
             name = "Business"
-            url = "/page-11/"
+            url = "/industries/professional-services/"
             weight = 2
             parent = "Industries We Serve"
         [[menu.mobile]]
             identifier = "Manufacturing"
             name = "Manufacturing"
-            url = "/page-11/"
+            url = "/industries/manufacturing-and-construction/"
             weight = 3
             parent = "Industries We Serve"
         [[menu.mobile]]
             identifier = "Construction"
             name = "Construction"
-            url = "/page-11/"
+            url = "/industries/manufacturing-and-construction/"
             weight = 4
             parent = "Industries We Serve"
         [[menu.mobile]]
             identifier = "Government"
             name = "Government"
-            url = "/page-11/"
+            url = "/industries/government-and-education/"
             weight = 5
             parent = "Industries We Serve"
         [[menu.mobile]]
             identifier = "Education"
             name = "Education"
-            url = "/page-11/"
+            url = "/industries/government-and-education/"
             weight = 6
             parent = "Industries We Serve"
         [[menu.mobile]]
             identifier = "Non-Profits"
             name = "Non-Profits"
-            url = "/page-11/"
+            url = "/industries/non-profits/"
             weight = 7
             parent = "Industries We Serve"
 [[menu.mobile]]
@@ -142,13 +139,13 @@ description = "This domain is established to be used for illustrative examples i
         [[menu.mobile]]
             identifier = "Meet the Team"
             name = "Meet the Team"
-            url = "/page-11/"
+            url = "/about/"
             weight = 1
             parent = "About Us"
         [[menu.mobile]]
             identifier = "Careers"
             name = "Careers"
-            url = "/page-11/"
+            url = "/careers/"
             weight = 2
             parent = "About Us"
 [[menu.mobile]]
@@ -158,7 +155,7 @@ description = "This domain is established to be used for illustrative examples i
         [[menu.mobile]]
             identifier = "Call us now"
             name = "Call us now"
-            url = "/page-11/"
+            url = "tel:9124897427"
             weight = 1
             parent = "Contact Us"
         [[menu.mobile]]
@@ -167,34 +164,152 @@ description = "This domain is established to be used for illustrative examples i
             url = "/page-11/"
             weight = 2
             parent = "Contact Us"
-[params.contact_numbers]
-    toll_free = "1-866-489-7427"
-    Phone = "912-489-7427"
-[params.Logos]
-    dark_logo = "/pageimg/example-logo.png"
-    logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
-    mobile_logo = "/branding/Client Wordmark.svg"
-    footer_logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
-[params.utility_images]
-    thank_you_background = "/pageimg/thank-you-contact.jpg"
-[params.address]
-    city = "Statesboro"
-    state = "GA"
-    street = "216 South Zetterower Ave."
-    zip = 30458
-[params.business_hours]
-    start_time = "8:00am"
-    end_time = "5:00pm"
-[params.email]
-    email = "example@example.com"
+[[menu.footer]]
+    identifier = "Site Navigation"
+    name = "Site Navigation"
+    weight = 1
+    [[menu.footer]]
+        identifier = "Home"
+        name = "Home"
+        url = "/"
+        parent = "Site Navigation"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Managed IT Services"
+        name = "Managed IT Services"
+        url = "/services/"
+        parent = "Site Navigation"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Industries"
+        name = "Industries"
+        url = "/industries/"
+        parent = "Site Navigation"
+        weight = 3
+    [[menu.footer]]
+        identifier = "About"
+        name = "About"
+        url = "/about/"
+        parent = "Site Navigation"
+        weight = 4
+    [[menu.footer]]
+        identifier = "Contact"
+        name = "Contact"
+        url = "/contact/"
+        parent = "Site Navigation"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Bill Pay"
+        name = "Bill Pay"
+        url = "/"
+        parent = "Site Navigation"
+        weight = 6
+    [[menu.footer]]
+        identifier = "Client Login"
+        name = "Client Login"
+        url = "/"
+        parent = "Site Navigation"
+        weight = 7
+    [[menu.footer]]
+        identifier = "Remote Support"
+        name = "Remote Support"
+        url = "/"
+        parent = "Site Navigation"
+        weight = 8
+[[menu.footer]]
+    identifier = "Managed IT Services"
+    name = "Managed IT Services"
+    weight = 2
+    [[menu.footer]]
+        identifier = "IT Management"
+        name = "IT Management"
+        url = "/services/it-management/"
+        parent = "Managed IT Services"
+        weight = 1
+    [[menu.footer]]
+        identifier = "IT Consulting"
+        name = "IT Consulting"
+        url = "/services/it-consulting/"
+        parent = "Managed IT Services"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Data Backup"
+        name = "Data Backup"
+        url = "/services/data-backup-and-disaster-recovery/"
+        parent = "Managed IT Services"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Disaster Recovery"
+        name = "Disaster Recovery"
+        url = "/services/data-backup-and-disaster-recovery/"
+        parent = "Managed IT Services"
+        weight = 4
+    [[menu.footer]]
+        identifier = "Phone Systems"
+        name = "Phone Systems"
+        url = "/services/phone-systems/"
+        parent = "Managed IT Services"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Cloud Services"
+        name = "Cloud Services"
+        url = "/services/cloud-services/"
+        parent = "Managed IT Services"
+        weight = 6
+    [[menu.footer]]
+        identifier = "Surveillance Systems"
+        name = "Surveillance Systems"
+        url = "/services/surveillance-and-access-control/"
+        parent = "Managed IT Services"
+        weight = 7
+    [[menu.footer]]
+        identifier = "Access Control"
+        name = "Access Control"
+        url = "/services/surveillance-and-access-control/"
+        parent = "Managed IT Services"
+        weight = 8
+[[menu.footer]]
+    identifier = "Industries We Serve"
+    name = "Industries We Serve"
+    weight = 3
+    [[menu.footer]]
+        identifier = "Healthcare and Medical"
+        name = "Healthcare and Medical"
+        url = "/industries/healthcare-and-medical/"
+        parent = "Industries We Serve"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Professional Services"
+        name = "Professional Services"
+        url = "/industries/professional-services/"
+        parent = "Industries We Serve"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Commercial"
+        name = "Commercial"
+        url = "/industries/commercial/"
+        parent = "Industries We Serve"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Government"
+        name = "Government"
+        url = "/industries/government--education/"
+        parent = "Industries We Serve"
+        weight = 4
+    [[menu.footer]]
+        identifier = "Education"
+        name = "Education"
+        url = "/industries/government--education/"
+        parent = "Industries We Serve"
+        weight = 5
+    [[menu.footer]]
+        identifier = "Non-Profits"
+        name = "Non-Profits"
+        url = "/industries/non-profits/"
+        parent = "Industries We Serve"
+        weight = 6
 [params.tracking]
-    google_analytics = ""
-    cloudinaryUrl = ""
-[params.social_links]
-    facebook = ""
-    insta = ""
-    linkedin = ""
-    pinterest = ""
+    cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
 [params.publishing_settings]
     site_in_production = false
 
@@ -241,9 +356,6 @@ description = "This domain is established to be used for illustrative examples i
     index_name = ""
 
 [params.extra_tools]
-    algolia_search = true
+    algolia_search = false
     font_awesome = true
     floating_header = false
-
-[params.news_ticker]
-    headline = "IMPORTANT NEWS TICKER"

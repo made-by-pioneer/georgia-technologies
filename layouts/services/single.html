@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-{{ if eq .Params.picture_header.enabled true }}
-
 <style>
     .hero-service {
         background-image: url("{{ .Params.picture_header.background_image }}");
@@ -9,7 +7,7 @@
 </style>
 
 <div class="relative flex flex-wrap bg-cover bg-no-repeat z-10 -mt-16 sm:-mt-20 lg:-mt-20 xl:-mt-24 pt-12 pb-32 hero">
-    <div class="md:flex w-11/12 md:ml-5 lg:ml-2 lg:ml-6 xl:ml-2 xxl:ml-auto mx-auto z-50 text-white">
+    <div class="md:flex w-11/12 md:ml-5 lg:ml-2 lg:ml-6 xl:ml-2 xxl:ml-auto mx-auto z-50 text-white max-w-7xl">
         <div class="flex flex-wrap w-full pt-32 mx-auto z-50">
             <div class="flex flex-wrap w-11/12 mx-auto max-w-8xl">
                 <div class="flex flex-wrap w-full md:w-1/2 md:mr-auto">
@@ -32,10 +30,6 @@
     </div>
 </div>
 
-
-{{ else }}
-{{ end }}
-
 <style>
 .service-photo {
     background-image: url("{{ .Page.Params.column_image }}")
@@ -43,7 +37,7 @@
 </style>
 
 <div class="relative flex flex-wrap items-start bg-white pt-32 pb-48 mx-auto z-50">
-    <div class="flex flex-wrap items-start bg-white flex-col-reverse sm:flex-row w-5/6 md:w-4/5 xl:w-3/4 mx-auto">
+    <div class="flex flex-wrap items-start bg-white flex-col-reverse sm:flex-row w-5/6 md:w-4/5 xl:w-3/4 mx-auto max-w-5xl">
         <div class="flex flex-wrap w-full sm:w-2/3 lg:w-1/2 sm:pr-6 md:pr-12 paragraph-content">
             <h5 class="font-copy text-12px text-color-02A89B uppercase">{{ .Page.Params.name }}</h5>
             <h3 class="w-full font-copy text-xl leading-tight pb-6">{{ .Page.Params.page_content.title }}</h3>
@@ -54,7 +48,7 @@
                 {{ range .Page.Params.page_content.bullet_points }}
                 <li class="flex w-full">
                     <div class="w-auto pr-2">
-                        <img class="w-8" src="{{ .icon }}">
+                        <img class="w-8" src="https://res.cloudinary.com/pioneer-design/image/upload{{ .icon }}">
                     </div>
                     <div class="w-11/12">
                         <h4 class="font-copy text-lg">{{ .title }}</h4>
