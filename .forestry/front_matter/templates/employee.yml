@@ -1,0 +1,22 @@
+---
+label: Employee
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: job_title
+  label: job_title
+- type: text
+  name: email
+  label: email
+- type: text
+  name: linkedin_link
+  label: linkedin_link
+- type: file
+  name: head_shot
+  label: head_shot
+- type: number
+  name: weight
+  label: weight
