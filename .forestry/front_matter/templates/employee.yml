@@ -7,16 +7,16 @@ fields:
   label: name
 - type: text
   name: job_title
-  label: job_title
+  label: Job Title
 - type: text
   name: email
   label: email
 - type: text
   name: linkedin_link
-  label: linkedin_link
+  label: LinkedIn Link
 - type: file
   name: head_shot
-  label: head_shot
+  label: Head Shot
 - type: number
   name: weight
   label: weight
