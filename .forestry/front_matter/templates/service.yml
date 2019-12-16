@@ -1,5 +1,5 @@
 ---
-label: Service
+label: Service (Single)
 hide_body: true
 fields:
 - type: text
