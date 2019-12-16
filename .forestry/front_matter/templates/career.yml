@@ -1,0 +1,28 @@
+---
+label: Career
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: career_subtitle
+  label: career_subtitle
+- type: text
+  name: type_of_position
+  label: type_of_position
+- type: textarea
+  name: career_description
+  label: career_description
+- type: list
+  name: qualifications
+  label: qualifications
+- type: textarea
+  name: education_experience
+  label: education_experience
+- type: textarea
+  name: salary_benefits
+  label: salary_benefits
+- type: text
+  name: more_information
+  label: more_information
