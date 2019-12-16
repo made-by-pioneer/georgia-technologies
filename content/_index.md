@@ -10,7 +10,7 @@ title = "Home"
 type = "page"
 url = "/"
 [homepage_hero]
-title = "Managed IT <br class='md:hidden'> services for"
+title = "Managed IT <br class='md:hidden'><div class='hidden md:inline pr-2'></div> services for"
 [homepage_list]
 image = "/v1575058558/Georgia%20Technologies/worry-free-it-solutions_h36lqq.png"
 list_items = ["Fast Response Times", "Affordable and Flat Rate Service", "Certified and Knowledgeable Technicians", "Dependable Support", "Guaranteed Customer Satisfaction", "Complete Solution Provider"]
