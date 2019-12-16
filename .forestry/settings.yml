@@ -37,6 +37,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
+  exclude: thank-you.md
 - type: directory
   path: content/partners
   label: Partners
