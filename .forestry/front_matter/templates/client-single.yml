@@ -1,0 +1,10 @@
+---
+label: Client (Single)
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: client_industry
+  label: client_industry
