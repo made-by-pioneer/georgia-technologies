@@ -1,30 +1,49 @@
-[contact_numbers]
-phone = "912-489-7427"
-toll_free = "1-866-489-7427"
-[logos]
-footer_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
-logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
-mobile_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
-[meta]
-description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
-[email]
-email = "example@example.com"
-[social]
-facebook = "https://www.facebook.com/LeeHillandJohnstonInsurors/"
-instagram = "https://www.instagram.com/leehilljohnstoninsurors/"
-[tracking]
-google_analytics = "UA-121813241-21"
-google_maps_key = "AIzaSyAf7hEHDpOiI-4XgTkOVguo4zLgl39iuCE"
 [address]
 city = "Statesboro"
 state = "GA"
 street = "216 South Zetterower Ave."
 zip = 30458
 [business_hours]
-start_time = "8:00am"
 end_time = "5:00pm"
+start_time = "8:00am"
+[contact_numbers]
+phone = "912-489-7427"
+toll_free = "1-866-489-7427"
+[email]
+email = "example@example.com"
+[[homepage_hero_select.industries]]
+name = "healthcare"
+url = "/industries/healthcare-and-medical/"
+[[homepage_hero_select.industries]]
+name = "business"
+url = "/industries/professional-services/"
+[[homepage_hero_select.industries]]
+name = "manufacturing"
+url = "/industries/manufacturing-and-construction/"
+[[homepage_hero_select.industries]]
+name = "construction"
+url = "/industries/manufacturing-and-construction/"
+[[homepage_hero_select.industries]]
+name = "government"
+url = "/industries/government-and-education/"
+[[homepage_hero_select.industries]]
+name = "education"
+url = "/industries/government-and-education/"
+[[homepage_hero_select.industries]]
+name = "non-profits"
+url = "/industries/non-profits/"
+[logos]
+footer_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
+logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
+mobile_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1575321486/Georgia%20Technologies/Client_Wordmark_dagawn.svg"
+[meta]
+description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
 [news_ticker]
 headline = "IMPORTANT NEWS TICKER"
 link = ""
-[homepage_hero_select]
-industries = [{name = 'healthcare', url = '/industries/healthcare-and-medical/'}, {name = 'business', url = '/industries/professional-services/'}, {name = 'manufacturing', url = '/industries/manufacturing-and-construction/'}, {name = 'construction', url = '/industries/manufacturing-and-construction/'}, {name = 'government', url = '/industries/government-and-education/'}, {name = 'education', url = '/industries/government-and-education/'}, {name = 'non-profits', url = '/industries/non-profits/'}]
+[social]
+facebook = "https://www.facebook.com/LeeHillandJohnstonInsurors/"
+instagram = "https://www.instagram.com/leehilljohnstoninsurors/"
+[tracking]
+google_analytics = "UA-121813241-21"
+google_maps_key = "AIzaSyAf7hEHDpOiI-4XgTkOVguo4zLgl39iuCE"
