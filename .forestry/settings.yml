@@ -14,6 +14,7 @@ sections:
   label: Clients
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/industries
   label: Industries
@@ -24,11 +25,13 @@ sections:
   label: Testimonials
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/employees
   label: Employees
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/pages
   label: Pages
@@ -39,6 +42,7 @@ sections:
   label: Partners
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/careers
   label: Careers
