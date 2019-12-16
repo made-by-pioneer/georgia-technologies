@@ -10,7 +10,8 @@ fields:
   label: description
 - type: file
   name: column_image
-  label: column_image
+  label: Column Image
+  description: The image that's to the right (or above) the content
 - type: number
   name: weight
   label: weight
@@ -26,7 +27,7 @@ fields:
     label: paragraph
   - type: field_group
     name: bullet_points
-    label: bullet_points
+    label: Bullet Points
     fields:
     - type: field_group
       name: bullet_point1
@@ -82,11 +83,11 @@ fields:
         label: text
 - type: field_group
   name: picture_header
-  label: picture_header
+  label: Picture Header
   fields:
   - type: file
     name: background_image
-    label: background_image
+    label: background Image
   - type: text
     name: title
     label: title
