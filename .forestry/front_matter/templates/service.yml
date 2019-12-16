@@ -1,0 +1,98 @@
+---
+label: Service
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: description
+  label: description
+- type: file
+  name: column_image
+  label: column_image
+- type: number
+  name: weight
+  label: weight
+- type: field_group
+  name: page_content
+  label: page_content
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: paragraph
+    label: paragraph
+  - type: field_group
+    name: bullet_points
+    label: bullet_points
+    fields:
+    - type: field_group
+      name: bullet_point1
+      label: bullet_point1
+      fields:
+      - type: file
+        name: icon
+        label: icon
+      - type: text
+        name: title
+        label: title
+      - type: textarea
+        name: text
+        label: text
+    - type: field_group
+      name: bullet_point2
+      label: bullet_point2
+      fields:
+      - type: file
+        name: icon
+        label: icon
+      - type: text
+        name: title
+        label: title
+      - type: textarea
+        name: text
+        label: text
+    - type: field_group
+      name: bullet_point3
+      label: bullet_point3
+      fields:
+      - type: file
+        name: icon
+        label: icon
+      - type: text
+        name: title
+        label: title
+      - type: textarea
+        name: text
+        label: text
+    - type: field_group
+      name: bullet_point4
+      label: bullet_point4
+      fields:
+      - type: file
+        name: icon
+        label: icon
+      - type: text
+        name: title
+        label: title
+      - type: textarea
+        name: text
+        label: text
+- type: field_group
+  name: picture_header
+  label: picture_header
+  fields:
+  - type: file
+    name: background_image
+    label: background_image
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: paragraph
+    label: paragraph
