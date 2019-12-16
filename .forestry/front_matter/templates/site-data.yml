@@ -4,27 +4,27 @@ hide_body: true
 fields:
 - type: field_group
   name: contact_numbers
-  label: contact_numbers
+  label: Contact Numbers
   fields:
   - type: text
     name: phone
     label: phone
   - type: text
     name: toll_free
-    label: toll_free
+    label: Toll Free
 - type: field_group
   name: logos
   label: logos
   fields:
   - type: file
     name: footer_logo
-    label: footer_logo
+    label: Footer Logo
   - type: file
     name: logo
     label: logo
   - type: file
     name: mobile_logo
-    label: mobile_logo
+    label: Mobile Logo
 - type: field_group
   name: meta
   label: meta
@@ -55,10 +55,10 @@ fields:
   fields:
   - type: text
     name: google_analytics
-    label: google_analytics
+    label: Google Analytics
   - type: text
     name: google_maps_key
-    label: google_maps_key
+    label: Google Maps Key
 - type: field_group
   name: address
   label: address
@@ -77,17 +77,17 @@ fields:
     label: zip
 - type: field_group
   name: business_hours
-  label: business_hours
+  label: Business Hours
   fields:
   - type: text
     name: start_time
-    label: start_time
+    label: Start Time
   - type: text
     name: end_time
-    label: end_time
+    label: End Time
 - type: field_group
   name: news_ticker
-  label: news_ticker
+  label: News Ticker
   fields:
   - type: text
     name: headline
@@ -97,7 +97,7 @@ fields:
     label: link
 - type: field_group
   name: homepage_hero_select
-  label: homepage_hero_select
+  label: Homepage Hero Select
   fields:
   - type: field_group_list
     name: industries
