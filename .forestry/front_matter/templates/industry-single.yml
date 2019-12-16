@@ -1,0 +1,23 @@
+---
+label: Industry (Single)
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: description
+  label: description
+- type: number
+  name: weight
+  label: weight
+- type: field_group
+  name: page_content
+  label: page_content
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: paragraph
+    label: paragraph
