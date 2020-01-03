@@ -74,7 +74,7 @@
                 <h3 class="font-copy text-xl md:text-2xl lg:text-3xl leading-tight pb-3">{{ .Params.homepage_list.title }}</h3>
                 <ul class="w-full list-disc list-inside font-copy text-base lg:text-lg pb-8">
                     {{ range .Params.homepage_list.list_items }}
-                    <li><span class="-ml-4">{{ . }}</span></li>
+                    <li><span class="-ml-2 lg:-ml-4">{{ . }}</span></li>
                     {{ end }}
                 </ul>
                 <a href="{{ .Params.homepage_list.buttons.first_button.button_link }}" class="w-full sm:w-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 sm:mr-5 py-2 px-8">

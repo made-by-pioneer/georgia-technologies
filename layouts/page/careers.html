@@ -3,7 +3,7 @@
 <div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
     <div class="flex flex-wrap w-5/6 md:w-4/5 mx-auto">
         <div class="w-2/3 mr-auto">
-            <h5 class="font-copy text-12px text-color-02A89B uppercase">{{ .Site.Data.globals.careers_at_GT.subtitle }}</h5>
+            <h5 class="font-copy text-12px text-color-02A89B tracking-onehalf uppercase">{{ .Site.Data.globals.careers_at_GT.subtitle }}</h5>
             <h3 class="font-copy text-xl md:text-3xl leading-tight pb-6">{{ .Site.Data.globals.careers_at_GT.title }}</h3>
             <a href="{{ .Site.Data.globals.careers_at_GT.button.button_link }}" class="w-full sm:w-auto bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 text-center py-2 px-8">
                 {{ .Site.Data.globals.careers_at_GT.button.button_text }}
@@ -37,7 +37,7 @@
 
 <div class="flex flex-wrap pt-24 mx-auto max-w-8xl">
     <div class="flex flex-wrap w-3/4 mx-auto">
-        <h5 class="w-full font-copy text-12px text-color-02A89B uppercase">{{ .Params.benefits_section.subtitle }}</h5>
+        <h5 class="w-full font-copy text-12px text-color-02A89B tracking-onehalf uppercase">{{ .Params.benefits_section.subtitle }}</h5>
         <h3 class="w-full font-copy text-xl md:text-3xl leading-tight pb-6">{{ .Params.benefits_section.title }}</h3>
         {{ range .Params.benefits_section.benefit_list }}
         <div class="flex w-full sm:w-1/2 pb-12 pr-8">
@@ -55,7 +55,7 @@
 
 <div id="career-openings" class="flex flex-wrap pt-24 pb-40 mx-auto max-w-8xl">
     <div class="flex flex-wrap w-3/4 mx-auto">
-        <h5 class="w-full font-copy text-12px text-color-02A89B uppercase">{{ .Params.current_openings_section.subtitle }}</h5>
+        <h5 class="w-full font-copy text-12px text-color-02A89B tracking-onehalf uppercase">{{ .Params.current_openings_section.subtitle }}</h5>
         <h3 class="w-full font-copy text-xl md:text-3xl leading-tight pb-6">{{ .Params.current_openings_section.title }}</h3>
     </div>
     <div class="flex flex-wrap items-stretch w-5/6 md:w-3/4 mx-auto">
@@ -68,7 +68,7 @@
                 </div>
                 <div class="w-10/12 sm:w-8/12 pb-3 pr-5">
                     <h2 class="font-copy text-lg xxl:text-xl leading-tight pb-2">{{ .Params.name }}</h2>
-                    <h3 class="font-copy text-12px text-color-02A89B uppercase">{{ .Params.career_subtitle }}</h3>
+                    <h3 class="font-copy text-12px text-color-02A89B tracking-onehalf uppercase">{{ .Params.career_subtitle }}</h3>
                     <p class="hidden font-copy text-base font-thin leading-tight pt-3 pb-6 job-description-{{ .File.UniqueID }}">{{ .Params.career_description }}</p>
                     <a href="/careers/{{ .Params.name | lower | urlize }}/" class="hidden bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 py-2 px-8 service-box-button-{{ .File.UniqueID }}">
                         Learn More

@@ -5,7 +5,7 @@
 </style>
 
 <footer class="flex flex-wrap items-start bg-color-003644 pb-3">
-  <div class="w-full bg-cover bg-left bg-no-repeat text-center z-50 cta-footer">
+  <div class="w-full bg-cover bg-center md:bg-right bg-no-repeat text-center z-50 cta-footer">
     <div class="w-11/12 lg:w-full max-w-8xl mx-auto pt-20 pb-24 leading-tight">
     <h5 class="font-copy text-xl lg:text-2xl text-color-00222A pb-8">All of your company’s managed IT solutions, in one place.</h5>
     <a href="/" class="w-full sm:w-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 sm:mr-5 py-2 px-8">
@@ -14,9 +14,9 @@
     </div>
   </div>
   <div class="flex flex-wrap items-start max-w-8xl mx-auto pt-12 px-12 lg:px-24">
-    <div class="w-full md:w-1/4 pb-12 lg:pb-0">
+    <a class="w-full md:w-1/4 pb-12 lg:pb-0" href="/">
       <img class="w-48" src="{{ .Site.Data.global_data.logos.footer_logo }}">
-    </div>
+    </a>
     {{ $currentNode := . }}
       {{ range .Site.Menus.footer }}
         {{ if .HasChildren }}
@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="w-full lg:w-1/3 text-center pb-8 lg:pb-0 opacity-50">
-          <p class="font-copy text-12px text-white">Follow us on <a href="https://www.facebook.com/LeeHillandJohnstonInsurors/"><i class="text-base px-1 fab fa-facebook-square"></i> <span class="pr-1">Facebook</span></a> and <a href="https://www.instagram.com/leehilljohnstoninsurors/"><i class="text-base pl-2 pr-1 fab fa-instagram"></i> Instagram</a></p>
+          <p class="font-copy text-12px text-white">Follow us on <a href="https://www.facebook.com/LeeHillandJohnstonInsurors/"><i class="text-base fab fa-facebook-square"></i> <span>Facebook</span></a> and <a href="https://www.instagram.com/leehilljohnstoninsurors/"><i class="text-base fab fa-instagram"></i> Instagram</a></p>
         </div>
       </div>
     </div>
