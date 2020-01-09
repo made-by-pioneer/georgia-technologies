@@ -14,6 +14,7 @@ module.exports = {
       'color-004A5D': '#004A5D',
       'color-00222A': '#00222A',
       'color-02C1B2': '#02C1B2',
+      'color-666666': '#666666',
       transparent: 'transparent',
 
       black: '#00222A',

@@ -7,19 +7,19 @@ weight = 4
 title = "Data Backup and Disaster Recovery"
 paragraph = "Protect your data and business continuity with Georgia Technologies data backup services at unbeatable rates. Our automated backup process virtually eliminates human error and equipment failures and is coupled with off-site file protection making your data easily accessible in the event of system failure or catastrophic loss. The Georgia Technologies Data Backup and Disaster Recovery service provides compliant and no limitations to the amount of data that can be stored on our secure, hosted system."
 [page_content.bullet_points.bullet_point1]
-icon = "/v1576510944/Georgia%20Technologies/network_check_lq3dyk.svg"
+icon = "/v1578325750/Georgia%20Technologies/network_check_gakqnh.png"
 title = "Reliable Monitoring"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [page_content.bullet_points.bullet_point2]
-icon = "/v1576510964/Georgia%20Technologies/client-icon_nk21pv.svg"
+icon = "/v1578325886/Georgia%20Technologies/people-icon_oheycd.png"
 title = "Vendor Management"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [page_content.bullet_points.bullet_point3]
-icon = "/v1576510997/Georgia%20Technologies/document-icon_bhinih.svg"
+icon = "/v1578325983/Georgia%20Technologies/clipboard-icon_j8q0ey.png"
 title = "Detailed Reporting"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [page_content.bullet_points.bullet_point4]
-icon = "/v1576511012/Georgia%20Technologies/headphone-icon_ald85r.svg"
+icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 title = "Responsive Support"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [picture_header]

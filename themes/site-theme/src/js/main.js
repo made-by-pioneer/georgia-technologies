@@ -73,6 +73,9 @@ openSelect.onclick = function() {
   openSelect.classList.toggle('md:bg-transparent');
   openSelect.classList.toggle('-mb-64');
   openSelect.classList.toggle('md:-mb-2');
+  openSelect.classList.toggle('-mx-6');
+  openSelect.classList.toggle('py-2');
+  openSelect.classList.toggle('px-6');
   selectMenu0.classList.toggle('hidden');
   selectMenu0.classList.toggle('text-transparent');
   selectMenu1.classList.toggle('hidden');

@@ -291,23 +291,35 @@ enableRobotsTXT = true
         parent = "Industries We Serve"
         weight = 3
     [[menu.footer]]
-        identifier = "Government"
-        name = "Government"
-        url = "/industries/government--education/"
+        identifier = "Manufacturing"
+        name = "Manufacturing"
+        url = "/industries/manufacturing-and-construction/"
         parent = "Industries We Serve"
         weight = 4
     [[menu.footer]]
-        identifier = "Education"
-        name = "Education"
-        url = "/industries/government--education/"
+        identifier = "Construction"
+        name = "Construction"
+        url = "/industries/manufacturing-and-construction/"
         parent = "Industries We Serve"
         weight = 5
+    [[menu.footer]]
+        identifier = "Government"
+        name = "Government"
+        url = "/industries/government-and-education/"
+        parent = "Industries We Serve"
+        weight = 6
+    [[menu.footer]]
+        identifier = "Education"
+        name = "Education"
+        url = "/industries/government-and-education/"
+        parent = "Industries We Serve"
+        weight = 7
     [[menu.footer]]
         identifier = "Non-Profits"
         name = "Non-Profits"
         url = "/industries/non-profits/"
         parent = "Industries We Serve"
-        weight = 6
+        weight = 8
 [params.tracking]
     cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
 [params.publishing_settings]

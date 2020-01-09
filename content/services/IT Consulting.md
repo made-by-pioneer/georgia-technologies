@@ -7,19 +7,19 @@ weight = 2
 title = "Technology Consulting"
 paragraph = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer network designs supplying reliable monitoring, maintenance, and support. We also provide vendor management services to all of our customers. Experience worry-free business computing, control your IT costs, and get the most out of your IT investments with Georgia Technologies."
 [page_content.bullet_points.bullet_point1]
-icon = "/v1576510944/Georgia%20Technologies/network_check_lq3dyk.svg"
+icon = "/v1578325750/Georgia%20Technologies/network_check_gakqnh.png"
 title = "Reliable Monitoring"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [page_content.bullet_points.bullet_point2]
-icon = "/v1576510964/Georgia%20Technologies/client-icon_nk21pv.svg"
+icon = "/v1578325886/Georgia%20Technologies/people-icon_oheycd.png"
 title = "Vendor Management"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [page_content.bullet_points.bullet_point3]
-icon = "/v1576510997/Georgia%20Technologies/document-icon_bhinih.svg"
+icon = "/v1578325983/Georgia%20Technologies/clipboard-icon_j8q0ey.png"
 title = "Detailed Reporting"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [page_content.bullet_points.bullet_point4]
-icon = "/v1576511012/Georgia%20Technologies/headphone-icon_ald85r.svg"
+icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 title = "Responsive Support"
 text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
 [picture_header]

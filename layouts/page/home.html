@@ -1,19 +1,19 @@
 {{ define "main" }}
 
 <div class="relative flex flex-wrap bg-cover bg-no-repeat z-10 -mt-20 sm:-mt-24 lg:-mt-24half pt-32 pb-20 lg:py-32 xxl:pt-48 xxl:pb-56 hero">
-    <div class="md:flex items-center w-11/12 md:w-5/6 lg:w-11/12 xxl:w-5/6 xxl:max-w-7xl text-center md:ml-5 lg:ml-2 lg:ml-6 xl:ml-2 xxl:ml-auto mx-auto z-50">
+    <div class="md:flex items-center w-5/6 lg:w-11/12 xxl:w-5/6 xxl:max-w-7xl text-center md:ml-5 lg:ml-2 lg:ml-6 xl:ml-2 xxl:ml-auto mx-auto z-50">
         <h1 class="w-full md:w-7/12 font-copy text-3xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl text-white text-left md:text-right md:ml-auto leading-tight">{{ .Page.Params.homepage_hero.title | safeHTML }}</h1>
         <div class="flex items-center w-full md:w-5/12 h-32 md:h-56 -mt-8 md:-mt-px mr-auto md:pl-3 xxl:pl-5">
             <ul class="w-full font-copy text-3xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl text-white text-left -mt-2 md:-mt-1 pt-3">
                 <li class="hidden md:block opacity-50 -mb-2 hero-select-placeholder-top">{{ range first 1 .Site.Data.global_data.homepage_hero_select.industries }}{{ .name }}{{ end }}</li>
                 <li class="relative flex flex-wrap border-b-4 border-color-02DACA -mb-2 z-50 hero-select">
-                    <a href="{{ range first 1 .Site.Data.global_data.homepage_hero_select.industries }}{{ .url }}{{ end }}" class="w-full text-transparent hidden md:opacity-50 hover:opacity-100 leading-none mb-12 hero-select-menu-top">{{ range first 1 .Site.Data.global_data.homepage_hero_select.industries }}{{ .name }}{{ end }}</a>
-                    <a href="{{ range first 1 .Site.Data.global_data.homepage_hero_select.industries }}{{ .url }}{{ end }}" class="w-full hidden md:opacity-50 hover:opacity-100 leading-none mb-12 hero-select-menu-mid">{{ range after 1 (first 2 .Site.Data.global_data.homepage_hero_select.industries) }}{{ .name }}{{ end }}</a>
+                    <a href="{{ range first 1 .Site.Data.global_data.homepage_hero_select.industries }}{{ .url }}{{ end }}" class="w-full text-transparent hidden text-2xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl md:opacity-50 hover:opacity-100 leading-none mb-12 hero-select-menu-top">{{ range first 1 .Site.Data.global_data.homepage_hero_select.industries }}{{ .name }}{{ end }}</a>
+                    <a href="{{ range after 1 (first 2 .Site.Data.global_data.homepage_hero_select.industries) }}{{ .url }}{{ end }}" class="w-full hidden text-2xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl md:opacity-50 hover:opacity-100 leading-none mb-12 hero-select-menu-mid">{{ range after 1 (first 2 .Site.Data.global_data.homepage_hero_select.industries) }}{{ .name }}{{ end }}</a>
                     <span class="w-full hover:cursor-pointer hero-select-placeholder-mid">{{ range after 1 (first 2 .Site.Data.global_data.homepage_hero_select.industries) }}{{ .name }}{{ end }}</span>
                     <i class="absolute right-0 w-auto text-xl md:text-base lg:text-lg xl:text-xl xxl:text-2xl text-color-02DACA pt-5 md:pt-3 lg:pt-4 xl:pt-5 xxl:pt-8 fas fa-angle-down"></i>
                     <div class="flex flex-wrap w-full text-transparent hidden -mt-20 hero-select-menu-bot">
                         {{ range after 2 .Site.Data.global_data.homepage_hero_select.industries }}
-                        <a href="{{ .url }}" class="w-full md:opacity-50 hover:opacity-100 leading-none mb-12">{{ .name | lower }}</a>
+                        <a href="{{ .url }}" class="w-full text-2xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl md:opacity-50 hover:opacity-100 leading-none mb-12">{{ .name | lower }}</a>
                         {{ end }}
                     </div>
                 </li>
