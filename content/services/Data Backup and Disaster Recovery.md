@@ -4,28 +4,28 @@ description = "Safeguard your data — and reputation — with robust data backu
 name = "Data Backup and Disaster Recovery"
 weight = 4
 [page_content]
-paragraph = "Protect your data and business continuity with Georgia Technologies data backup services at unbeatable rates. Our automated backup process virtually eliminates human error and equipment failures and is coupled with off-site file protection making your data easily accessible in the event of system failure or catastrophic loss. The Georgia Technologies Data Backup and Disaster Recovery service provides compliant and no limitations to the amount of data that can be stored on our secure, hosted system."
-title = "Data Backup and Disaster Recovery"
+paragraph = "With partnerships with several leading vendors, we help you secure business financials, intellectual property, customer information and other mission-critical data against system corruption, catastrophic loss, accidental deletion, hackers, natural disasters, malicious insiders and more. Whatever you need, we can develop a customized solution that ticks all of the boxes."
+title = "Protect critical business data with reliable backup"
 [page_content.bullet_points.bullet_point1]
 icon = "/v1578325750/Georgia%20Technologies/network_check_gakqnh.png"
-text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
-title = "Reliable Monitoring"
+text = "Forget worrying about the integrity of your backups. Our off-site solution virtually eliminates human error by automatically securing up-to-date data from across your organization."
+title = "Backup integrity"
 [page_content.bullet_points.bullet_point2]
 icon = "/v1578325886/Georgia%20Technologies/people-icon_oheycd.png"
-text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
-title = "Vendor Management"
+text = "If you operate in a regulated industry, it’s vital that your data storage and backup practices follow all rules and guidelines. Our solution is customizable and compliant."
+title = "Fully compliant"
 [page_content.bullet_points.bullet_point3]
 icon = "/v1578325983/Georgia%20Technologies/clipboard-icon_j8q0ey.png"
-text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
-title = "Detailed Reporting"
+text = "Access, restore and recover lost data in minutes, so you can minimize downtime and get back to business as soon as possible."
+title = "Fast recovery"
 [page_content.bullet_points.bullet_point4]
 icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
-text = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer"
-title = "Responsive Support"
+text = "There are no limitations to the amount of data that can be stored on our secure, hosted system. Our solution scales seamlessly alongside your business’s data needs."
+title = "Unlimited storage"
 [picture_header]
 background_image = "https://res.cloudinary.com/pioneer-design/image/upload/o_50,b_black/v1575655887/Georgia%20Technologies/it-management-services_ggwoco.jpg"
-paragraph = "Experience worry-free business computing, controlled IT costs, and get the most out of your IT investments with Georgia Technologies."
+paragraph = "Data is the lifeblood of any modern-day company, and protecting it against the unexpected should be one of your top priorities. Think about it this way: If your computer systems fail or are breached, as long as you can still access your business-critical data, operations can continue."
 subtitle = "MANAGED IT SERVICES"
-title = "Your IT Management, Simplified"
+title = "Data Backup & Disaster Recovery"
 
 +++
