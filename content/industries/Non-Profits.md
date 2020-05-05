@@ -1,8 +1,11 @@
 +++
+description = "The right IT system can empower your team to dedicate their time and resources to the mission-critical tasks that matter most."
 name = "Non-Profits"
-description = "Network designs supplying reliable monitoring, maintenance, support, and vendor management."
 weight = 6
 [page_content]
+paragraph = "Our end-to-end managed IT solutions alleviate the burden of maintenance, management, and upgrades, while improving productivity and enhancing security."
+specifics_list = ["Free up valuable resources, giving your team the capacity to focus on their core duties", "Bolster your efforts with technology that eliminates stress and streamlines operations", "Protect any data stored in your system against malicious threat actors and natural disaster"]
+specifics_title = "We understand just how important the work of non-profits is, and that’s why we are proud to be partners with TechSoup. Our partnership allows our clients to secure free or heavily discounted software when they need it."
 title = "Non-Profits"
-paragraph = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer network designs supplying reliable monitoring, maintenance, and support. We also provide vendor management services to all of our customers. Experience worry-free business computing, control your IT costs, and get the most out of your IT investments with Georgia Technologies."
+
 +++
