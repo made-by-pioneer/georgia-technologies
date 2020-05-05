@@ -1,6 +1,6 @@
 +++
 column_image = "https://res.cloudinary.com/pioneer-design/image/upload/v1575659611/Georgia%20Technologies/service-placeholder_l4is5u.jpg"
-description = "Client-tailored network designs for reliable monitoring, maintenance, support and vendor management"
+description = "Client-tailored network designs for reliable monitoring, maintenance, support and vendor management."
 name = "IT Management"
 weight = 1
 [page_content]
