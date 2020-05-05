@@ -1,5 +1,5 @@
 +++
-description = "Government departments and bodies and educational institutions have unique needs and limitations — we understand."
+description = "Security is a leading concern for government bodies and educational institutions. Compliance is just the beginning — you need a system that promotes efficiency with defenses at every touchpoint."
 name = "Government and Education"
 weight = 5
 [page_content]
