@@ -38,6 +38,10 @@ fields:
 - type: textarea
   name: home_services_text
   label: Home Services Text
+  config:
+    wysiwyg: true
+    schema:
+      format: html
 - type: text
   name: home_partners_title
   label: Home Partners Title
