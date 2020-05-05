@@ -30,6 +30,14 @@
                 </div>
             </a>
             {{ end }}
+            <div class="font-copy text-lg pb-5">
+                {{ .Page.Params.page_content.specifics_title }}
+            </div>
+            <ul class="w-full list-disc font-copy text-base pb-8">
+                {{ range .Params.page_content.specifics_list }}
+                <li class="pb-4"><span>{{ . }}</span></li>
+                {{ end }}
+            </ul>
         </div>
     </div>
 </div>
