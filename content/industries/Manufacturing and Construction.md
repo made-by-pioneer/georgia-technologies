@@ -1,5 +1,5 @@
 +++
-description = "A robust IT system is the backbone of manufacturing and construction firms, facilitating everything from inventory and operations to financials and customer support."
+description = "A reliable IT network is the backbone of manufacturing and construction firms. Our team can assist with everything from security to digital transformation, so you can scale operations as needed."
 name = "Manufacturing and Construction"
 weight = 4
 [page_content]
