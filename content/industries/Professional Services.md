@@ -1,5 +1,5 @@
 +++
-description = "Your clients’ satisfaction is your top priority. A robust, tailored IT system empowers your team to deliver an industry-leading service while remaining compliant with all industry regulations."
+description = "Keep your clients happy while boosting security and productivity firm-wide with IT services customized to meet your professional services business’s needs."
 name = "Professional Services"
 weight = 2
 [page_content]
