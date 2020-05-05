@@ -8,6 +8,6 @@ title = "Industries"
 type = "page"
 url = "/industries/"
 [top_section]
-text = "Georgia Technologies partners with businesses and organizations in a variety of industries. From Healthcare and Medical practices to Manufacturing and Construction, to Professional Services and Non-Profits, we’re here to serve."
+text = "Georgia Technologies partners with businesses and organizations across the full spectrum of sectors and industries. Our IT solutions are flexible and client-tailored, so whatever your business needs, our dedicated team can assist. Your satisfaction is our top priority."
 
 +++
