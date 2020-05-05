@@ -1,7 +1,7 @@
 +++
 date = 2019-04-24T05:00:00Z
 home_partners_title = "Our Partners"
-home_services_text = "Georgia Technologies is Southeast Georgia’s leading managed IT service providor. Medical practices, law firms, accounting firms, government agencies, non-profits, and learning institutions continually choose our reliable IT management services and staff."
+home_services_text = "Technology is never just an expense — it’s one of the key strategic growth-driving tools for any modern day business. Leverage the game-changing possibilities of an expertly-developed, fully-customized IT solutions, and streamline operations, boost productivity, improve efficiency and strengthen security within your organization.<br><br>The experienced Georgia Technologies team works with businesses and organizations across Georgia, providing leading managed IT services. This includes working with medical practices, law firms, accounting firms, government agencies, non-profits, learning institutions and more."
 layout = "home"
 meta_description = "Default meta desciption for the page."
 page_status = "home"
