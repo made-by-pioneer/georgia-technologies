@@ -1,8 +1,9 @@
 +++
+description = "No two businesses are alike — but efficiency, reliability and compliance are always top priorities. Here at Georgia Technologies, we work closely with key players in your organization to develop industry-leading IT solutions that scale and evolve alongside your business. When implemented correctly, a robust IT strategy can become one of your business’s key growth-driving tools."
 name = "Commercial"
-description = "Network designs supplying reliable monitoring, maintenance, support, and vendor management."
 weight = 3
 [page_content]
+paragraph = "No two businesses are alike — but efficiency, reliability and compliance are always top priorities. Here at Georgia Technologies, we work closely with key players in your organization to develop industry-leading IT solutions that scale and evolve alongside your business. When implemented correctly, a robust IT strategy can become one of your business’s key growth-driving tools."
 title = "Commercial"
-paragraph = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer network designs supplying reliable monitoring, maintenance, and support. We also provide vendor management services to all of our customers. Experience worry-free business computing, control your IT costs, and get the most out of your IT investments with Georgia Technologies."
+
 +++
