@@ -1,5 +1,5 @@
 +++
-description = "The right IT system can empower your team to dedicate their time and resources to the mission-critical tasks that matter most."
+description = "Ensure your team has the time, resources and IT support they need to focus on their core duties and mission-critical activities. We can also help you secure free or discounted software via our partnership with TechSoup."
 name = "Non-Profits"
 weight = 6
 [page_content]
