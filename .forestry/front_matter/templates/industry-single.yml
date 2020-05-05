@@ -21,3 +21,15 @@ fields:
   - type: textarea
     name: paragraph
     label: paragraph
+  - name: specifics_title
+    type: text
+    config:
+      required: true
+    label: Specifics Title
+  - name: specifics_list
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Specifics List
