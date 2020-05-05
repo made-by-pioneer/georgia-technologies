@@ -26,6 +26,6 @@ title = "Unlimited storage"
 background_image = "https://res.cloudinary.com/pioneer-design/image/upload/o_50,b_black/v1575655887/Georgia%20Technologies/it-management-services_ggwoco.jpg"
 paragraph = "Data is the lifeblood of any modern-day company, and protecting it against the unexpected should be one of your top priorities. Think about it this way: If your computer systems fail or are breached, as long as you can still access your business-critical data, operations can continue."
 subtitle = "MANAGED IT SERVICES"
-title = "Data Backup & Disaster Recovery"
+title = "Your IT Management, Simplified"
 
 +++
