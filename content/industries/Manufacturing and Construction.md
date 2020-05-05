@@ -1,8 +1,11 @@
 +++
+description = "A robust IT system is the backbone of manufacturing and construction firms, facilitating everything from inventory and operations to financials and customer support."
 name = "Manufacturing and Construction"
-description = "Network designs supplying reliable monitoring, maintenance, support, and vendor management."
 weight = 4
 [page_content]
+paragraph = "We work with industries to deliver improved efficiency, robust security, and the ability to leverage the latest in technology."
+specifics_list = ["Free up valuable time and resources and leave IT maintenance, upgrades, and management to us, so your team can focus on their core duties", "Enjoy a fully integrated IT system that delivers reliable data about your operations", "Customize your IT to meet your business’ needs and limitations, keeping costs down without compromising on quality or functionality"]
+specifics_title = "Georgia Technologies delivers end-to-end, scalable IT systems that can be customized to meet your organization's specific needs."
 title = "Manufacturing and Construction"
-paragraph = "From very simple to complex, small businesses to enterprise level companies, Georgia Technologies provides complete IT Management services with trouble-free computer network designs supplying reliable monitoring, maintenance, and support. We also provide vendor management services to all of our customers. Experience worry-free business computing, control your IT costs, and get the most out of your IT investments with Georgia Technologies."
+
 +++
