@@ -1,5 +1,5 @@
 +++
-description = "Our experienced IT experts understand the unique challenges and limitations facing clinics, practices and other medical facilities."
+description = "When it comes to technology, businesses operating in the health care and medical industry face a unique set of compliance and privacy concerns. Our end-to-end services deliver where it matters most."
 name = "Healthcare and Medical"
 weight = 1
 [page_content]
