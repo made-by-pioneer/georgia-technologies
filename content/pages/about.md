@@ -8,6 +8,7 @@ title = "About"
 type = "page"
 url = "/about/"
 [top_section]
+button_link = "tel:912-489-7427"
 button_text = "Call to Find Out How"
 title = "About Us"
 

@@ -30,14 +30,14 @@
 <div class="flex flex-wrap bg-color-F0F0F0 pt-12 md:pt-24">
 
     <div class="flex flex-wrap max-w-8xl mx-auto">
-        <div class="flex flex-wrap w-11/12 mx-auto px-5">
+        <div class="flex flex-wrap items-start w-11/12 mx-auto px-5">
             <div class="w-full md:w-1/2 lg:w-5/12 xxl:w-1/3">
                 <p class="font-copy text-lg xl:text-xl leading-tight pb-12 md:pb-0 md:pr-16">{{ .Params.home_services_text | safeHTML }}</p>
             </div>
-            <div class="flex flex-wrap items-stretch w-full md:w-1/2 lg:w-7/12 xxl:w-2/3">
+            <div class="flex flex-wrap items-start w-full md:w-1/2 lg:w-7/12 xxl:w-2/3">
                 {{ range (where .Site.Pages "Type" "services" ) }}
                 <div class="flex flex-wrap w-full xl:w-1/2 text-left">
-                    <div class="flex flex-wrap w-full md:w-11/12 bg-white border border-color-e6e6e6 hover:border-color-02DACA mb-6 p-4 rounded service-box-{{ .Params.name | lower | urlize }}">
+                    <div class="flex flex-wrap w-full md:w-11/12 bg-white border border-color-e6e6e6 hover:border-color-02DACA mb-6 p-4 hover:cursor-pointer rounded service-box-{{ .Params.name | lower | urlize }}">
                         <div class="w-2/12 mx-auto">
                             <img class="pt-1half mx-auto not-rotated-service-icon service-box-icon-{{ .Params.name | lower | urlize }}" src="{{ .Site.Params.tracking.cloudinary_url }}/v1575055112/Georgia%20Technologies/Shape_Copy_3_gwhgj8.svg">
                             <!-- <i class="text-3xl pl-1 fas fa-angle-down service-box-icon-{{ .Params.name | lower | urlize }}"></i> -->
@@ -51,6 +51,14 @@
                         </div>
                     </div>
                 </div>
+
+                <script>
+                    var triggerOneButton = document.querySelector('.service-box-button-it-management');
+                    triggerOneButton.classList.remove('hidden');
+                    var triggerOneButtonIcon = document.querySelector('.service-box-icon-it-management');
+                    triggerOneButtonIcon.classList.add('rotate-service-icon');
+                </script>
+
                 <script>
                     var serviceBox_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }} = document.querySelector('.service-box-{{ .Params.name | lower | urlize }}');
                     var serviceboxIcon_{{ .Params.name | urlize | replaceRE "-" "_" | safeJS }} = document.querySelector('.service-box-icon-{{ .Params.name | lower | urlize }}');
@@ -87,8 +95,6 @@
             <div class="w-full md:w-1/2 pb-12 md:pb-0 md:pl-12">
                 <img class="mx-auto" src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.homepage_list.image }}">
             </div>
-
-
         </div>
     </div>
 
