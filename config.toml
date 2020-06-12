@@ -27,12 +27,12 @@ enableRobotsTXT = true
 [[menu.desktop]]
     identifier = "Bill Pay"
     name = "Bill Pay"
-    url = "/page-4"
+    url = "http://www.georgiatechnologies.com/online_payment"
     weight = 4
 [[menu.desktop]]
     identifier = "Client Login"
     name = "Client Login"
-    url = "/page-4"
+    url = "http://www.georgiatechnologies.com/client_access_panel"
     weight = 4
 [[menu.mobile]]
     identifier = "Managed Services"

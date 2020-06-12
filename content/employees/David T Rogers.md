@@ -1,8 +1,8 @@
 +++
 name = "David T. Rogers"
-job_title = "CEO, Managed Services Director"
-email = "hey@hey.com"
-linkedin_link = "https://www.linkedin.com/"
-head_shot = "https://res.cloudinary.com/pioneer-design/image/upload/v1575165228/Georgia%20Technologies/Testimonial_Photo_esck7c.png"
+job_title = "CEO"
+email = "drogers@georgiatechnologies.com"
+linkedin_link = "www.linkedin.com/in/david-rogers-gatech"
+head_shot = "/v1591972935/Georgia%20Technologies/david-t-rogers_lqbqfz.jpg"
 weight = 1
 +++

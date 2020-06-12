@@ -8,9 +8,10 @@ title = "About"
 type = "page"
 url = "/about/"
 [top_section]
-button_link = "tel:912-489-7427"
+button_link = "9124897427"
 button_text = "Call to Find Out How"
 title = "About Us"
+group_photo_img = "/v1591974779/Georgia%20Technologies/group-photo_ysq7ou.jpg"
 
 +++
 We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999.
