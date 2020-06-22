@@ -1,5 +1,5 @@
 +++
-column_image = "https://res.cloudinary.com/pioneer-design/image/upload/v1575659611/Georgia%20Technologies/service-placeholder_l4is5u.jpg"
+column_image = "/v1592845104/Georgia%20Technologies/GT.Management.Body_fqinix.jpg"
 description = "Client-tailored network designs for reliable monitoring, maintenance, support and vendor management."
 name = "IT Management"
 weight = 1
@@ -23,7 +23,7 @@ icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 text = "Our IT management services eliminate the need for investments in new infrastructure and servers, allowing you to accurately forecast and budget."
 title = "Cost-effective"
 [picture_header]
-background_image = "https://res.cloudinary.com/pioneer-design/image/upload/o_50,b_black/v1575655887/Georgia%20Technologies/it-management-services_ggwoco.jpg"
+background_image = "/v1592845104/Georgia%20Technologies/GT.Management.Hero_hjlchb.jpg"
 paragraph = "With our experts on your side, you get access to comprehensive solutions that transform your IT from an afterthought to one of your business’s greatest growth-driving tools. Find out how our IT management services align with your strategy below."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
