@@ -1,5 +1,5 @@
 +++
-column_image = "https://res.cloudinary.com/pioneer-design/image/upload/v1575659611/Georgia%20Technologies/service-placeholder_l4is5u.jpg"
+column_image = "/v1592845105/Georgia%20Technologies/GT.Phone.Body_m6as8m.jpg"
 description = "Revolutionize your communications, increase availability and deliver a superior customer experience with a telecom solution that meets your needs."
 name = "Phone Systems"
 weight = 3
@@ -23,7 +23,7 @@ icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 text = "When you work with the team here at Georgia Technologies, we give you access to an exclusive group of vendors, including Mitel, Nextiva, Jive and RingCentral. We can customize your service to meet your organization’s requirements and limitations."
 title = "Leading vendors"
 [picture_header]
-background_image = "https://res.cloudinary.com/pioneer-design/image/upload/o_50,b_black/v1575655887/Georgia%20Technologies/it-management-services_ggwoco.jpg"
+background_image = "/v1592845104/Georgia%20Technologies/GT.Phone.Hero_k3awdn.jpg"
 paragraph = "Here at Georgia Technologies, we’ve partnered with several leading vendors to deliver scalable, best-in-class on-premise PBX phone systems and cloud-based phone systems. Join the communication revolution today."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
