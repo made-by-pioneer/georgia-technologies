@@ -1,5 +1,5 @@
 +++
-column_image = "https://res.cloudinary.com/pioneer-design/image/upload/v1575659611/Georgia%20Technologies/service-placeholder_l4is5u.jpg"
+column_image = "/v1592845104/Georgia%20Technologies/GT.Consulting.Body_de3gfv.jpg"
 description = "Get the most out of your system with end-to-end IT consulting for small businesses through to enterprise level organizations."
 name = "IT Consulting"
 weight = 2
@@ -23,7 +23,7 @@ icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 text = "No two businesses are alike. Our team of experts provide IT consultation on everything from network upgrades and cybersecurity to hardware selection and beyond."
 title = "Customized solutions"
 [picture_header]
-background_image = "https://res.cloudinary.com/pioneer-design/image/upload/o_50,b_black/v1575655887/Georgia%20Technologies/it-management-services_ggwoco.jpg"
+background_image = "/v1592845104/Georgia%20Technologies/GT.Consulting.Hero_l2r3ak.jpg"
 paragraph = "Combining years of experience, our team crafts unique, client-tailored IT strategies utilizing best-in-class technologies that push you toward your goals. In short, we help get you to where you want to be."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
