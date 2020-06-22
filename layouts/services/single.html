@@ -2,7 +2,7 @@
 
 <style>
     .hero-service {
-        background-image: url("{{ .Params.picture_header.background_image }}");
+        background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.picture_header.background_image }}");
     }
 </style>
 
@@ -32,7 +32,7 @@
 
 <style>
 .service-photo {
-    background-image: url("{{ .Page.Params.column_image }}")
+    background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Page.Params.column_image }}")
 }
 </style>
 
