@@ -47,9 +47,6 @@
             <ul class="flex flex-wrap w-full sm:w-11/12 ml-auto pt-5">
                 {{ range .Page.Params.page_content.bullet_points }}
                 <li class="flex w-full">
-                    <div class="w-auto pr-2">
-                        <img class="w-6" src="https://res.cloudinary.com/pioneer-design/image/upload{{ .icon }}">
-                    </div>
                     <div class="w-11/12">
                         <h4 class="font-copy text-lg">{{ .title }}</h4>
                         <p class="font-copy text-base opacity-75">{{ .text }}</p>
