@@ -1,5 +1,5 @@
 +++
-column_image = "https://res.cloudinary.com/pioneer-design/image/upload/v1575659611/Georgia%20Technologies/service-placeholder_l4is5u.jpg"
+column_image = "/v1592845104/Georgia%20Technologies/GT.Access.Body_los62w.jpg"
 description = "Rest easy with an integrated IT network system for monitoring, surveillance, management and access control."
 name = "Surveillance and Access Control"
 weight = 6
@@ -23,7 +23,7 @@ icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 text = "Rest easy when you are traveling or away from work, knowing access to your office security system is a click away."
 title = "Peace of mind"
 [picture_header]
-background_image = "https://res.cloudinary.com/pioneer-design/image/upload/o_50,b_black/v1575655887/Georgia%20Technologies/it-management-services_ggwoco.jpg"
+background_image = "/v1592845104/Georgia%20Technologies/GT.Access.Hero_z6gree.jpg"
 paragraph = "Protecting your physical office against thieves and other malicious characters is of paramount importance— but it can also be a bit of hassle."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
