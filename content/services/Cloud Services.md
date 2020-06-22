@@ -1,5 +1,5 @@
 +++
-column_image = "https://res.cloudinary.com/pioneer-design/image/upload/v1575659611/Georgia%20Technologies/service-placeholder_l4is5u.jpg"
+column_image = "/v1592845104/Georgia%20Technologies/GT.CloudServices.Body_siqmzi.jpg"
 description = "Access data, applications and other business-critical documents anywhere, anytime and from any internet connected device."
 name = "Cloud Services"
 weight = 5
@@ -23,7 +23,7 @@ icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 text = "Give your team more time and resources to work on core operations and growth-driving activities by eliminating maintenance needs, upgrade costs and upfront technology investments."
 title = "Eliminate maintenance"
 [picture_header]
-background_image = "https://res.cloudinary.com/pioneer-design/image/upload/o_50,b_black/v1575655887/Georgia%20Technologies/it-management-services_ggwoco.jpg"
+background_image = "/v1592845104/Georgia%20Technologies/GT.CloudServices.Hero_peh14v.jpg"
 paragraph = "The future is cloud. Cut costs on hardware, storage and software and give your team the ability to access secure business data, email and applications anywhere, anytime, from any internet-connected device with our flexible, client-tailored cloud services."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
