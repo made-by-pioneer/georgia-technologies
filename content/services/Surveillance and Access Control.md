@@ -7,19 +7,15 @@ weight = 6
 paragraph = "When you partner with the security experts here at Georgia Technologies, you can take advantage of cutting-edge remote monitoring software and other security systems — all of which can be seamlessly integrated into your IT network.Our surveillance and access control services enable you to view your office in real time via security cameras from your mobile phone, whether you’re inside or halfway across the world. We can also help you configure door access control, employee access control, overhead paging, intercom systems, video controls and more. The result: convenient security, reliable communication and total peace of mind."
 title = "Protecting your office 24/7"
 [page_content.bullet_points.bullet_point1]
-icon = "/v1578325750/Georgia%20Technologies/network_check_gakqnh.png"
 text = "Monitor your office in real time anywhere, 24 hours a day, seven days a week from your smartphone or internet-connected devices."
 title = "Remote access"
 [page_content.bullet_points.bullet_point2]
-icon = "/v1578325886/Georgia%20Technologies/people-icon_oheycd.png"
 text = "Control security doors, employee access and more at any time of day or night."
 title = "Round-the-clock control"
 [page_content.bullet_points.bullet_point3]
-icon = "/v1578325983/Georgia%20Technologies/clipboard-icon_j8q0ey.png"
 text = "Connect your surveillance, video controls, overhead paging and intercom system with background music to your broader IT network and leverage the convenience of existing communication channels."
 title = "Fully integrated solutions"
 [page_content.bullet_points.bullet_point4]
-icon = "/v1578326028/Georgia%20Technologies/headphones-icon_yxemj5.png"
 text = "Rest easy when you are traveling or away from work, knowing access to your office security system is a click away."
 title = "Peace of mind"
 [picture_header]

@@ -33,9 +33,6 @@ fields:
       name: bullet_point1
       label: bullet_point1
       fields:
-      - type: file
-        name: icon
-        label: icon
       - type: text
         name: title
         label: title
@@ -46,9 +43,6 @@ fields:
       name: bullet_point2
       label: bullet_point2
       fields:
-      - type: file
-        name: icon
-        label: icon
       - type: text
         name: title
         label: title
@@ -59,9 +53,6 @@ fields:
       name: bullet_point3
       label: bullet_point3
       fields:
-      - type: file
-        name: icon
-        label: icon
       - type: text
         name: title
         label: title
@@ -72,9 +63,6 @@ fields:
       name: bullet_point4
       label: bullet_point4
       fields:
-      - type: file
-        name: icon
-        label: icon
       - type: text
         name: title
         label: title
