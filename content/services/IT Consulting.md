@@ -19,7 +19,7 @@ title = "Maximize ROI"
 text = "No two businesses are alike. Our team of experts provide IT consultation on everything from network upgrades and cybersecurity to hardware selection and beyond."
 title = "Customized solutions"
 [picture_header]
-background_image = "/v1592845104/Georgia%20Technologies/GT.Consulting.Hero_l2r3ak.jpg"
+background_image = "/v1593110904/Georgia%20Technologies/GT.Consulting.Hero_hyslon.jpg"
 paragraph = "Combining years of experience, our team crafts unique, client-tailored IT strategies utilizing best-in-class technologies that push you toward your goals. In short, we help get you to where you want to be."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
