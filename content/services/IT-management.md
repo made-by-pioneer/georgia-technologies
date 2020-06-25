@@ -19,7 +19,7 @@ title = "Vendor management"
 text = "Our IT management services eliminate the need for investments in new infrastructure and servers, allowing you to accurately forecast and budget."
 title = "Cost-effective"
 [picture_header]
-background_image = "/v1592845104/Georgia%20Technologies/GT.Management.Hero_hjlchb.jpg"
+background_image = "/v1593110877/Georgia%20Technologies/GT.Management.Hero_zpsaw4.jpg"
 paragraph = "With our experts on your side, you get access to comprehensive solutions that transform your IT from an afterthought to one of your business’s greatest growth-driving tools. Find out how our IT management services align with your strategy below."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
