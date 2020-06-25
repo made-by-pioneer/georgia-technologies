@@ -1,6 +1,7 @@
 +++
-name = "Joe Shmo"
-company = "ABC Shop"
-photo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575165228/Georgia%20Technologies/Testimonial_Photo_esck7c.png"
-text = "Georgia Technologies handled all of our install and maintenance of hardware, software and servers for the entire company. We decided to outsource our IT due to cost control and expertise. GT has been head and shoulders above other IT providers we’ve used. GT has consistently met our needs above and beyond my expectations."
+company = "Hall & Navarro"
+name = "Mike Hall"
+photo = "/v1593111361/Georgia%20Technologies/Mike2018.WEB1_.Testimonial_i37lbf.png"
+text = "We have used Georgia Technologies since 2013 and their service has been impeccable. The staff at Georgia Technologies, David Rogers, Phil, Taylor, Neal and Johnny are always reliable and quick to assist. They are always a phone call away. We use Georgia Technologies exclusively for our telephone needs and computer hardware/software updates. I would recommend Georgia Technologies without any reservation."
+
 +++
