@@ -19,7 +19,7 @@ title = "Fast recovery"
 text = "There are no limitations to the amount of data that can be stored on our secure, hosted system. Our solution scales seamlessly alongside your business’s data needs."
 title = "Unlimited storage"
 [picture_header]
-background_image = "/v1592845104/Georgia%20Technologies/GT.DB_DR.Hero_nkipnv.jpg"
+background_image = "/v1593110923/Georgia%20Technologies/GT.DB_DR.Hero_coks8t.jpg"
 paragraph = "Data is the lifeblood of any modern-day company, and protecting it against the unexpected should be one of your top priorities. Think about it this way: If your computer systems fail or are breached, as long as you can still access your business-critical data, operations can continue."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
