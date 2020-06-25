@@ -19,7 +19,7 @@ title = "Automated data backup"
 text = "Give your team more time and resources to work on core operations and growth-driving activities by eliminating maintenance needs, upgrade costs and upfront technology investments."
 title = "Eliminate maintenance"
 [picture_header]
-background_image = "/v1592845104/Georgia%20Technologies/GT.CloudServices.Hero_peh14v.jpg"
+background_image = "/v1593110947/Georgia%20Technologies/GT.CloudServices.Hero_fmylz0.jpg"
 paragraph = "The future is cloud. Cut costs on hardware, storage and software and give your team the ability to access secure business data, email and applications anywhere, anytime, from any internet-connected device with our flexible, client-tailored cloud services."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
