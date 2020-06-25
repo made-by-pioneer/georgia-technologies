@@ -19,7 +19,7 @@ title = "Fully integrated solutions"
 text = "Rest easy when you are traveling or away from work, knowing access to your office security system is a click away."
 title = "Peace of mind"
 [picture_header]
-background_image = "/v1592845104/Georgia%20Technologies/GT.Access.Hero_z6gree.jpg"
+background_image = "/v1593110796/Georgia%20Technologies/GT.CloudServices.Hero_bj28as.jpg"
 paragraph = "Protecting your physical office against thieves and other malicious characters is of paramount importance— but it can also be a bit of hassle."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
