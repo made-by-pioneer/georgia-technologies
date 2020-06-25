@@ -19,7 +19,7 @@ title = "Business continuity"
 text = "When you work with the team here at Georgia Technologies, we give you access to an exclusive group of vendors, including Mitel, Nextiva, Jive and RingCentral. We can customize your service to meet your organization’s requirements and limitations."
 title = "Leading vendors"
 [picture_header]
-background_image = "/v1592845104/Georgia%20Technologies/GT.Phone.Hero_k3awdn.jpg"
+background_image = "/v1593110855/Georgia%20Technologies/GT.Phone.Hero_vzr7u0.jpg"
 paragraph = "Here at Georgia Technologies, we’ve partnered with several leading vendors to deliver scalable, best-in-class on-premise PBX phone systems and cloud-based phone systems. Join the communication revolution today."
 subtitle = "MANAGED IT SERVICES"
 title = "Your IT Management, Simplified"
