@@ -1,6 +1,5 @@
 +++
-draft = true
-logo = "/v1593182530/Georgia%20Technologies/ringcentral-partner-logo_x7sdqa.png"
+logo = "/v1593182712/Georgia%20Technologies/nextiva_partner_ign3nc.png"
 title = "Nextiva"
 
 +++
