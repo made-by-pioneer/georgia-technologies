@@ -1,4 +1,5 @@
 +++
+logo = "/v1593182445/Georgia%20Technologies/DT_AuthorizedPartner_4C_uuyjgw.png"
 title = "dell"
-logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575319148/Georgia%20Technologies/dell-logo_cmuemy.png"
+
 +++
