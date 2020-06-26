@@ -1,6 +1,5 @@
 +++
-draft = true
-logo = "/v1593182413/Georgia%20Technologies/Allworx_Partner_SM_HORZ_RED_ddnzri.png"
+logo = "/v1593182506/Georgia%20Technologies/datto_Professional_Partner_Logo_JPEG_nccuqv.jpg"
 title = "Datto"
 
 +++
