@@ -1,4 +1,5 @@
 +++
-title = "hp"
-logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575319148/Georgia%20Technologies/hp-logo_gcc8uz.png"
+logo = "/v1593182609/Georgia%20Technologies/LMI_GoToConnect_Green_HEX_a3sgfy.png"
+title = "Go To"
+
 +++
