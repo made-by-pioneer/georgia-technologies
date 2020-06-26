@@ -1,4 +1,5 @@
 +++
-title = "microsoft"
-logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575319148/Georgia%20Technologies/microsoft-logo_everlh.png"
+logo = "/v1593182578/Georgia%20Technologies/microsoft_silver_comps_kjliwx.png"
+title = "Microsoft"
+
 +++
