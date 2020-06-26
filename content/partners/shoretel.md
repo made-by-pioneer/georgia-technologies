@@ -1,4 +1,5 @@
 +++
-title = "shoretel"
-logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1575319148/Georgia%20Technologies/shoretel-logo_r1doln.png"
+logo = "/v1593182530/Georgia%20Technologies/ringcentral-partner-logo_x7sdqa.png"
+title = "Ring Central"
+
 +++
