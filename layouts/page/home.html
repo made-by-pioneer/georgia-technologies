@@ -133,7 +133,7 @@
         <div class="flex flex-wrap w-3/4 mx-auto">
             {{ range (where .Site.Pages "Type" "partners" )}}
             <div class="w-auto mx-auto p-5">
-                <img src="{{ .Params.logo }}">
+                <img class="w-56" src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.logo }}">
             </div>
             {{ end }}
         </div>

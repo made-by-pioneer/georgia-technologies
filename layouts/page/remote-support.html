@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
+    <div class="flex flex-wrap w-5/6 md:w-4/5 mx-auto">
+        <div class="w-full md:w-2/3 mr-auto">
+            <h3 class="font-copy text-xl leading-tight pb-3 md:pb-0">{{ .Params.top_section.title }}</h3>
+            <h5 class="font-copy text-base pb-6">{{ .Params.top_section.text }}</h5>
+        </div>
+    </div>
+</div>
+
+<div class="remote-support support-window bg-green support-window-hidden">
+    <iframe id="screen-connect" data-src="http://screenconnect.georgiatechnologies.com:8040/?Theme=Embedded" src="" style="width: 100%; height: 500px; margin: 0 auto!; display: block; border: 0;"></iframe>
+</div>
+
+{{ end }}
