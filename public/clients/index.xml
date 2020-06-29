@@ -1,30 +1,606 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Georgia Technologies</title>
-    <link>https://georgia-techno.netlify.com/clients/</link>
+    <link>https://geotech.netlify.com/clients/</link>
     <description>Recent content on Georgia Technologies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://georgia-techno.netlify.com/clients/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geotech.netlify.com/clients/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/clients/bohler-family-practice/</link>
+      <link>https://geotech.netlify.com/clients/am-braswell-jr-food-co/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/clients/bohler-family-practice/</guid>
+      <guid>https://geotech.netlify.com/clients/am-braswell-jr-food-co/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/clients/internal-medicine-associates/</link>
+      <link>https://geotech.netlify.com/clients/aptus-associates-llc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/clients/internal-medicine-associates/</guid>
+      <guid>https://geotech.netlify.com/clients/aptus-associates-llc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/averitt-center-for-the-arts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/averitt-center-for-the-arts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/barr-law-offices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/barr-law-offices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bohler-family-practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bohler-family-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/boys-girls-clubs-of-bulloch-county/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/boys-girls-clubs-of-bulloch-county/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-all-departments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bulloch-county-all-departments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-sheriffs-office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bulloch-county-sheriffs-office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-state-probate-magistrate-courts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bulloch-county-state-probate-magistrate-courts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-tax-assessors-office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bulloch-county-tax-assessors-office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-gin-inc./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bulloch-gin-inc./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-pediatrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bulloch-pediatrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/childrens-healthcare-of-statesboro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/childrens-healthcare-of-statesboro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-brooklet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-brooklet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-guyton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-guyton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-hagan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-hagan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-sardis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-sardis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-springfield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-springfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/clark-medical-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/clark-medical-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/clifton-forestry-appraisal-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/clifton-forestry-appraisal-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/cushner-law-mediation-llc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/cushner-law-mediation-llc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/dabbs-williams-general-contractors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/dabbs-williams-general-contractors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/dps-health-and-wellness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/dps-health-and-wellness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/drs-brian-maria-moogerfeld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/drs-brian-maria-moogerfeld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/eastern-heights-baptist-church/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/eastern-heights-baptist-church/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/effiingham-county-industrial-development-authority/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/effiingham-county-industrial-development-authority/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/ellis-wood-contracting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/ellis-wood-contracting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/family-health-care-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/family-health-care-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/first-baptist-church-springfield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/first-baptist-church-springfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/first-baptist-church/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/first-baptist-church/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/gainesville-gynecology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/gainesville-gynecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/gmd-services-inc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/gmd-services-inc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/h-lehman-franklin-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/h-lehman-franklin-law/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/hall-law-group-pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/hall-law-group-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/internal-medicine-associates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/internal-medicine-associates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/jenkins-county-medical-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/jenkins-county-medical-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/joe-westerfield-cpa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/joe-westerfield-cpa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/lewis-color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/lewis-color/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/lowcountry-foundation-repair/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/lowcountry-foundation-repair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/maxwell-reddick-and-associates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/maxwell-reddick-and-associates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/ogeechee-area-hospice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/ogeechee-area-hospice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/ogeechee-district-attorneys-office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/ogeechee-district-attorneys-office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/outpatient-imaging-llc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/outpatient-imaging-llc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/plank-and-tile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/plank-and-tile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/preferred-site-construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/preferred-site-construction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/quicken-steel-llc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/quicken-steel-llc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/reddick-riggs-hunter-kennedy-pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/reddick-riggs-hunter-kennedy-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/safe-haven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/safe-haven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/screven-jenkins-regional-library-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/screven-jenkins-regional-library-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/southern-medical-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/southern-medical-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/southern-pharmacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/southern-pharmacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/southern-property-management-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/southern-property-management-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-cardiology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-cardiology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-childrens-dental-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-childrens-dental-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-ent-sinus-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-ent-sinus-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-plastic-surgery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-plastic-surgery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-powersports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-powersports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/the-clubhouse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/the-clubhouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/the-lodge-at-bethany/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/the-lodge-at-bethany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/thigpen-lanier-westerfield-deal-cpas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/thigpen-lanier-westerfield-deal-cpas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/trinity-baptist-church/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/trinity-baptist-church/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/tyson-utilities-construction-inc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/tyson-utilities-construction-inc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/walker-pharmacy-walker-home-medical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/walker-pharmacy-walker-home-medical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/wall-orthodontics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/wall-orthodontics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/willingway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/willingway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/x-treem-automotive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/x-treem-automotive/</guid>
       <description></description>
     </item>
     

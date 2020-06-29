@@ -1,88 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Georgia Technologies</title>
-    <link>https://georgia-techno.netlify.com/pages/</link>
+    <link>https://geotech.netlify.com/pages/</link>
     <description>Recent content in Pages on Georgia Technologies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2019 05:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://georgia-techno.netlify.com/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geotech.netlify.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Search</title>
-      <link>https://georgia-techno.netlify.com/search/</link>
-      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
-      
-      <guid>https://georgia-techno.netlify.com/search/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>About</title>
-      <link>https://georgia-techno.netlify.com/about/</link>
+      <link>https://geotech.netlify.com/about/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/about/</guid>
-      <description>We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999. All of our support staff are Microsoft Certified and have extensive knowledge of the latest trends in technology. Our technical staff members have been trained on industry-specific hardware, software and hold a variety of applicable certifications.
+      <guid>https://geotech.netlify.com/about/</guid>
+      <description>We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999.
+All of our support staff are Microsoft Certified and have extensive knowledge of the latest trends in technology. Our technical staff members have been trained on industry-specific hardware, software and hold a variety of applicable certifications.
 The foundation for providing reliable services and fulfilling the needs of our clients is in part due to our mission as a company: to provide the very best service to everyone.</description>
     </item>
     
     <item>
+      <title>Bill Pay</title>
+      <link>https://geotech.netlify.com/online_payment/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/online_payment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Client Access Portal</title>
+      <link>https://geotech.netlify.com/client_access_panel/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/client_access_panel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Client Access Portal</title>
+      <link>https://geotech.netlify.com/remote-support/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/remote-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact</title>
-      <link>https://georgia-techno.netlify.com/contact/</link>
+      <link>https://geotech.netlify.com/contact/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Examples of development elements</title>
-      <link>https://georgia-techno.netlify.com/devele/</link>
-      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
-      
-      <guid>https://georgia-techno.netlify.com/devele/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>INSERT PAGE TITLE HERE</title>
-      <link>https://georgia-techno.netlify.com/insert-url-here/</link>
-      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
-      
-      <guid>https://georgia-techno.netlify.com/insert-url-here/</guid>
+      <guid>https://geotech.netlify.com/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://georgia-techno.netlify.com/privacy-policy/</link>
+      <link>https://geotech.netlify.com/privacy-policy/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/privacy-policy/</guid>
+      <guid>https://geotech.netlify.com/privacy-policy/</guid>
       <description>Georgia Technologies Corporation has a strong commitment to providing excellent service to all of our customers, including respecting their concerns about privacy. We understand that visitors to our website may have questions about whether and how this website collects and uses information. Accordingly, we have prepared this statement to inform you of the privacy principles that govern georgiatechnologies.com.
-Browsing Visitors who browse this website do so on an anonymous basis.</description>
+Browsing Visitors who browse this website do so on an anonymous basis. We have not configured this website to collect any information from your computer without your input.</description>
     </item>
     
     <item>
       <title>Terms of Use</title>
-      <link>https://georgia-techno.netlify.com/terms-of-use/</link>
+      <link>https://geotech.netlify.com/terms-of-use/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/terms-of-use/</guid>
+      <guid>https://geotech.netlify.com/terms-of-use/</guid>
       <description>The content and information displayed on this web site (&amp;ldquo;Georgia Technologies Information&amp;rdquo;) is the property of Georgia Technologies Corporation and/or other parties. The downloading, reproduction, or retransmission of Georgia Technologies Corporation Information, other than for non-commercial individual use, is strictly prohibited.
-Georgia Technologies Corporation&amp;rsquo;s Internet sites may contain or reference trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes or other proprietary rights of Georgia Technologies Corporation and/or other parties. No license to or right in any such trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes and other proprietary rights of Georgia Technologies Corporation and/or other parties is granted to or conferred upon you.</description>
+Georgia Technologies Corporation&#39;s Internet sites may contain or reference trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes or other proprietary rights of Georgia Technologies Corporation and/or other parties. No license to or right in any such trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes and other proprietary rights of Georgia Technologies Corporation and/or other parties is granted to or conferred upon you.</description>
     </item>
     
     <item>
       <title>Thank You</title>
-      <link>https://georgia-techno.netlify.com/thank-you/</link>
+      <link>https://geotech.netlify.com/thank-you/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/thank-you/</guid>
+      <guid>https://geotech.netlify.com/thank-you/</guid>
       <description></description>
     </item>
     

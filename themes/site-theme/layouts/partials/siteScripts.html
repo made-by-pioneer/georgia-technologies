@@ -24,19 +24,64 @@ $('.testimonial-slider').slick({arrows:false, dots: true,infinite:true, speed:10
 
 {{ if eq .Site.Params.extra_tools.floating_header true }}
 <script>
-let scrollpos = window.scrollY
-  const header = document.querySelector(".header-container")
-  const headerHeightFix = document.querySelector("#headerFloatingHeightFix")
-  const headerHeight = header.offsetHeight
-  const addHeaderFloat = () => header.classList.add("fixed", "z-50", "top-0", "w-full", "bg-white")
-  const addHeaderHeightFix = () => headerHeightFix.classList.add("h-24")
-  const removeHeaderFloat = () => header.classList.remove("fixed")
-  const removeHeaderHeightFix = () => headerHeightFix.classList.remove("h-24")
-  window.addEventListener('scroll', function() { 
-    scrollpos = window.scrollY;
-    if (scrollpos >= headerHeight + 200) { addHeaderFloat(), addHeaderHeightFix() }
-    else { removeHeaderFloat(), removeHeaderHeightFix() }
-})
+const header = document.querySelector(".header-container")
+let computedStyle = getComputedStyle(header);
+let headerBoxHeight = computedStyle.height
+const headerHeightFix = document.querySelector("#headerFloatingHeightFix")
+const addHeaderFloat = () => header.classList.add("fixed", "z-20", "w-full", "bg-lite-gray", "shadow-lg", "header-fixed");
+const addHeaderHeightFix = () => headerHeightFix.setAttribute("style", "height:" + headerBoxHeight);
+const removeHeaderFloat = () => header.classList.remove("fixed", "z-20", "w-full", "bg-lite-gray", "shadow-lg", "header-fixed");
+const removeHeaderHeightFix = () => headerHeightFix.setAttribute("style", "height:0px");
+
+let lastScrollTop = 0;
+window.addEventListener("scroll", function(){ 
+   let st = window.pageYOffset || document.documentElement.scrollTop; 
+   if (st > lastScrollTop){
+     header.style.top=-headerBoxHeight.replace("px", "") + "px"
+   }
+   else if (st === 0){
+     removeHeaderFloat(), removeHeaderHeightFix()
+   }
+   else {
+     addHeaderFloat(), addHeaderHeightFix(),
+     header.style.top=0 + "px"
+   }
+   lastScrollTop = st <= 0 ? 0 : st;
+}, false);
 </script>
 {{ else }}
 {{ end }}
+
+<!-- fix modal errors -->
+<script>
+function openModal() {
+  event.preventDefault();
+  event.stopPropagation();
+}
+
+function closeModal() {
+  event.preventDefault();
+  event.stopPropagation();
+}
+</script>
+<!-- END fix modal errors -->
+
+<!-- check ie11 status for lazy loading images -->
+<script>
+let isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+if (isIE11 === false) {
+  let lazyBack = document.querySelectorAll("#lzy-bk");
+  for (i = 0; i < lazyBack.length; ++i) {
+    lazyBack[i].classList.add("lazy");
+  }
+  let lazyImg = document.querySelectorAll("#lzy-img");
+  for (i = 0; i < lazyImg.length; ++i) {
+    lazyImg[i].classList.add("lazy");
+    if(lazyImg[i].getAttribute('src')) {
+      lazyImg[i].setAttribute('data-src',lazyImg[i].getAttribute('src'));
+      lazyImg[i].removeAttribute('src'); //use only if you need to remove data-src attribute after setting src
+    }
+  }
+}
+</script>
+<!-- END check ie11 status for lazy loading images -->

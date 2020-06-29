@@ -2,69 +2,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://georgia-techno.netlify.com/search/</loc>
-    <lastmod>2019-05-19T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://georgia-techno.netlify.com/about/</loc>
+    <loc>https://geotech.netlify.com/about/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/careers/</loc>
+    <loc>https://geotech.netlify.com/online_payment/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/contact/</loc>
+    <loc>https://geotech.netlify.com/careers/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/</loc>
+    <loc>https://geotech.netlify.com/client_access_panel/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/insert-url-here/</loc>
+    <loc>https://geotech.netlify.com/remote-support/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/industries/</loc>
+    <loc>https://geotech.netlify.com/contact/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/privacy-policy/</loc>
+    <loc>https://geotech.netlify.com/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/services/</loc>
+    <loc>https://geotech.netlify.com/industries/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/terms-of-use/</loc>
+    <loc>https://geotech.netlify.com/privacy-policy/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/clients/</loc>
+    <loc>https://geotech.netlify.com/services/</loc>
+    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/employees/</loc>
+    <loc>https://geotech.netlify.com/terms-of-use/</loc>
+    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/partners/</loc>
+    <loc>https://geotech.netlify.com/clients/</loc>
   </url>
   
   <url>
-    <loc>https://georgia-techno.netlify.com/testimonials/</loc>
+    <loc>https://geotech.netlify.com/employees/</loc>
+  </url>
+  
+  <url>
+    <loc>https://geotech.netlify.com/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>https://geotech.netlify.com/testimonials/</loc>
   </url>
   
 </urlset>

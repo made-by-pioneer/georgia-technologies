@@ -4,4 +4,4 @@ Disallow: /
 
 
 
-Sitemap: https://georgia-techno.netlify.com/sitemapindex.xml
+Sitemap: https://geotech.netlify.com/sitemapindex.xml

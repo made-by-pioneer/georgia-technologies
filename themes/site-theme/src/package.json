@@ -21,6 +21,7 @@
     "cssnano": "^4.1.8",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
+    "micromodal": "^0.4.6",
     "postcss": "^7.0.7",
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^12.0.1",
@@ -32,15 +33,14 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "eventemitter3": "^3.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "jquery.marquee": "^1.5.0",
-    "micromodal": "^0.4.0",
     "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.14.1",
     "scrollreveal": "^4.0.5",
     "select2": "^4.0.12",
     "slick-carousel": "^1.8.1",
     "tiny-slider": "^2.9.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.3.12"
   }
 }

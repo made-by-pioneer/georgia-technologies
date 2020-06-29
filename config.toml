@@ -323,7 +323,7 @@ enableRobotsTXT = true
 [params.tracking]
     cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
 [params.publishing_settings]
-    site_in_production = false
+    site_in_production = true
 
 [mediaTypes]
   [mediaTypes."text/noExt"]
@@ -348,29 +348,14 @@ enableRobotsTXT = true
         isPlainText = false
         mediaType = "application/xml"
         path = "/"
-    [outputFormats.redirects]
-        baseName = "_redirects"
-        isPlainText = true
-        mediaType = "text/noExt"
-        path = "/"
-    [outputFormats.Algolia]
-        baseName = "algolia"
-        isPlainText = true
-        mediaType = "application/json"
-        notAlternative = true
 
 [outputs]
-  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS", "redirects", "Algolia"]
-
-[params.algolia]
-    appId = ""
-    search_key = ""
-    index_name = ""
+  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS"]
 
 [params.extra_tools]
     algolia_search = false
     font_awesome = true
-    floating_header = false
+    floating_header = true
 
 [markup.goldmark.renderer]
 unsafe= true

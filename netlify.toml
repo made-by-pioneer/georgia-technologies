@@ -3,10 +3,16 @@ publish = "public"
 command = "hugo --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.55.0"
+HUGO_VERSION = "0.61.0"
 RUBY_VERSION = "2.6.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.55.0"
+HUGO_VERSION = "0.61.0"
+
+[[redirects]]
+  from = "https://georgia-techno.netlify.app/*"
+  to = "http://www.georgiatechnologies.com/:splat"
+  status = 301
+  force = true

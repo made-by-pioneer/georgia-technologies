@@ -1,331 +1,953 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Georgia Technologies</title>
-    <link>https://georgia-techno.netlify.com/</link>
+    <link>https://geotech.netlify.com/</link>
     <description>Recent content in Home on Georgia Technologies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2019 05:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://georgia-techno.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geotech.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/employees/david-t-rogers/</link>
+      <link>https://geotech.netlify.com/employees/david-t-rogers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/employees/david-t-rogers/</guid>
+      <guid>https://geotech.netlify.com/employees/david-t-rogers/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/employees/employee-2/</link>
+      <link>https://geotech.netlify.com/industries/healthcare-and-medical/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/employees/employee-2/</guid>
+      <guid>https://geotech.netlify.com/industries/healthcare-and-medical/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/employees/employee-3/</link>
+      <link>https://geotech.netlify.com/services/it-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/employees/employee-3/</guid>
+      <guid>https://geotech.netlify.com/services/it-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/employees/employee-4/</link>
+      <link>https://geotech.netlify.com/employees/jonathan-harding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/employees/employee-4/</guid>
+      <guid>https://geotech.netlify.com/employees/jonathan-harding/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/industries/healthcare-and-medical/</link>
+      <link>https://geotech.netlify.com/industries/professional-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/industries/healthcare-and-medical/</guid>
+      <guid>https://geotech.netlify.com/industries/professional-services/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/services/it-management/</link>
+      <link>https://geotech.netlify.com/services/it-consulting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/services/it-management/</guid>
+      <guid>https://geotech.netlify.com/services/it-consulting/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/industries/professional-services/</link>
+      <link>https://geotech.netlify.com/employees/taylor-callahan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/industries/professional-services/</guid>
+      <guid>https://geotech.netlify.com/employees/taylor-callahan/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/services/it-consulting/</link>
+      <link>https://geotech.netlify.com/industries/commercial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/services/it-consulting/</guid>
+      <guid>https://geotech.netlify.com/industries/commercial/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/industries/commercial/</link>
+      <link>https://geotech.netlify.com/services/phone-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/industries/commercial/</guid>
+      <guid>https://geotech.netlify.com/services/phone-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/services/phone-systems/</link>
+      <link>https://geotech.netlify.com/employees/madison-saxon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/services/phone-systems/</guid>
+      <guid>https://geotech.netlify.com/employees/madison-saxon/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/industries/government--education/</link>
+      <link>https://geotech.netlify.com/industries/manufacturing-and-construction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/industries/government--education/</guid>
+      <guid>https://geotech.netlify.com/industries/manufacturing-and-construction/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/services/data-backup-and-disaster-recovery/</link>
+      <link>https://geotech.netlify.com/services/data-backup-and-disaster-recovery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/services/data-backup-and-disaster-recovery/</guid>
+      <guid>https://geotech.netlify.com/services/data-backup-and-disaster-recovery/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/industries/non-profits/</link>
+      <link>https://geotech.netlify.com/employees/leslie-rogers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/industries/non-profits/</guid>
+      <guid>https://geotech.netlify.com/employees/leslie-rogers/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/services/cloud-services/</link>
+      <link>https://geotech.netlify.com/industries/government-and-education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/services/cloud-services/</guid>
+      <guid>https://geotech.netlify.com/industries/government-and-education/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/services/surveillance-and-access-control/</link>
+      <link>https://geotech.netlify.com/services/cloud-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/services/surveillance-and-access-control/</guid>
+      <guid>https://geotech.netlify.com/services/cloud-services/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Search</title>
-      <link>https://georgia-techno.netlify.com/search/</link>
-      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://geotech.netlify.com/employees/jeremy-neal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/search/</guid>
+      <guid>https://geotech.netlify.com/employees/jeremy-neal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/industries/non-profits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/industries/non-profits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/services/surveillance-and-access-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/services/surveillance-and-access-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/employees/phil-cowan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/employees/phil-cowan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://georgia-techno.netlify.com/about/</link>
+      <link>https://geotech.netlify.com/about/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/about/</guid>
-      <description>We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999. All of our support staff are Microsoft Certified and have extensive knowledge of the latest trends in technology. Our technical staff members have been trained on industry-specific hardware, software and hold a variety of applicable certifications.
+      <guid>https://geotech.netlify.com/about/</guid>
+      <description>We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999.
+All of our support staff are Microsoft Certified and have extensive knowledge of the latest trends in technology. Our technical staff members have been trained on industry-specific hardware, software and hold a variety of applicable certifications.
 The foundation for providing reliable services and fulfilling the needs of our clients is in part due to our mission as a company: to provide the very best service to everyone.</description>
     </item>
     
     <item>
+      <title>Bill Pay</title>
+      <link>https://geotech.netlify.com/online_payment/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/online_payment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Client Access Portal</title>
+      <link>https://geotech.netlify.com/client_access_panel/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/client_access_panel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Client Access Portal</title>
+      <link>https://geotech.netlify.com/remote-support/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/remote-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact</title>
-      <link>https://georgia-techno.netlify.com/contact/</link>
+      <link>https://geotech.netlify.com/contact/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Examples of development elements</title>
-      <link>https://georgia-techno.netlify.com/devele/</link>
-      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
-      
-      <guid>https://georgia-techno.netlify.com/devele/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>INSERT PAGE TITLE HERE</title>
-      <link>https://georgia-techno.netlify.com/insert-url-here/</link>
-      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
-      
-      <guid>https://georgia-techno.netlify.com/insert-url-here/</guid>
+      <guid>https://geotech.netlify.com/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://georgia-techno.netlify.com/privacy-policy/</link>
+      <link>https://geotech.netlify.com/privacy-policy/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/privacy-policy/</guid>
+      <guid>https://geotech.netlify.com/privacy-policy/</guid>
       <description>Georgia Technologies Corporation has a strong commitment to providing excellent service to all of our customers, including respecting their concerns about privacy. We understand that visitors to our website may have questions about whether and how this website collects and uses information. Accordingly, we have prepared this statement to inform you of the privacy principles that govern georgiatechnologies.com.
-Browsing Visitors who browse this website do so on an anonymous basis.</description>
+Browsing Visitors who browse this website do so on an anonymous basis. We have not configured this website to collect any information from your computer without your input.</description>
     </item>
     
     <item>
       <title>Terms of Use</title>
-      <link>https://georgia-techno.netlify.com/terms-of-use/</link>
+      <link>https://geotech.netlify.com/terms-of-use/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/terms-of-use/</guid>
+      <guid>https://geotech.netlify.com/terms-of-use/</guid>
       <description>The content and information displayed on this web site (&amp;ldquo;Georgia Technologies Information&amp;rdquo;) is the property of Georgia Technologies Corporation and/or other parties. The downloading, reproduction, or retransmission of Georgia Technologies Corporation Information, other than for non-commercial individual use, is strictly prohibited.
-Georgia Technologies Corporation&amp;rsquo;s Internet sites may contain or reference trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes or other proprietary rights of Georgia Technologies Corporation and/or other parties. No license to or right in any such trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes and other proprietary rights of Georgia Technologies Corporation and/or other parties is granted to or conferred upon you.</description>
+Georgia Technologies Corporation&#39;s Internet sites may contain or reference trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes or other proprietary rights of Georgia Technologies Corporation and/or other parties. No license to or right in any such trademarks, patents, copyrighted materials, trade secrets, technologies, products, processes and other proprietary rights of Georgia Technologies Corporation and/or other parties is granted to or conferred upon you.</description>
     </item>
     
     <item>
       <title>Thank You</title>
-      <link>https://georgia-techno.netlify.com/thank-you/</link>
+      <link>https://geotech.netlify.com/thank-you/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/thank-you/</guid>
+      <guid>https://geotech.netlify.com/thank-you/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/careers/example-career-2/</link>
+      <link>https://geotech.netlify.com/careers/it-specialist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/careers/example-career-2/</guid>
+      <guid>https://geotech.netlify.com/careers/it-specialist/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/careers/example-career/</link>
+      <link>https://geotech.netlify.com/clients/am-braswell-jr-food-co/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/careers/example-career/</guid>
+      <guid>https://geotech.netlify.com/clients/am-braswell-jr-food-co/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/careers/it-specialist/</link>
+      <link>https://geotech.netlify.com/clients/aptus-associates-llc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/careers/it-specialist/</guid>
+      <guid>https://geotech.netlify.com/clients/aptus-associates-llc/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/clients/bohler-family-practice/</link>
+      <link>https://geotech.netlify.com/clients/averitt-center-for-the-arts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/clients/bohler-family-practice/</guid>
+      <guid>https://geotech.netlify.com/clients/averitt-center-for-the-arts/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/clients/internal-medicine-associates/</link>
+      <link>https://geotech.netlify.com/clients/barr-law-offices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/clients/internal-medicine-associates/</guid>
+      <guid>https://geotech.netlify.com/clients/barr-law-offices/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/testimonials/joe-shmo/</link>
+      <link>https://geotech.netlify.com/clients/bohler-family-practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/testimonials/joe-shmo/</guid>
+      <guid>https://geotech.netlify.com/clients/bohler-family-practice/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://georgia-techno.netlify.com/testimonials/joe-two/</link>
+      <link>https://geotech.netlify.com/clients/boys-girls-clubs-of-bulloch-county/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/testimonials/joe-two/</guid>
+      <guid>https://geotech.netlify.com/clients/boys-girls-clubs-of-bulloch-county/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>allworx</title>
-      <link>https://georgia-techno.netlify.com/partners/allworx/</link>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-all-departments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/partners/allworx/</guid>
+      <guid>https://geotech.netlify.com/clients/bulloch-county-all-departments/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>dell</title>
-      <link>https://georgia-techno.netlify.com/partners/dell/</link>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-sheriffs-office/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/partners/dell/</guid>
+      <guid>https://geotech.netlify.com/clients/bulloch-county-sheriffs-office/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hp</title>
-      <link>https://georgia-techno.netlify.com/partners/hp/</link>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-state-probate-magistrate-courts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/partners/hp/</guid>
+      <guid>https://geotech.netlify.com/clients/bulloch-county-state-probate-magistrate-courts/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>microsoft</title>
-      <link>https://georgia-techno.netlify.com/partners/microsoft/</link>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-county-tax-assessors-office/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/partners/microsoft/</guid>
+      <guid>https://geotech.netlify.com/clients/bulloch-county-tax-assessors-office/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>shoretel</title>
-      <link>https://georgia-techno.netlify.com/partners/shoretel/</link>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-gin-inc./</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://georgia-techno.netlify.com/partners/shoretel/</guid>
+      <guid>https://geotech.netlify.com/clients/bulloch-gin-inc./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/bulloch-pediatrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/bulloch-pediatrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/childrens-healthcare-of-statesboro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/childrens-healthcare-of-statesboro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-brooklet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-brooklet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-guyton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-guyton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-hagan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-hagan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-sardis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-sardis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/city-of-springfield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/city-of-springfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/clark-medical-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/clark-medical-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/clifton-forestry-appraisal-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/clifton-forestry-appraisal-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/cushner-law-mediation-llc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/cushner-law-mediation-llc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/dabbs-williams-general-contractors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/dabbs-williams-general-contractors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/dps-health-and-wellness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/dps-health-and-wellness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/drs-brian-maria-moogerfeld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/drs-brian-maria-moogerfeld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/eastern-heights-baptist-church/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/eastern-heights-baptist-church/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/effiingham-county-industrial-development-authority/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/effiingham-county-industrial-development-authority/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/ellis-wood-contracting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/ellis-wood-contracting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/family-health-care-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/family-health-care-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/first-baptist-church-springfield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/first-baptist-church-springfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/first-baptist-church/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/first-baptist-church/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/gainesville-gynecology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/gainesville-gynecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/gmd-services-inc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/gmd-services-inc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/h-lehman-franklin-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/h-lehman-franklin-law/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/hall-law-group-pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/hall-law-group-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/internal-medicine-associates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/internal-medicine-associates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/jenkins-county-medical-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/jenkins-county-medical-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/joe-westerfield-cpa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/joe-westerfield-cpa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/lewis-color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/lewis-color/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/lowcountry-foundation-repair/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/lowcountry-foundation-repair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/maxwell-reddick-and-associates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/maxwell-reddick-and-associates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/ogeechee-area-hospice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/ogeechee-area-hospice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/ogeechee-district-attorneys-office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/ogeechee-district-attorneys-office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/outpatient-imaging-llc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/outpatient-imaging-llc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/plank-and-tile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/plank-and-tile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/preferred-site-construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/preferred-site-construction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/quicken-steel-llc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/quicken-steel-llc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/reddick-riggs-hunter-kennedy-pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/reddick-riggs-hunter-kennedy-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/safe-haven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/safe-haven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/screven-jenkins-regional-library-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/screven-jenkins-regional-library-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/southern-medical-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/southern-medical-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/southern-pharmacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/southern-pharmacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/southern-property-management-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/southern-property-management-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-cardiology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-cardiology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-childrens-dental-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-childrens-dental-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-ent-sinus-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-ent-sinus-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-plastic-surgery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-plastic-surgery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/statesboro-powersports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/statesboro-powersports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/the-clubhouse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/the-clubhouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/the-lodge-at-bethany/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/the-lodge-at-bethany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/thigpen-lanier-westerfield-deal-cpas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/thigpen-lanier-westerfield-deal-cpas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/trinity-baptist-church/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/trinity-baptist-church/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/tyson-utilities-construction-inc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/tyson-utilities-construction-inc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/walker-pharmacy-walker-home-medical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/walker-pharmacy-walker-home-medical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/wall-orthodontics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/wall-orthodontics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/willingway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/willingway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/clients/x-treem-automotive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/clients/x-treem-automotive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/testimonials/joe-shmo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/testimonials/joe-shmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geotech.netlify.com/testimonials/joe-two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/testimonials/joe-two/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Allworx</title>
+      <link>https://geotech.netlify.com/partners/allworx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/allworx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datto</title>
+      <link>https://geotech.netlify.com/partners/datto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/datto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dell</title>
+      <link>https://geotech.netlify.com/partners/dell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/dell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go To</title>
+      <link>https://geotech.netlify.com/partners/hp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/hp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://geotech.netlify.com/partners/microsoft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitel</title>
+      <link>https://geotech.netlify.com/partners/mitel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/mitel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nextiva</title>
+      <link>https://geotech.netlify.com/partners/nextiva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/nextiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ring Central</title>
+      <link>https://geotech.netlify.com/partners/shoretel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geotech.netlify.com/partners/shoretel/</guid>
       <description></description>
     </item>
     
