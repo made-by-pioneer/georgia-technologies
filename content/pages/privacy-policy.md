@@ -6,7 +6,7 @@ page_status = "privacy-policy"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "Privacy Policy"
 type = "page"
-url = "/privacy-policy/"
+url = "/privacy_policy/"
 
 +++
 Georgia Technologies Corporation has a strong commitment to providing excellent service to all of our customers, including respecting their concerns about privacy. We understand that visitors to our website may have questions about whether and how this website collects and uses information. Accordingly, we have prepared this statement to inform you of the privacy principles that govern georgiatechnologies.com.

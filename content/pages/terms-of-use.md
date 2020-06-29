@@ -6,7 +6,7 @@ page_status = "terms-of-use"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "Terms of Use"
 type = "page"
-url = "/terms-of-use/"
+url = "/terms/"
 
 +++
 The content and information displayed on this web site ("Georgia Technologies Information") is the property of Georgia Technologies Corporation and/or other parties. The downloading, reproduction, or retransmission of Georgia Technologies Corporation Information, other than for non-commercial individual use, is strictly prohibited.
