@@ -17,7 +17,7 @@ list_items = ["Fast Response Times", "Affordable and Flat Rate Service", "Certif
 subtitle = "why georgia technologies"
 title = "Worry-free IT Solutions"
 [homepage_list.buttons.first_button]
-button_link = "tel:912-489-7427"
+button_link = "912-489-7427"
 button_text = "Call Us Today"
 [homepage_list.buttons.second_button]
 button_link = "/services/"

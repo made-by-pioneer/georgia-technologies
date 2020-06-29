@@ -90,7 +90,7 @@
                     <li><span class="-ml-2 lg:-ml-4">{{ . }}</span></li>
                     {{ end }}
                 </ul>
-                <a href="{{ .Params.homepage_list.buttons.first_button.button_link }}" class="w-full sm:w-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 sm:mr-5 py-2 px-8">
+                <a href="tel:{{ .Params.homepage_list.buttons.first_button.button_link }}" class="w-full sm:w-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 sm:mr-5 py-2 px-8">
                         {{ .Params.homepage_list.buttons.first_button.button_text }}
                 </a>
                 <a href="{{ .Params.homepage_list.buttons.second_button.button_link }}" class="w-full sm:w-auto bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 text-center py-2 px-8">
@@ -155,5 +155,12 @@
         </div>
     </div>
 </div>
+
+<!-- for purgecss crawl -->
+
+<div class="hidden md:inline px-2"></div>
+<div class="md:hidden"></div>
+
+<!-- END for purgecss crawl -->
 
 {{ end }}
