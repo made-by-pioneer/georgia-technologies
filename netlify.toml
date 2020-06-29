@@ -10,3 +10,9 @@ HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.61.0"
+
+[[redirects]]
+  from = "https://georgia-techno.netlify.app/*"
+  to = "http://www.georgiatechnologies.com/:splat"
+  status = 301
+  force = true
