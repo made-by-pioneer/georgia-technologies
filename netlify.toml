@@ -13,12 +13,18 @@ HUGO_VERSION = "0.61.0"
 
 [[redirects]]
   from = "https://georgia-techno.netlify.app/*"
-  to = "http://www.georgiatechnologies.com/:splat"
+  to = "https://www.georgiatechnologies.com/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/download_file/view/6/173"
-  to = "http://www.georgiatechnologies.com/applications/Employement_Application.pdf"
+  to = "https://www.georgiatechnologies.com/applications/Employment_Application.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.georgiatechnologies.com/remote-support/"
+  to = "http://www.georgiatechnologies.com/remote-support/"
   status = 301
   force = true
