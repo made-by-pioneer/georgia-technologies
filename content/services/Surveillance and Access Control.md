@@ -4,7 +4,7 @@ description = "Rest easy with an integrated IT network system for monitoring, su
 name = "Surveillance and Access Control"
 weight = 6
 [page_content]
-paragraph = "When you partner with the security experts here at Georgia Technologies, you can take advantage of cutting-edge remote monitoring software and other security systems — all of which can be seamlessly integrated into your IT network.Our surveillance and access control services enable you to view your office in real time via security cameras from your mobile phone, whether you’re inside or halfway across the world. We can also help you configure door access control, employee access control, overhead paging, intercom systems, video controls and more. The result: convenient security, reliable communication and total peace of mind."
+paragraph = "When you partner with the security experts here at Georgia Technologies, you can take advantage of cutting-edge remote monitoring software and other security systems — all of which can be seamlessly integrated into your IT network. Our surveillance and access control services enable you to view your office in real time via security cameras from your mobile phone, whether you’re inside or halfway across the world. We can also help you configure door access control, employee access control, overhead paging, intercom systems, video controls and more. The result: convenient security, reliable communication and total peace of mind."
 title = "Protecting your office 24/7"
 [page_content.bullet_points.bullet_point1]
 text = "Monitor your office in real time anywhere, 24 hours a day, seven days a week from your smartphone or internet-connected devices."

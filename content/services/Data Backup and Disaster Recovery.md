@@ -4,7 +4,7 @@ description = "Safeguard your data — and reputation — with robust data backu
 name = "Data Backup and Disaster Recovery"
 weight = 4
 [page_content]
-paragraph = "With partnerships with several leading vendors, we help you secure business financials, intellectual property, customer information and other mission-critical data against system corruption, catastrophic loss, accidental deletion, hackers, natural disasters, malicious insiders and more. Whatever you need, we can develop a customized solution that ticks all of the boxes."
+paragraph = "With partnerships with several leading vendors, we help you secure business financials, intellectual property, customer information and other mission-critical data against system corruption, catastrophic loss, accidental deletion, hackers, natural disasters, malicious insiders and more. Whatever you need, we can develop a customized solution that checks all of the boxes."
 title = "Protect critical business data with reliable backup"
 [page_content.bullet_points.bullet_point1]
 text = "Forget worrying about the integrity of your backups. Our off-site solution virtually eliminates human error by automatically securing up-to-date data from across your organization."

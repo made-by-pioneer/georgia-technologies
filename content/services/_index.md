@@ -8,6 +8,6 @@ title = "Services"
 type = "page"
 url = "/services/"
 [top_section]
-text = "Georgia Technologies is Southeast Georgia’s leading managed IT service providor. Medical practices, law firms, accounting firms, government agencies, non-profits, and learning institutions continually choose our reliable IT management services and staff."
+text = "Georgia Technologies is Southeast Georgia’s leading managed IT service provider. Medical practices, law firms, accounting firms, government agencies, non-profits, and learning institutions continually choose our reliable IT management services and staff."
 
 +++
