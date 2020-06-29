@@ -16,11 +16,6 @@ html {
 
 .mobile-menu-toggle {z-index: 999!important;opacity: 1.0!important;}.desktop-menu {display:none;}.non-stick {position: relative;}.stick {position: sticky;top: 0px;margin-top: 120px;z-index:999;height: 100px!important;background-color: #fff!important;padding-top: 0px!important;transition: .2s;display: none;}@media screen and (min-width:992px) {.stick {display: block;}.mobile-menu-button {display: none;}.desktop-menu {display:block;}}
 
-.body-wrapper {
-  max-width: 1920px;
-  margin: auto;
-}
-
 .mobile-menu {
   z-index: -999;
   opacity: 0;

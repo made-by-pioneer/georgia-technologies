@@ -80,7 +80,7 @@
         </div>
     </div>
 
-    <div class="flex flex-wrap w-full">
+    <div class="flex flex-wrap w-full max-w-8xl mx-auto">
         <div class="flex flex-wrap flex-col-reverse md:flex-row items-center w-11/12 xl:w-2/3 mx-auto pt-32 pb-40 px-5 xl:px-0">
             <div class="flex flex-wrap w-full md:w-1/2">
                 <h6 class="w-full font-copy text-base sm:text-12px text-color-02A89B uppercase tracking-onehalf pb-1">{{ .Params.homepage_list.subtitle }}</h6>
@@ -114,7 +114,8 @@
         </div>
     </noscript>
 
-    <div class="flex flex-wrap w-11/12 max-w-8xl mx-auto pb-20 md:pb-0 testimonial-slider">
+<div class="flex flex-wrap w-full max-w-8xl mx-auto">
+    <div class="flex flex-wrap w-11/12 pb-20 md:pb-0 testimonial-slider">
         {{ range (where .Site.Pages "Type" "testimonials" )}}
         <div class="slide">
             <div class="flex flex-wrap md:flex-no-wrap items-start w-11/12 xl:w-2/3 mx-auto testimonial">
@@ -140,9 +141,10 @@
         </div>
         {{ end }}
     </div>
-    <div id="slider-dots" class="hidden md:flex w-10/12 lg:w-8/12 xl:w-5/12 mx-auto py-8 md:py-4 xl:py-6 pl-12 md:pl-20 xl:pl-8 xxl:max-w-xl z-10">
+    <div id="slider-dots" class="hidden md:block flex-wrap w-10/12 lg:w-8/12 xl:w-5/12 mx-auto py-8 md:py-4 xl:py-6 pl-12 md:pl-20 xl:pl-8 z-10">
         
     </div>
+</div>
 
     <div class="flex flex-wrap w-full mx-auto py-48 max-w-8xl">
         <h2 class="w-full font-copy text-3xl text-color-02A89B text-center pb-12">{{ .Params.home_partners_title }}</h2>
