@@ -201,13 +201,13 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "Bill Pay"
         name = "Bill Pay"
-        url = "/"
+        url = "/online_payment/"
         parent = "Site Navigation"
         weight = 6
     [[menu.footer]]
         identifier = "Client Login"
         name = "Client Login"
-        url = "/"
+        url = "/client_access_panel/"
         parent = "Site Navigation"
         weight = 7
     [[menu.footer]]

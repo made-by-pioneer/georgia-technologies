@@ -22,3 +22,9 @@ HUGO_VERSION = "0.61.0"
   to = "https://www.georgiatechnologies.com/applications/Employment_Application.pdf"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/remote-support"
+  to = "http://screenconnect.georgiatechnologies.com:8040/"
+  status = 301
+  force = true
