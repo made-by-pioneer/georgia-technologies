@@ -1,7 +1,7 @@
 +++
 date = "2019-04-24T05:00:00+00:00"
 type = "page"
-layout = "thankYou"
+layout = "thank-you"
 url = "/thank-you/"
 title = "Thank You"
 page_status = "thank-you"

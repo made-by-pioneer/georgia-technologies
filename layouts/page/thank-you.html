@@ -1,12 +1,11 @@
 {{ define "main" }}
-<style>#thank-you{background-image:url("{{ .Site.Params.utility_images.thank_you_background }}");background-size:auto;background-repeat:no-repeat;}</style>
 
 <section id="thank-you" class="flex h-screen">
-  <div class="flex w-full bg-blk-overlay text-center">
-  <div class="w-5/6 mx-auto text-white pt-32">
-    <h1 class="text-2xl lg:text-4xl pb-4"><span class="bg-black p-1 italic">Thank you!</span> your submission has been received.</h1>
-    <h2 class="text-lg lg:text-2xl font-thin pb-6">We will be in touch shortly.</h2>
-    <a href="/" class="bg-black text-base lg:text-xl text-white rounded-lg py-2 px-4 uppercase no-underline">Return to Home Page</a>
+  <div class="flex w-full text-center">
+  <div class="w-5/6 mx-auto text-black pt-32">
+    <h1 class="w-full md:w-7/12 font-copy text-3xl md:text-xl lg:text-3xl xl:text-4xl xxl:text-5xl pb-5 mx-auto leading-tight"><span class="bg-color-003644 text-white p-1 italic">Thank you!</span> your submission has been received.</h1>
+    <h2 class="font-pt text-base pb-8 md:px-5 lg:px-0">We will be in touch shortly.</h2>
+    <a href="/" class="bg-color-003644 text-base lg:text-xl text-white rounded-lg py-2 px-4 uppercase no-underline">Return to Home Page</a>
   </div>
   </div>
 </section>

@@ -343,14 +343,14 @@ enableRobotsTXT = true
         isPlainText = false
         mediaType = "application/xml"
         path = "/"
-    [outputFormats.siteposts]
-        baseName = "siteposts"
+    [outputFormats.services]
+        baseName = "services"
         isPlainText = false
         mediaType = "application/xml"
         path = "/"
 
 [outputs]
-  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS"]
+  home = ["HTML", "sitemapindex", "sitepages", "services", "RSS"]
 
 [params.extra_tools]
     algolia_search = false

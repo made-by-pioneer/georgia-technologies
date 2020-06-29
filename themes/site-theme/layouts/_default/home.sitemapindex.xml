@@ -5,7 +5,7 @@
 	   	<lastmod>2019-04-23T15:04:05-07:00</lastmod>
 	</sitemap>
 	<sitemap>
-	   	<loc>{{ .Site.BaseURL }}siteposts.xml</loc>
+	   	<loc>{{ .Site.BaseURL }}services.xml</loc>
 	   	<lastmod>2019-04-23T15:04:05-07:00</lastmod>
 	</sitemap>
 </sitemapindex>

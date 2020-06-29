@@ -45,6 +45,11 @@
                         <div class="w-10/12 pb-3 pr-5">
                             <h2 class="font-copy text-lg xxl:text-xl leading-tight">{{ .Params.name }}</h2>
                             <p class="font-copy text-base font-thin leading-tight pt-3 pb-6">{{ .Params.description }}</p>
+                            <noscript>
+                                <a href="/services/{{ .Params.name | lower | urlize }}/" class="bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 py-2 px-8 service-box-button-{{ .Params.name | lower | urlize }}">
+                                    Learn More
+                                </a>
+                            </noscript>
                             <a href="/services/{{ .Params.name | lower | urlize }}/" class="hidden bg-color-02DACA hover:bg-color-02C1B2 font-copy text-base text-color-003644 py-2 px-8 service-box-button-{{ .Params.name | lower | urlize }}">
                                 Learn More
                             </a>
@@ -97,6 +102,17 @@
             </div>
         </div>
     </div>
+
+    <noscript class="flex flex-wrap w-full text-center">
+        <style>
+            .testimonial-slider {
+                display: none !important;
+            }
+        </style>
+        <div class="w-auto bg-color-02DACA mx-auto p-4 rounded">
+            <h6 class="font-pt text-base text-center">Please enable Javascript on your browser to see our client testimonials.</h6>
+        </div>
+    </noscript>
 
     <div class="flex flex-wrap w-11/12 max-w-8xl mx-auto pb-20 md:pb-0 testimonial-slider">
         {{ range (where .Site.Pages "Type" "testimonials" )}}
