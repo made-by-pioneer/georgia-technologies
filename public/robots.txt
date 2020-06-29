@@ -1,7 +1,6 @@
 User-agent: *
 
-Disallow: /
 
 
 
-Sitemap: https://geotech.netlify.com/sitemapindex.xml
+Sitemap: https://www.georgiatechnologies.com/sitemapindex.xml
