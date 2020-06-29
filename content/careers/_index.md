@@ -35,4 +35,4 @@ button_text = "Learn More About Georgia Technologies"
 image = "/v1591974779/Georgia%20Technologies/group-photo_ysq7ou.jpg"
 
 +++
-A great company begins with a great staff, and Georgia Technologies selects skilled professionals that reflect the values that make us a leader in providing exceptional managed IT services to our customers. We look for talented people with effective communication and interpersonal skills that apply the principles of honesty, integrity, and innovation to their career. If you are interested in being part of our growing company, we invite you to submit an Employment Application.
+A great company begins with a great staff, and Georgia Technologies selects skilled professionals that reflect the values that make us a leader in providing exceptional managed IT services to our customers. We look for talented people with effective communication and interpersonal skills that apply the principles of honesty, integrity, and innovation to their career. If you are interested in being part of our growing company, we invite you to submit an Employment Application found under our job listings below.
