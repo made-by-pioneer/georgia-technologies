@@ -1,7 +1,7 @@
 +++
 date = 2019-04-24T05:00:00Z
 layout = "terms-of-use"
-meta_description = "Default meta desciption for the page."
+meta_description = "The terms of use for Georgia Technologies"
 page_status = "terms-of-use"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "Terms of Use"

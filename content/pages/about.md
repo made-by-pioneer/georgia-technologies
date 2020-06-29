@@ -1,7 +1,7 @@
 +++
 date = 2019-04-24T05:00:00Z
 layout = "about"
-meta_description = "Default meta desciption for the page."
+meta_description = "We’ve been providing outstanding customer care alongside managed IT services and emerging technology products to Southeast Georgia since 1999."
 page_status = "about"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "About"

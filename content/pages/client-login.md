@@ -1,7 +1,7 @@
 +++
 date = 2019-04-24T05:00:00Z
 layout = "client-login"
-meta_description = "Default meta desciption for the page."
+meta_description = "Login to your account."
 page_status = "about"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "Client Access Portal"

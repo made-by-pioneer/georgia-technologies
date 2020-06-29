@@ -1,7 +1,7 @@
 +++
 date = 2019-04-24T05:00:00Z
 layout = "careers"
-meta_description = "Default meta desciption for the page."
+meta_description = "If you are interested in being part of our growing company, we invite you to submit an Employment Application."
 page_status = "careers"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "Careers"
@@ -32,7 +32,7 @@ title = "Current Openings"
 [top_section]
 button_link = "/about/"
 button_text = "Learn More About Georgia Technologies"
-image = "/v1575165228/Georgia%20Technologies/Testimonial_Photo_esck7c.png"
+image = "/v1591974779/Georgia%20Technologies/group-photo_ysq7ou.jpg"
 
 +++
-A great company begins with a great staff, and Georgia Technologies selects skilled professionals that reflect the values that make us a leader in providing exceptional managed IT services to our customers. We look for talented people with effective communication and interpersonal skills that apply the principles of honesty, integrity, and innovation to their career. If you are interested in being part of our growing company, we invite you to submit an Employment Application to
+A great company begins with a great staff, and Georgia Technologies selects skilled professionals that reflect the values that make us a leader in providing exceptional managed IT services to our customers. We look for talented people with effective communication and interpersonal skills that apply the principles of honesty, integrity, and innovation to their career. If you are interested in being part of our growing company, we invite you to submit an Employment Application.
