@@ -213,7 +213,7 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "Remote Support"
         name = "Remote Support"
-        url = "/"
+        url = "http://screenconnect.georgiatechnologies.com:8040/"
         parent = "Site Navigation"
         weight = 8
 [[menu.footer]]
