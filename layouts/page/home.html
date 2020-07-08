@@ -40,7 +40,6 @@
                     <div class="flex flex-wrap w-full md:w-11/12 bg-white border border-color-e6e6e6 hover:border-color-02DACA mb-6 p-4 hover:cursor-pointer rounded service-box-{{ .Params.name | lower | urlize }}">
                         <div class="w-2/12 mx-auto">
                             <img class="pt-1half mx-auto not-rotated-service-icon service-box-icon-{{ .Params.name | lower | urlize }}" src="{{ .Site.Params.tracking.cloudinary_url }}/v1575055112/Georgia%20Technologies/Shape_Copy_3_gwhgj8.svg">
-                            <!-- <i class="text-3xl pl-1 fas fa-angle-down service-box-icon-{{ .Params.name | lower | urlize }}"></i> -->
                         </div>
                         <div class="w-10/12 pb-3 pr-5">
                             <h2 class="font-copy text-lg xxl:text-xl leading-tight">{{ .Params.name }}</h2>
@@ -98,7 +97,7 @@
                 </a>
             </div>
             <div class="w-full md:w-1/2 pb-12 md:pb-0 md:pl-12">
-                <img class="mx-auto" src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.homepage_list.image }}">
+                <img id="lzy-img" class="mx-auto" data-src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.homepage_list.image }}">
             </div>
         </div>
     </div>
@@ -124,7 +123,7 @@
                         background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.photo }}");
                     }
                 </style>
-                <div class="w-2/3 sm:w-7/12 md:w-1/3 lg:w-1/2 bg-contain lg:bg-cover bg-top-left sm:bg-center bg-no-repeat mb-5 md:mb-0 py-32 lg:py-56 testimonial-image-{{ .Params.name | urlize }}"></div>
+                <div id="lzy-bk" class="w-2/3 sm:w-7/12 md:w-1/3 lg:w-1/2 bg-contain lg:bg-cover bg-top-left sm:bg-center bg-no-repeat mb-5 md:mb-0 py-32 lg:py-56 testimonial-image-{{ .Params.name | urlize }}"></div>
                 <div class="md:hidden flex flex-wrap w-1/3 sm:w-5/12 h-40 slider-thumbs">
                     {{ range (where .Site.Pages "Type" "testimonials" )}}
                         <a class="w-full h-0 mx-2">
@@ -151,7 +150,7 @@
         <div class="flex flex-wrap w-3/4 mx-auto">
             {{ range (where .Site.Pages "Type" "partners" )}}
             <div class="w-auto mx-auto p-5">
-                <img class="w-56" src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.logo }}">
+                <img id="lzy-img" class="w-56" src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.logo }}">
             </div>
             {{ end }}
         </div>
