@@ -1,7 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import "tiny-slider/dist/tiny-slider.css";
 
 @import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
 
@@ -31,32 +30,4 @@ html {
 .mobile-menu-button button {
   background-color: transparent;
   border-color: transparent;
-}
-
-/* Elevator css */
-
-.elevator-button {
-  position: fixed;
-  font-size: 30px;
-  right: 5%;
-  bottom: 10%;
-  transition: .2s;
-}
-
-.hidegotoTop {
-  right: -100px !important;
-  transition: .2s;
-}
-
-.elevator-button:hover {
-  cursor: pointer;
-  padding-bottom: 5px;
-}
-
-/* default backgrounds */
-
-#thank-you {
-  background-image: url("{{ .Site.Params.utility_images.thank_you_background }}");
-  background-size: auto;
-  background-repeat: no-repeat;
 }

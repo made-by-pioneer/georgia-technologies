@@ -1,10 +1,12 @@
 import styles from './../css/main.css';
-import JQueryMarquee from 'jquery.marquee';
+import jQuery from "jquery";
+// import JQueryMarquee from 'jquery.marquee';
 import slick from 'slick-carousel';
-import { tns } from "tiny-slider/src/tiny-slider";
 import MicroModal from 'micromodal';
 
-$('.marquee').marquee();
+window.$ = window.jQuery = jQuery;
+
+// $('.marquee').marquee();
 
 // Lazy load script (background images)
 
@@ -156,29 +158,15 @@ openSelect.onclick = function() {
   selectPlaceholder2.classList.toggle('md:hidden');
 };
 
-// Sliders
+// testimonial slider
 
-// var slider = tns({
-//   "container": "#homepage-slider-images",
-//   "items": 1,
-//   "controlsContainer": "#slider-controls",
-//   "swipeAngle": false,
-//   "speed": 400,
-//   "center": true,
-//   "mouseDrag": true,
-//   "mode": "gallery",
-//   "autoplay": false,
-//   "autoplayHoverPause": true
-// });
+$('.testimonial-slider').slick({arrows:false, dots: true,infinite:true, speed:1000, slidesToShow:1, slidesToScroll:1, lazyLoad: 'ondemand', fade: true, appendDots: '#slider-dots', customPaging: function(slider, i) { return '<div class="bg-color-004A5D hover:bg-color-02DACA w-2 h-2 m-1 hover:cursor-pointer slider-dot"></div>';
+},autoplay: true, autoplaySpeed: 4000,});
 
-// var sliderTestimonials = tns({
-//   "container": "#testimonial-slider-images",
-//   "items": 1,
-//   "controlsContainer": "#testimonial-slider-controls",
-//   "swipeAngle": false,
-//   "speed": 400,
-//   "center": true,
-//   "mouseDrag": true
-// });
+$(".slider-thumbs a").click(function(e){
+  e.preventDefault();
+  slideIndex = $(this).index();
+  $( '.testimonial-slider' ).slick('slickGoTo', parseInt(slideIndex));
+});
 
-// END
+// END testimonial slider

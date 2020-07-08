@@ -1,25 +1,10 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 {{ $script := .Site.Data.webpack_assets.app }}
 {{ with $script.js }}
   <script defer src="{{ absURL (printf "%s%s" "/dist/" .) }}"></script>
 {{ end }}
 
 {{ if eq .Title "Home" }}
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/><script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<script type="text/javascript">
-$('.testimonial-slider').slick({arrows:false, dots: true,infinite:true, speed:1000, slidesToShow:1, slidesToScroll:1, lazyLoad: 'ondemand', fade: true, appendDots: '#slider-dots', customPaging: function(slider, i) { return '<div class="bg-color-004A5D hover:bg-color-02DACA w-2 h-2 m-1 hover:cursor-pointer slider-dot"></div>';
-},autoplay: true, autoplaySpeed: 4000,});
-</script>
-
-<script> 
-  $(".slider-thumbs a").click(function(e){
-      e.preventDefault();
-      slideIndex = $(this).index();
-      $( '.testimonial-slider' ).slick('slickGoTo', parseInt(slideIndex));
-  });
-</script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/>
 {{ else }}{{ end }}
 
 {{ if eq .Site.Params.extra_tools.floating_header true }}
