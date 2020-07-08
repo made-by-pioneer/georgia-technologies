@@ -28,3 +28,11 @@ HUGO_VERSION = "0.61.0"
   to = "http://screenconnect.georgiatechnologies.com:8040/"
   status = 301
   force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
