@@ -97,7 +97,7 @@
                 </a>
             </div>
             <div class="w-full md:w-1/2 pb-12 md:pb-0 md:pl-12">
-                <img id="lzy-img" class="mx-auto" data-src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.homepage_list.image }}">
+                <img id="lzy-img" class="mx-auto" src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.homepage_list.image }}">
             </div>
         </div>
     </div>
@@ -107,11 +107,15 @@
             .testimonial-slider {
                 display: none !important;
             }
+            .testimonial-slider-alert {
+                display: flex !important;
+            }
         </style>
-        <div class="w-auto bg-color-02DACA mx-auto p-4 rounded">
-            <h6 class="font-pt text-base text-center">Please enable Javascript on your browser to see our client testimonials.</h6>
-        </div>
     </noscript>
+
+    <div class="hidden w-auto bg-color-02DACA mx-auto p-4 rounded testimonial-slider-alert">
+        <h6 class="font-pt text-base text-center">Please enable Javascript or download a <a target="_blank" href="https://www.google.com/chrome/"><u>modern browser</u></a> to see our client testimonials.</h6>
+    </div>
 
 <div class="flex flex-wrap w-full max-w-8xl mx-auto">
     <div class="flex flex-wrap w-11/12 pb-20 md:pb-0 testimonial-slider">
