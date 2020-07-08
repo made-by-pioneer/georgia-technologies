@@ -33,9 +33,9 @@ url = "/industries/government-and-education/"
 name = "non-profits"
 url = "/industries/non-profits/"
 [logos]
-footer_logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1578585374/Georgia%20Technologies/GT.FullLogo.Final.White_izl7og.svg"
-logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1578585374/Georgia%20Technologies/GT.FullLogo.Final.White_izl7og.svg"
-mobile_logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1578585374/Georgia%20Technologies/GT.FullLogo.Final.White_izl7og.svg"
+footer_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1578585374/Georgia%20Technologies/GT.FullLogo.Final.White_izl7og.svg"
+logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1578585374/Georgia%20Technologies/GT.FullLogo.Final.White_izl7og.svg"
+mobile_logo = "https://res.cloudinary.com/pioneer-design/image/upload/w_auto,dpr_auto,c_fill,g_auto,f_auto/v1578585374/Georgia%20Technologies/GT.FullLogo.Final.White_izl7og.svg"
 [meta]
 description = "The experienced Georgia Technologies team works with businesses and organizations across Georgia, providing leading managed IT services."
 [news_ticker]

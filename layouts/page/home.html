@@ -98,7 +98,7 @@
                 </a>
             </div>
             <div class="w-full md:w-1/2 pb-12 md:pb-0 md:pl-12">
-                <img class="mx-auto" src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.homepage_list.image }}">
+                <img class="mx-auto" src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.homepage_list.image }}">
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
             <div class="flex flex-wrap md:flex-no-wrap items-start w-11/12 xl:w-2/3 mx-auto testimonial">
                 <style>
                     .testimonial-image-{{ .Params.name | urlize }} {
-                        background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.photo }}");
+                        background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.photo }}");
                     }
                 </style>
                 <div class="w-2/3 sm:w-7/12 md:w-1/3 lg:w-1/2 bg-contain lg:bg-cover bg-top-left sm:bg-center bg-no-repeat mb-5 md:mb-0 py-32 lg:py-56 testimonial-image-{{ .Params.name | urlize }}"></div>
@@ -151,7 +151,7 @@
         <div class="flex flex-wrap w-3/4 mx-auto">
             {{ range (where .Site.Pages "Type" "partners" )}}
             <div class="w-auto mx-auto p-5">
-                <img class="w-56" src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.logo }}">
+                <img class="w-56" src="{{ .Site.Params.tracking.cloudinary_url }}/w_auto,dpr_auto,c_fill,g_auto,f_auto/{{ .Params.logo }}">
             </div>
             {{ end }}
         </div>
