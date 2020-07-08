@@ -71,12 +71,31 @@ if (isIE11 === false) {
 </script>
 <!-- END check ie11 status for lazy loading images -->
 
+<!-- noscript and ie11 conflict resolution -->
+
+<noscript class="flex flex-wrap w-full text-center">
+  <style>
+      .script-conflict {
+          display: none !important;
+      }
+      .script-conflict-alert {
+          display: flex !important;
+      }
+  </style>
+</noscript>
+
 <script>
   if (isIE11 === true) {
-    let testimonialSlider = document.querySelector(".testimonial-slider")
-    let testimonialSliderAlert = document.querySelector(".testimonial-slider-alert")
-    testimonialSlider.classList.add("hidden");
-    testimonialSlider.classList.remove("flex");
-    testimonialSliderAlert.classList.remove("hidden");
+    let scriptConflictEle = document.querySelectorAll(".script-conflict")
+    for (i = 0; i < scriptConflictEle.length; ++i) {
+      scriptConflictEle[i].classList.add("hidden");
+      scriptConflictEle[i].classList.remove("flex");
+    }
+    let scriptConflictAlert = document.querySelectorAll(".script-conflict-alert")
+    for (i = 0; i < scriptConflictAlert.length; ++i) {
+      scriptConflictAlert[i].classList.remove("hidden");
+    }
   }
 </script>
+
+<!-- END noscript and ie11 conflict resolution -->

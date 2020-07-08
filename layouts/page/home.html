@@ -102,23 +102,10 @@
         </div>
     </div>
 
-    <noscript class="flex flex-wrap w-full text-center">
-        <style>
-            .testimonial-slider {
-                display: none !important;
-            }
-            .testimonial-slider-alert {
-                display: flex !important;
-            }
-        </style>
-    </noscript>
-
-    <div class="hidden w-auto bg-color-02DACA mx-auto p-4 rounded testimonial-slider-alert">
-        <h6 class="font-pt text-base text-center">Please enable Javascript or download a <a target="_blank" href="https://www.google.com/chrome/"><u>compatible browser</u></a> to see our client testimonials.</h6>
-    </div>
+    {{ partial "utilities/script-conflict-alert" . }}
 
 <div class="flex flex-wrap w-full max-w-8xl mx-auto">
-    <div class="flex flex-wrap w-11/12 pb-20 md:pb-0 testimonial-slider">
+    <div class="flex flex-wrap w-11/12 pb-20 md:pb-0 script-conflict testimonial-slider">
         {{ range (where .Site.Pages "Type" "testimonials" )}}
         <div class="slide">
             <div class="flex flex-wrap md:flex-no-wrap items-start w-11/12 xl:w-2/3 mx-auto testimonial">
