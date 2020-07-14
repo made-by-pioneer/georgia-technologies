@@ -1,5 +1,7 @@
-{{ if eq .Site.Params.publishing_settings.site_in_production true }}
-<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+{{ if eq .Page.Params.robotsdisallow true }}
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ else }}
-    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    {{ if eq .Site.Params.publishing_settings.site_in_production true }}
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    {{ end }}
 {{ end }}
