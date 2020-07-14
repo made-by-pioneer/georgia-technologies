@@ -7,5 +7,5 @@ title = "Thank You"
 page_status = "thank-you"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 meta_description = "Thank you - we will be in touch soon."
-robotsdisallow = "true"
+robotsdisallow = true
 +++

@@ -10,5 +10,5 @@ url = "/online_payment/approved"
 [top_section]
 title = "Your payment is approved"
 text = "If you inputted an email, you will recieve a receipt shortly."
-robotsdisallow = "true"
+robotsdisallow = true
 +++

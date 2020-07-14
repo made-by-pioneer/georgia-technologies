@@ -10,5 +10,5 @@ url = "/online_payment/declined"
 [top_section]
 title = "Your payment was declined"
 text = "The reason for payment failure is printed below."
-robotsdisallow = "true"
+robotsdisallow = true
 +++
