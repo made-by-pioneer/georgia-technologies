@@ -6,7 +6,7 @@ page_status = "sales-confirmation"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "Client Access Portal"
 type = "page"
-url = "/sales-confirmation/"
+url = "/sales_confirmation/"
 [top_section]
 title = "Sales Confirmation"
 

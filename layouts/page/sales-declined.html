@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<style>
+.payment-declined {
+    background-color: #ff0033;
+}
+.fa-exclamation-triangle {
+    color: #ff0033;
+}
+</style>
+
+<div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
+    <div class="flex flex-wrap w-5/6 md:w-4/5 mx-auto">
+        <div class="w-full md:w-2/3 mr-auto">
+            <h1 class="font-copy text-xl leading-tight pb-3 md:pb-0">{{ .Params.top_section.title }}<i class="pl-1 fas fa-exclamation-triangle"></i></i></h1>
+            <p class="font-copy text-base pb-6">{{ .Params.top_section.text }}</p>
+        </div>
+    </div>
+</div>
+
+<div class="flex flex-wrap pt-5 pb-48 mx-auto max-w-8xl">
+    <div class="flex flex-wrap items-start w-4/5 mx-auto">
+        <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 pb-12 lg:pb-0">
+            <p id="error-reason" class="font-copy text-base text-white mb-8 p-5 payment-declined"></p>
+            <h4 class="w-full font-copy text-sm pb-5">Please try again using the pay bill button below.</h4>
+            <a id="try-payment-again" class="w-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-5 py-4 px-6 md:px-8 leading-none">
+                Return to sales confirmation page
+            </a>
+            <h4 class="w-full font-copy text-sm pb-5">If you have tried several times, please contact us using the subject "Account/Billing Questions".</h4>
+            <a href="/contact/" class="w-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 py-2 px-6 md:px-8">
+                Contact Us
+            </a>
+            <h6 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6">For your reference, here is a copy of our <a href="/privacy-policy/" target="_blank"><u>Privacy Policy</u></a> and <a href="/terms-of-use/" target="_blank"><u>Terms of Use.</u></a></h6>
+        </div>
+    </div>
+</div>
+
+<script>
+    let queryString = window.location.search;
+    let urlParams = new URLSearchParams(queryString);
+    let propNum = urlParams.get('UMinvoice');
+    let propAmo = urlParams.get('UMamount');
+    let errorReason = urlParams.get('UMerror');
+    document.querySelector("#try-payment-again").href = "/sales_confirmation?propNum=" + propNum + "&propAmo=" + propAmo;
+</script>
+
+{{ end }}
