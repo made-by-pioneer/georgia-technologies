@@ -81,8 +81,6 @@ textarea:focus {
                 <h6 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6">Use of this form is subject to the <a href="/privacy-policy/" target="_blank"><u>Privacy Policy</u></a> and <a href="/terms-of-use/" target="_blank"><u>Terms of Use.</u></a></h6>
             </form>
             <form id="pay-by-check-form" class="absolute top-0 hidden flex flex-wrap w-full font-copy" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="sales-confirmation-form" method="POST" netlify>
-                <input type="hidden" name="UMkey" value="Y67MuuS2zI9WQjePH3g9d37aC40y0qgZ" />
-                <input type="hidden" name="UMcommand" value="sale" />
                 <div class="flex flex-wrap w-full">
                     <label class="w-full pb-1">Proposal Number*</label>
                     <input id="propNum-chk" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="number" name="proposal-number" min="1000" max="9999" placeholder="Enter your proposal number here" required>
@@ -143,15 +141,19 @@ textarea:focus {
 </script>
 
 <script>
+    const payMethodSelectionCredit = document.querySelector("#payment-method-select-credit");
+    const payMethodSelectionCheck = document.querySelector("#payment-method-select-check");
+    const emailCredit = document.querySelector("#email-credit");
+    const emailCheck = document.querySelector("#email-check");
+    const agreeCredit = document.querySelector("#agree-credit");
+    const agreeCheck = document.querySelector("#agree-check");
+    const propNumCredit = document.querySelector("#propNum");
+    const propNumCheck = document.querySelector("#propNum-chk");
+    const propAmoCredit = document.querySelector("#propAmo");
+    const propAmoCheck = document.querySelector("#propAmo-chk");
+    const payByCheckForm = document.querySelector("#pay-by-check-form");
+    const payByCreditFrom = document.querySelector("#pay-by-credit-form");
     updateFormCheck = () => {
-        const payMethodSelectionCredit = document.querySelector("#payment-method-select-credit");
-        const payMethodSelectionCheck = document.querySelector("#payment-method-select-check");
-        const emailCredit = document.querySelector("#email-credit");
-        const emailCheck = document.querySelector("#email-check");
-        const agreeCredit = document.querySelector("#agree-credit");
-        const agreeCheck = document.querySelector("#agree-check");
-        const payByCheckForm = document.querySelector("#pay-by-check-form");
-        const payByCreditFrom = document.querySelector("#pay-by-credit-form");
         if (payMethodSelectionCredit.options[payMethodSelectionCredit.selectedIndex].text == "Check") {
             payByCheckForm.classList.remove("hidden");
             payByCreditFrom.classList.add("hidden");
@@ -159,20 +161,19 @@ textarea:focus {
         }
         emailCheck.value = emailCredit.value
         agreeCheck.checked = agreeCredit.checked
+        propNumCheck.value = propNumCredit.value
+        propAmoCheck.value = propAmoCredit.value
     }
     updateFormCredit = () => {
-        const payMethodSelectionCredit = document.querySelector("#payment-method-select-credit");
-        const payMethodSelectionCheck = document.querySelector("#payment-method-select-check");
-        const emailCredit = document.querySelector("#email-credit");
-        const emailCheck = document.querySelector("#email-check");
-        const payByCheckForm = document.querySelector("#pay-by-check-form");
-        const payByCreditFrom = document.querySelector("#pay-by-credit-form");
         if (payMethodSelectionCheck.options[payMethodSelectionCheck.selectedIndex].text == "Credit Card") {
             payByCheckForm.classList.add("hidden");
             payByCreditFrom.classList.remove("hidden");
             payMethodSelectionCredit.value = "Credit Card"
         }
         emailCredit.value = emailCheck.value
+        agreeCredit.checked = agreeCheck.checked
+        propNumCredit.value = propNumCheck.value
+        propAmoCredit.value = propAmoCheck.value
     }
 </script>
 
