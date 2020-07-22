@@ -29,6 +29,12 @@ HUGO_VERSION = "0.61.0"
   status = 301
   force = true
 
+[[redirects]]
+  from = "/sales"
+  to = "/sales_confirmation"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]

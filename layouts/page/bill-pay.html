@@ -51,19 +51,30 @@ textarea:focus {
 		        <input type="hidden" name="UMcommand" value="sale" />
                 <div class="flex flex-wrap w-full">
                     <label class="w-full pb-1">Invoice Number(s)*</label>
-                    <input class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="number" name="UMinvoice" value="" min="100000" max="999999" placeholder="e.g. 123456, 789012" required>
+                    <input id="invoNum" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="number" name="UMinvoice" value="" min="100000" max="999999" placeholder="e.g. 123456, 789012" required>
                 </div>
                 <div class="flex flex-wrap w-full">
                     <label class="w-full pb-1">Payment Amount*</label>
-                    <input class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="UMamount" value="" placeholder="e.g. $2489.99" required>
+                    <input id="invoAmo" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="UMamount" value="" placeholder="e.g. $2489.99" required>
                 </div>
                 <div class="flex flex-wrap w-full">
                     <input class="w-full md:w-auto ml-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 py-2 px-8 hover:cursor-pointer" type="submit" value="Continue to payment form">
                 </div>
             </form>
-            <h6 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6">Use of this form is subject to the <a href="/privacy-policy/" target="_blank"><u>Privacy Policy</u></a> and <a href="/terms-of-use/" target="_blank"><u>Terms of Use.</u></a></h6>
+            <h6 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6">Use of this form is subject to the <a href="/privacy_policy/" target="_blank"><u>Privacy Policy</u></a> and <a href="/terms/" target="_blank"><u>Terms of Use.</u></a></h6>
         </div>
     </div>
 </div>
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const invoNum = urlParams.get('invoNum');
+    const invoAmo = urlParams.get('invoAmo');
+    document.querySelector("#invoNum").value = invoNum;
+    document.querySelector("#invoAmo").value = invoAmo;
+    document.querySelector("#invoNum-chk").value = invoNum;
+    document.querySelector("#invoAmo-chk").value = invoAmo;
+</script>
 
 {{ end }}
