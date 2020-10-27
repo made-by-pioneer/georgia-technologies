@@ -35,4 +35,4 @@ If you choose to leave this Georgia Technologies Corporation site via links to o
 
 This is a United States website and is subject to United States law. Georgia Technologies Corporation will disclose any information regarding the use of this site including personal information pertaining to you without your permission when required by law, or in good faith belief that such action is necessary to investigate or protect against harmful activities to Georgia Technologies Corporation employees or property (including this site), or to others.
 
-If you would like to view the privacy policies that govern georgiatechnologies.com please review our Privacy Policy.
+If you would like to view the privacy policies that govern georgiatechnologies.com please review our <u>[Privacy Policy](https://www.georgiatechnologies.com/privacy_policy/)</u>.
