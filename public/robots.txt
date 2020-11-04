@@ -1,0 +1,18 @@
+User-agent: *
+
+
+
+Disallow: /online_payment/approved/
+
+Disallow: /sales_confirmation/approved/
+
+Disallow: /online_payment/declined/
+
+Disallow: /sales_confirmation/declined/
+
+Disallow: /thank-you/
+
+Disallow: /phone-system-logos/
+
+
+Sitemap: https://www.georgiatechnologies.com/sitemapindex.xml
