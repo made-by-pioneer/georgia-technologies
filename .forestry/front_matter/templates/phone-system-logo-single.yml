@@ -1,4 +1,22 @@
 ---
 label: Phone System Logo (Single)
 hide_body: true
-fields: []
+fields:
+- name: company_name
+  type: text
+  config:
+    required: true
+  label: Company Name
+- name: company_logo
+  type: file
+  config:
+    maxSize: 64
+  label: Company Logo
+- name: url
+  type: text
+  config:
+    required: true
+  label: URL for Phone System
+  default: https://www.georgiatechnologies.com/client-logos/
+  description: Do NOT delete the default text in this box. Add a unique slug to the
+    end. The logo will be available at this URL after publishing.
