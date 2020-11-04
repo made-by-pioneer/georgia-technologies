@@ -45,7 +45,7 @@ sections:
   templates:
   - employee
 - type: directory
-  path: client-logos
+  path: phone-system-logos
   label: Phone System Logos
   create: all
   match: "**/*"
