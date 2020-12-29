@@ -1,361 +1,352 @@
 baseURL = "https://www.georgiatechnologies.com/"
+enableRobotsTXT = true
 languageCode = "en-us"
 theme = "site-theme"
 title = "Georgia Technologies"
-enableRobotsTXT = true
-
-[[menu.desktop]]
-    identifier = "Managed Services"
-    name = "Managed Services"
-    url = "/services/"
-    weight = 1
-[[menu.desktop]]
-    identifier = "Industries"
-    name = "Industries"
-    url = "/industries/"
-    weight = 2
-[[menu.desktop]]
-    identifier = "About"
-    name = "About"
-    url = "/about/"
-    weight = 3
-[[menu.desktop]]
-    identifier = "Contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
-[[menu.desktop]]
-    identifier = "Bill Pay"
-    name = "Bill Pay"
-    url = "/online_payment/"
-    weight = 4
-[[menu.desktop]]
-    identifier = "Client Login"
-    name = "Client Login"
-    url = "/client_access_panel/"
-    weight = 4
-[[menu.mobile]]
-    identifier = "Managed Services"
-    name = "Managed Services"
-    weight = 1
-        [[menu.mobile]]
-            identifier = "IT Management"
-            name = "IT Management"
-            url = "/services/it-management/"
-            weight = 1
-            parent = "Managed Services"
-        [[menu.mobile]]
-            identifier = "Tech Consulting"
-            name = "Tech Consulting"
-            url = "/services/it-consulting/"
-            weight = 2
-            parent = "Managed Services"
-        [[menu.mobile]]
-            identifier = "Data Backup"
-            name = "Data Backup"
-            url = "/services/data-backup-and-disaster-recovery/"
-            weight = 3
-            parent = "Managed Services"
-        [[menu.mobile]]
-            identifier = "Disaster Recovery"
-            name = "Disaster Recovery"
-            url = "/services/data-backup-and-disaster-recovery/"
-            weight = 4
-            parent = "Managed Services"
-        [[menu.mobile]]
-            identifier = "Phone Systems"
-            name = "Phone Systems"
-            url = "/services/phone-systems/"
-            weight = 5
-            parent = "Managed Services"
-        [[menu.mobile]]
-            identifier = "Cloud Services"
-            name = "Cloud Services"
-            url = "/services/cloud-services/"
-            weight = 6
-            parent = "Managed Services"
-        [[menu.mobile]]
-            identifier = "Surveillance Systems"
-            name = "Surveillance Systems"
-            url = "/services/surveillance-and-access-control/"
-            weight = 7
-            parent = "Managed Services"
-        [[menu.mobile]]
-            identifier = "Access Control"
-            name = "Access Control"
-            url = "/services/surveillance-and-access-control/"
-            weight = 8
-            parent = "Managed Services"
-[[menu.mobile]]
-    identifier = "Industries We Serve"
-    name = "Industries We Serve"
-    weight = 2
-        [[menu.mobile]]
-            identifier = "Healthcare"
-            name = "Healthcare"
-            url = "/industries/healthcare-and-medical/"
-            weight = 1
-            parent = "Industries We Serve"
-        [[menu.mobile]]
-            identifier = "Business"
-            name = "Business"
-            url = "/industries/professional-services/"
-            weight = 2
-            parent = "Industries We Serve"
-        [[menu.mobile]]
-            identifier = "Manufacturing"
-            name = "Manufacturing"
-            url = "/industries/manufacturing-and-construction/"
-            weight = 3
-            parent = "Industries We Serve"
-        [[menu.mobile]]
-            identifier = "Construction"
-            name = "Construction"
-            url = "/industries/manufacturing-and-construction/"
-            weight = 4
-            parent = "Industries We Serve"
-        [[menu.mobile]]
-            identifier = "Government"
-            name = "Government"
-            url = "/industries/government-and-education/"
-            weight = 5
-            parent = "Industries We Serve"
-        [[menu.mobile]]
-            identifier = "Education"
-            name = "Education"
-            url = "/industries/government-and-education/"
-            weight = 6
-            parent = "Industries We Serve"
-        [[menu.mobile]]
-            identifier = "Non-Profits"
-            name = "Non-Profits"
-            url = "/industries/non-profits/"
-            weight = 7
-            parent = "Industries We Serve"
-[[menu.mobile]]
-    identifier = "About Us"
-    name = "About Us"
-    weight = 3
-        [[menu.mobile]]
-            identifier = "Meet the Team"
-            name = "Meet the Team"
-            url = "/about/"
-            weight = 1
-            parent = "About Us"
-        [[menu.mobile]]
-            identifier = "Careers"
-            name = "Careers"
-            url = "/careers/"
-            weight = 2
-            parent = "About Us"
-[[menu.mobile]]
-    identifier = "Contact Us"
-    name = "Contact Us"
-    weight = 4
-        [[menu.mobile]]
-            identifier = "Call us now"
-            name = "Call us now"
-            url = "tel:9124897427"
-            weight = 1
-            parent = "Contact Us"
-        [[menu.mobile]]
-            identifier = "Email us now"
-            name = "Email us now"
-            url = "/page-11/"
-            weight = 2
-            parent = "Contact Us"
-[[menu.footer]]
-    identifier = "Site Navigation"
-    name = "Site Navigation"
-    weight = 1
-    [[menu.footer]]
-        identifier = "Home"
-        name = "Home"
-        url = "/"
-        parent = "Site Navigation"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Managed IT Services"
-        name = "Managed IT Services"
-        url = "/services/"
-        parent = "Site Navigation"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Industries"
-        name = "Industries"
-        url = "/industries/"
-        parent = "Site Navigation"
-        weight = 3
-    [[menu.footer]]
-        identifier = "About"
-        name = "About"
-        url = "/about/"
-        parent = "Site Navigation"
-        weight = 4
-    [[menu.footer]]
-        identifier = "Contact"
-        name = "Contact"
-        url = "/contact/"
-        parent = "Site Navigation"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Bill Pay"
-        name = "Bill Pay"
-        url = "/online_payment/"
-        parent = "Site Navigation"
-        weight = 6
-    [[menu.footer]]
-        identifier = "Client Login"
-        name = "Client Login"
-        url = "/client_access_panel/"
-        parent = "Site Navigation"
-        weight = 7
-    [[menu.footer]]
-        identifier = "Remote Support"
-        name = "Remote Support"
-        url = "http://screenconnect.georgiatechnologies.com:8040/"
-        parent = "Site Navigation"
-        weight = 8
-[[menu.footer]]
-    identifier = "IT Management Services"
-    name = "IT Management Services"
-    weight = 2
-    [[menu.footer]]
-        identifier = "IT Management"
-        name = "IT Management"
-        url = "/services/it-management/"
-        parent = "IT Management Services"
-        weight = 1
-    [[menu.footer]]
-        identifier = "IT Consulting"
-        name = "IT Consulting"
-        url = "/services/it-consulting/"
-        parent = "IT Management Services"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Data Backup"
-        name = "Data Backup"
-        url = "/services/data-backup-and-disaster-recovery/"
-        parent = "IT Management Services"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Disaster Recovery"
-        name = "Disaster Recovery"
-        url = "/services/data-backup-and-disaster-recovery/"
-        parent = "IT Management Services"
-        weight = 4
-    [[menu.footer]]
-        identifier = "Phone Systems"
-        name = "Phone Systems"
-        url = "/services/phone-systems/"
-        parent = "IT Management Services"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Cloud Services"
-        name = "Cloud Services"
-        url = "/services/cloud-services/"
-        parent = "IT Management Services"
-        weight = 6
-    [[menu.footer]]
-        identifier = "Surveillance Systems"
-        name = "Surveillance Systems"
-        url = "/services/surveillance-and-access-control/"
-        parent = "IT Management Services"
-        weight = 7
-    [[menu.footer]]
-        identifier = "Access Control"
-        name = "Access Control"
-        url = "/services/surveillance-and-access-control/"
-        parent = "IT Management Services"
-        weight = 8
-[[menu.footer]]
-    identifier = "Industries We Serve"
-    name = "Industries We Serve"
-    weight = 3
-    [[menu.footer]]
-        identifier = "Healthcare and Medical"
-        name = "Healthcare and Medical"
-        url = "/industries/healthcare-and-medical/"
-        parent = "Industries We Serve"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Professional Services"
-        name = "Professional Services"
-        url = "/industries/professional-services/"
-        parent = "Industries We Serve"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Commercial"
-        name = "Commercial"
-        url = "/industries/commercial/"
-        parent = "Industries We Serve"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Manufacturing"
-        name = "Manufacturing"
-        url = "/industries/manufacturing-and-construction/"
-        parent = "Industries We Serve"
-        weight = 4
-    [[menu.footer]]
-        identifier = "Construction"
-        name = "Construction"
-        url = "/industries/manufacturing-and-construction/"
-        parent = "Industries We Serve"
-        weight = 5
-    [[menu.footer]]
-        identifier = "Government"
-        name = "Government"
-        url = "/industries/government-and-education/"
-        parent = "Industries We Serve"
-        weight = 6
-    [[menu.footer]]
-        identifier = "Education"
-        name = "Education"
-        url = "/industries/government-and-education/"
-        parent = "Industries We Serve"
-        weight = 7
-    [[menu.footer]]
-        identifier = "Non-Profits"
-        name = "Non-Profits"
-        url = "/industries/non-profits/"
-        parent = "Industries We Serve"
-        weight = 8
-[params.tracking]
-    cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
-[params.publishing_settings]
-    site_in_production = true
-
-[mediaTypes]
-  [mediaTypes."text/noExt"]
-    suffixes = ""
-
-[sitemap]
-    filename = "sitepages.xml"
-
-[outputFormats]
-    [outputFormats.sitemapindex]
-        baseName = "sitemapindex"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.sitepages]
-        baseName = "sitepages"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.services]
-        baseName = "services"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-
-[outputs]
-  home = ["HTML", "sitemapindex", "sitepages", "services", "RSS"]
-
-[params.extra_tools]
-    algolia_search = false
-    font_awesome = true
-    floating_header = true
-
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
+[mediaTypes."text/noExt"]
+suffixes = ""
+[[menu.desktop]]
+identifier = "Client Login"
+name = "Client Login"
+url = "/client_access_panel/"
+weight = 4
+[[menu.desktop]]
+identifier = "Bill Pay"
+name = "Bill Pay"
+url = "/online_payment/"
+weight = 5
+[[menu.desktop]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
+weight = 6
+[[menu.desktop]]
+identifier = "About"
+name = "About"
+url = "/about/"
+weight = 3
+[[menu.desktop]]
+identifier = "Industries"
+name = "Industries"
+url = "/industries/"
+weight = 2
+[[menu.desktop]]
+identifier = "Managed Services"
+name = "Managed Services"
+url = "/services/"
+weight = 1
+[[menu.footer]]
+identifier = "Access Control"
+name = "Access Control"
+parent = "IT Management Services"
+url = "/services/surveillance-and-access-control/"
+weight = 8
+[[menu.footer]]
+identifier = "Non-Profits"
+name = "Non-Profits"
+parent = "Industries We Serve"
+url = "/industries/non-profits/"
+weight = 8
+[[menu.footer]]
+identifier = "Remote Support"
+name = "Remote Support"
+parent = "Site Navigation"
+url = "https://screenconnect.georgiatechnologies.com"
+weight = 8
+[[menu.footer]]
+identifier = "Education"
+name = "Education"
+parent = "Industries We Serve"
+url = "/industries/government-and-education/"
+weight = 7
+[[menu.footer]]
+identifier = "Surveillance Systems"
+name = "Surveillance Systems"
+parent = "IT Management Services"
+url = "/services/surveillance-and-access-control/"
+weight = 7
+[[menu.footer]]
+identifier = "Client Login"
+name = "Client Login"
+parent = "Site Navigation"
+url = "/client_access_panel/"
+weight = 7
+[[menu.footer]]
+identifier = "Bill Pay"
+name = "Bill Pay"
+parent = "Site Navigation"
+url = "/online_payment/"
+weight = 6
+[[menu.footer]]
+identifier = "Cloud Services"
+name = "Cloud Services"
+parent = "IT Management Services"
+url = "/services/cloud-services/"
+weight = 6
+[[menu.footer]]
+identifier = "Government"
+name = "Government"
+parent = "Industries We Serve"
+url = "/industries/government-and-education/"
+weight = 6
+[[menu.footer]]
+identifier = "Phone Systems"
+name = "Phone Systems"
+parent = "IT Management Services"
+url = "/services/phone-systems/"
+weight = 5
+[[menu.footer]]
+identifier = "Construction"
+name = "Construction"
+parent = "Industries We Serve"
+url = "/industries/manufacturing-and-construction/"
+weight = 5
+[[menu.footer]]
+identifier = "Contact"
+name = "Contact"
+parent = "Site Navigation"
+url = "/contact/"
+weight = 5
+[[menu.footer]]
+identifier = "Disaster Recovery"
+name = "Disaster Recovery"
+parent = "IT Management Services"
+url = "/services/data-backup-and-disaster-recovery/"
+weight = 4
+[[menu.footer]]
+identifier = "About"
+name = "About"
+parent = "Site Navigation"
+url = "/about/"
+weight = 4
+[[menu.footer]]
+identifier = "Manufacturing"
+name = "Manufacturing"
+parent = "Industries We Serve"
+url = "/industries/manufacturing-and-construction/"
+weight = 4
+[[menu.footer]]
+identifier = "Data Backup"
+name = "Data Backup"
+parent = "IT Management Services"
+url = "/services/data-backup-and-disaster-recovery/"
+weight = 3
+[[menu.footer]]
+identifier = "Industries"
+name = "Industries"
+parent = "Site Navigation"
+url = "/industries/"
+weight = 3
+[[menu.footer]]
+identifier = "Commercial"
+name = "Commercial"
+parent = "Industries We Serve"
+url = "/industries/commercial/"
+weight = 3
+[[menu.footer]]
+identifier = "Managed IT Services"
+name = "Managed IT Services"
+parent = "Site Navigation"
+url = "/services/"
+weight = 2
+[[menu.footer]]
+identifier = "Professional Services"
+name = "Professional Services"
+parent = "Industries We Serve"
+url = "/industries/professional-services/"
+weight = 2
+[[menu.footer]]
+identifier = "IT Consulting"
+name = "IT Consulting"
+parent = "IT Management Services"
+url = "/services/it-consulting/"
+weight = 2
+[[menu.footer]]
+identifier = "Healthcare and Medical"
+name = "Healthcare and Medical"
+parent = "Industries We Serve"
+url = "/industries/healthcare-and-medical/"
+weight = 1
+[[menu.footer]]
+identifier = "IT Management"
+name = "IT Management"
+parent = "IT Management Services"
+url = "/services/it-management/"
+weight = 1
+[[menu.footer]]
+identifier = "Home"
+name = "Home"
+parent = "Site Navigation"
+url = "/"
+weight = 1
+[[menu.footer]]
+identifier = "IT Management Services"
+name = "IT Management Services"
+weight = 2
+[[menu.footer]]
+identifier = "Industries We Serve"
+name = "Industries We Serve"
+weight = 3
+[[menu.footer]]
+identifier = "Site Navigation"
+name = "Site Navigation"
+weight = 1
+[[menu.mobile]]
+identifier = "Access Control"
+name = "Access Control"
+parent = "Managed Services"
+url = "/services/surveillance-and-access-control/"
+weight = 8
+[[menu.mobile]]
+identifier = "Surveillance Systems"
+name = "Surveillance Systems"
+parent = "Managed Services"
+url = "/services/surveillance-and-access-control/"
+weight = 7
+[[menu.mobile]]
+identifier = "Non-Profits"
+name = "Non-Profits"
+parent = "Industries We Serve"
+url = "/industries/non-profits/"
+weight = 7
+[[menu.mobile]]
+identifier = "Cloud Services"
+name = "Cloud Services"
+parent = "Managed Services"
+url = "/services/cloud-services/"
+weight = 6
+[[menu.mobile]]
+identifier = "Education"
+name = "Education"
+parent = "Industries We Serve"
+url = "/industries/government-and-education/"
+weight = 6
+[[menu.mobile]]
+identifier = "Phone Systems"
+name = "Phone Systems"
+parent = "Managed Services"
+url = "/services/phone-systems/"
+weight = 5
+[[menu.mobile]]
+identifier = "Government"
+name = "Government"
+parent = "Industries We Serve"
+url = "/industries/government-and-education/"
+weight = 5
+[[menu.mobile]]
+identifier = "Construction"
+name = "Construction"
+parent = "Industries We Serve"
+url = "/industries/manufacturing-and-construction/"
+weight = 4
+[[menu.mobile]]
+identifier = "Disaster Recovery"
+name = "Disaster Recovery"
+parent = "Managed Services"
+url = "/services/data-backup-and-disaster-recovery/"
+weight = 4
+[[menu.mobile]]
+identifier = "Manufacturing"
+name = "Manufacturing"
+parent = "Industries We Serve"
+url = "/industries/manufacturing-and-construction/"
+weight = 3
+[[menu.mobile]]
+identifier = "Data Backup"
+name = "Data Backup"
+parent = "Managed Services"
+url = "/services/data-backup-and-disaster-recovery/"
+weight = 3
+[[menu.mobile]]
+identifier = "Tech Consulting"
+name = "Tech Consulting"
+parent = "Managed Services"
+url = "/services/it-consulting/"
+weight = 2
+[[menu.mobile]]
+identifier = "Business"
+name = "Business"
+parent = "Industries We Serve"
+url = "/industries/professional-services/"
+weight = 2
+[[menu.mobile]]
+identifier = "Careers"
+name = "Careers"
+parent = "About Us"
+url = "/careers/"
+weight = 2
+[[menu.mobile]]
+identifier = "Email us now"
+name = "Email us now"
+parent = "Contact Us"
+url = "/page-11/"
+weight = 2
+[[menu.mobile]]
+identifier = "Call us now"
+name = "Call us now"
+parent = "Contact Us"
+url = "tel:9124897427"
+weight = 1
+[[menu.mobile]]
+identifier = "Meet the Team"
+name = "Meet the Team"
+parent = "About Us"
+url = "/about/"
+weight = 1
+[[menu.mobile]]
+identifier = "Healthcare"
+name = "Healthcare"
+parent = "Industries We Serve"
+url = "/industries/healthcare-and-medical/"
+weight = 1
+[[menu.mobile]]
+identifier = "IT Management"
+name = "IT Management"
+parent = "Managed Services"
+url = "/services/it-management/"
+weight = 1
+[[menu.mobile]]
+identifier = "Contact Us"
+name = "Contact Us"
+weight = 4
+[[menu.mobile]]
+identifier = "About Us"
+name = "About Us"
+weight = 3
+[[menu.mobile]]
+identifier = "Industries We Serve"
+name = "Industries We Serve"
+weight = 2
+[[menu.mobile]]
+identifier = "Managed Services"
+name = "Managed Services"
+weight = 1
+[outputFormats.services]
+baseName = "services"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.sitemapindex]
+baseName = "sitemapindex"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.sitepages]
+baseName = "sitepages"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputs]
+home = ["HTML", "sitemapindex", "sitepages", "services", "RSS"]
+[params.extra_tools]
+algolia_search = false
+floating_header = true
+font_awesome = true
+[params.publishing_settings]
+site_in_production = true
+[params.tracking]
+cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
+[sitemap]
+filename = "sitepages.xml"
