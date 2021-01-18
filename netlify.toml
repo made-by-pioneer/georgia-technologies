@@ -25,7 +25,7 @@ HUGO_VERSION = "0.61.0"
 
 [[redirects]]
   from = "/remote-support"
-  to = "http://screenconnect.georgiatechnologies.com:8040/"
+  to = "http://screenconnect.georgiatechnologies.com/"
   status = 301
   force = true
 
