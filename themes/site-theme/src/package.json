@@ -36,7 +36,7 @@
     "jquery": "^3.5.1",
     "jquery.marquee": "^1.5.0",
     "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "scrollreveal": "^4.0.5",
     "select2": "^4.0.12",
     "slick-carousel": "^1.8.1",
