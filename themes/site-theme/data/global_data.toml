@@ -1,7 +1,7 @@
 [address]
 city = "Statesboro"
 state = "GA"
-street = "216 South Zetterower Ave."
+street = "116 S Main St."
 zip = 30458
 [business_hours]
 end_time = "5:00pm"
@@ -43,6 +43,7 @@ headline = "IMPORTANT NEWS TICKER"
 link = ""
 [social]
 facebook = "https://www.facebook.com/georgiatechnologies"
+instagram = ""
 linkedin = "https://www.linkedin.com/company/georgia-technologies-corp/"
 [tracking]
 google_analytics = "UA-121813241-21"
