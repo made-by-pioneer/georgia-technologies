@@ -28,8 +28,8 @@
 <script>
     let queryString = window.location.search;
     let urlParams = new URLSearchParams(queryString);
-    let invoNum = urlParams.get('UMinvoice');
-    let invoAmo = urlParams.get('UMamount');
+    let invoNum = urlParams.get('invoiceNum');
+    let invoAmo = urlParams.get('invoAmo');
     let invoAmoDoll = invoAmo.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     document.querySelector("#invo-num").innerText = invoNum;
     document.querySelector("#invo-amo").innerText = invoAmoDoll;
