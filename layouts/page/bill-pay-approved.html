@@ -6,21 +6,21 @@
 }
 </style>
 
-<div class="flex flex-wrap pt-32 mx-auto max-w-8xl">
-    <div class="flex flex-wrap w-5/6 md:w-4/5 mx-auto">
-        <div class="w-full md:w-2/3 mr-auto">
+<div class="flex flex-wrap w-full py-32 bg-color-F0F0F0">
+    <div class="w-auto max-w-5xl bg-white border border-color-e6e6e6 mx-auto p-6 hover:cursor-pointer rounded">
+        <div class="w-full">
             <h3 class="font-copy text-xl leading-tight pb-3 md:pb-0">{{ .Params.top_section.title }}<i class="pl-1 fas fa-check-square"></i></h3>
             <h5 class="font-copy text-base pb-6">{{ .Params.top_section.text }}</h5>
         </div>
-    </div>
-</div>
-
-<div class="flex flex-wrap pt-5 pb-48 mx-auto max-w-8xl">
-    <div class="flex flex-wrap items-start w-4/5 mx-auto">
-        <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 pb-12 lg:pb-0">
-            <h2 class="font-copy text-lg pb-5">Invoice #:<span id="invo-num" class="pl-5"></span></h2>
-            <h2 class="font-copy text-lg pb-5">Invoice amount paid:<span class="pl-5">$</span><span id="invo-amo"></span></h2>
-            <h6 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6">Use of this form is subject to the <a href="/privacy_policy/" target="_blank"><u>Privacy Policy</u></a> and <a href="/terms/" target="_blank"><u>Terms of Use.</u></a></h6>
+        <div class="flex flex-wrap pt-5">
+            <div class="w-full mx-auto">
+                <div class="w-full pb-12 lg:pb-0">
+                    <h2 class="font-copy text-lg">Invoice #:</h2>
+                    <div id="invo-num" class="text-lg pb-8"></div>
+                    <h2 class="font-copy text-lg">Invoice amount paid:</h2>
+                    <span class="text-lg">$</span><span id="invo-amo" class="text-lg"></span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -28,7 +28,7 @@
 <script>
     let queryString = window.location.search;
     let urlParams = new URLSearchParams(queryString);
-    let invoNum = urlParams.get('invoiceNum');
+    let invoNum = urlParams.get('invoNum');
     let invoAmo = urlParams.get('invoAmo');
     let invoAmoDoll = invoAmo.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     document.querySelector("#invo-num").innerText = invoNum;

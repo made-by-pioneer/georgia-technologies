@@ -14,51 +14,47 @@ form {
   display: none;
 }
 
+.update-payment-details-button {
+ text-decoration: underline;
+}
 
 </style>
 
-<div class="flex flex-wrap pt-32 pb-12 mx-auto max-w-8xl">
-    <div class="flex flex-wrap w-5/6 md:w-4/5 mx-auto">
-        <div class="w-full md:w-2/3 mr-auto">
-            <h1 class="font-copy text-xl leading-tight pb-3 md:pb-0">{{ .Params.top_section.title }}</h1>
-            <h5 class="font-copy text-base pb-6">{{ .Params.top_section.text }}</h5>
+<div class="flex flex-wrap w-full py-32 bg-color-F0F0F0">
+  <div class="w-auto max-w-5xl bg-white border border-color-e6e6e6 mx-auto p-6 hover:cursor-pointer rounded">
+      <div class="w-full">
+          <h3 class="font-copy text-xl leading-tight pb-3 md:pb-0">{{ .Params.top_section.title }}</h3>
+          <h5 class="font-copy text-base pb-6">{{ .Params.top_section.text }}</h5>
+      </div>
+      <div class="flex flex-wrap w-full mx-auto">
+        <div class="flex w-full">
+            <div class="w-full mx-auto text-black">
+              <p class="font-copy text-base pb-6">Please double check the following invoice number and amount before submitting payment. If your amounts are incorrect, please correct them below and click "update payment details". If you do not click "update payment details" your payment info will not be updated.</p>
+              <form id="update-payment-info" class="pb-8">
+                <h2 class="font-copy text-lg">Invoice #:</h2>
+                <input id="invo-num" name="invoNum" type="number" value="" class="mb-5" min="100000" max="999999" placeholder="e.g. 123456, 789012" required/>
+                <h2 class="font-copy text-lg">Invoice amount:</h2>
+                <span>$</span><input id="invo-amo" name="invoAmo" type="text" value="" class="mb-5" />
+                <br />
+                <input type="submit" value="update payment details" class="bg-white text-left hover:cursor-pointer update-payment-details-button" />
+              </form>
+            </div>
         </div>
-    </div>
+        <form id="payment-form" class="w-full mx-auto pb-12">
+            <div id="payment-element" class="pb-6">
+              <!--Stripe.js injects the Payment Element-->
+            </div>
+            <button id="submit">
+              <div class="spinner hidden" id="spinner"></div>
+              <span id="button-text" class="w-full md:w-auto ml-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 py-2 px-8 hover:cursor-pointer">Submit payment</span>
+            </button>
+            <div id="payment-message" class="hidden"></div>
+        </form>
+      </div>
+      <h6 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6">Use of this form is subject to the <a href="/privacy_policy/" target="_blank"><u>Privacy Policy</u></a>, <a href="/terms/" target="_blank"><u>Terms of Use</u></a>, and <a href="/terms-and-conditions/" target="_blank"><u>Terms and Conditions.</u></a></h6>
+  </div>
 </div>
 
-<div id="payment-form" class="flex flex-wrap md:w-2/3 mx-auto max-w-8xl pb-56">
-    <div class="flex w-full">
-        <div class="w-3/4 mx-auto text-black">
-          <p class="font-copy text-base pb-6">Please double check the following invoice number and amount before submitting payment.</p>
-          <h2 class="font-copy text-lg pb-5">Invoice #:<span id="invo-num" class="pl-5"></span></h2>
-          <h2 class="font-copy text-lg pb-5">Invoice amount:<span class="pl-5">$</span><span id="invo-amo"></span></h2>
-        </div>
-    </div>
-    <form id="payment-form" class="w-3/4 mx-auto pb-12">
-        <div id="payment-element" class="pb-6">
-          <!--Stripe.js injects the Payment Element-->
-        </div>
-        <button id="submit">
-          <div class="spinner hidden" id="spinner"></div>
-          <span id="button-text" class="w-full md:w-auto ml-auto bg-color-004A5D hover:bg-color-003644 active:bg-color-00222A font-copy text-base text-white text-center mb-3 sm:mb-0 py-2 px-8 hover:cursor-pointer">Submit payment</span>
-        </button>
-        <div id="payment-message" class="hidden"></div>
-    </form>
-    <div class="w-3/4 mx-auto">
-        <h6 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6">Use of this form is subject to the <a href="/privacy_policy/" target="_blank"><u>Privacy Policy</u></a>, <a href="/terms/" target="_blank"><u>Terms of Use</u></a>, and <a href="/terms-and-conditions/" target="_blank"><u>Terms and Conditions.</u></a></h6>
-    </div>
-</div>
-
-<div id="payment-info-error" class="hidden flex flex-wrap md:w-2/3 mx-auto max-w-8xl pb-56">
-    <div class="flex w-full">
-        <div class="w-3/4 mx-auto text-black">
-          <h2 class="w-full font-copy text-12px text-color-02A89B uppercase tracking-onehalf pt-6"><u>The invoice amount or invoice number is invalid.</u></h2>
-          <h5 class="font-copy text-base pb-6">Please try your payment again by clicking the button below.</h5>
-          <p></p>
-          <a href="/online_payment" class="bg-color-003644 text-base text-white rounded-lg py-2 px-4 uppercase no-underline">Try payment again</a>
-        </div>
-    </div>
-</div>
 
 <script>
     const queryString = window.location.search;
@@ -67,18 +63,18 @@ form {
     const invoAmo = urlParams.get('invoAmo') * 100;
     const invoAmoRaw = urlParams.get('invoAmo');
     const invoAmoDoll = invoAmoRaw.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    document.querySelector("#invo-num").innerText = invoNum;
-    document.querySelector("#invo-amo").innerText = invoAmoDoll;
+    document.querySelector("#invo-num").value = invoNum;
+    document.querySelector("#invo-amo").value = invoAmoRaw;
 </script>
 
 <script>
-
+'use strict';
 const paymentForm = document.getElementById('payment-form');
 const paymentInfoError = document.getElementById('payment-info-error');
 
 if (invoAmo && invoNum) {
 // This is your test publishable API key.
-const stripe = Stripe("pk_test_51LcE9AEOReRjBETBEE2EzGb5dQTdgKg1Siw0ew5aS1Gw9kI6pgu3I58Xc1pEjAeNR9PwROVYksoCh4VDX9KQhE0I00aE3Hj8OU");
+const stripe = Stripe("pk_live_51LcE9AEOReRjBETBhtUFDqPznCWuILDYFRRDvC4u2qGLKT1sV1lJMOpcvZIsNNc5y0uOeLWIW4q40Qp446aTCI5j00W7hVMEzP");
 
 // The items the customer wants to buy
 const items = [];
@@ -94,7 +90,7 @@ document
 
 // Fetches a payment intent and captures the client secret
 async function initialize() {
-  const { clientSecret } = await fetch("https://inside.georgiatechnologies.com/create.php?amount=" + invoAmo + "&invoiceNum=" + invoNum, {
+  const { clientSecret } = await fetch("https://inside.georgiatechnologies.com/create.php?amount=" + invoAmo + "&invoNum=" + invoNum, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ items }),
@@ -114,7 +110,7 @@ async function handleSubmit(e) {
     elements,
     confirmParams: {
       // Make sure to change this to your payment completion page
-      return_url: "https://www.georgiatechnologies.com/online_payment/approved?invoAmo=" + invoAmoRaw + "&invoiceNum=" + invoNum,
+      return_url: "https://www.georgiatechnologies.com/online_payment/approved?invoAmo=" + invoAmoRaw + "&invoNum=" + invoNum,
     },
   });
 
