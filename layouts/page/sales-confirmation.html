@@ -46,20 +46,16 @@ textarea:focus {
 <div class="flex flex-wrap pt-12 pb-48 mx-auto max-w-8xl">
     <div class="flex flex-wrap items-start w-4/5 mx-auto">
         <div class="relative flex flex-wrap w-full md:w-1/2 lg:w-1/3 pb-12 lg:pb-0">
-            <form id="pay-by-credit-form" class="flex flex-wrap w-full font-copy" action="https://www.usaepay.com/interface/epayform/">
+            <form id="pay-by-credit-form" class="flex flex-wrap w-full font-copy" action="https://www.georgiatechnologies.com/pay-invoice/">
                 <input type="hidden" name="UMkey" value="Y67MuuS2zI9WQjePH3g9d37aC40y0qgZ" />
                 <input type="hidden" name="UMcommand" value="sale" />
                 <div class="flex flex-wrap w-full">
                     <label class="w-full pb-1">Proposal Number*</label>
-                    <input id="propNum" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="number" name="UMinvoice" min="1000" max="9999" placeholder="Enter your proposal number here" required>
+                    <input id="propNum" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="number" name="invoNum" min="1000" max="999999" placeholder="e.g. 1234, 789043" required>
                 </div>
                 <div class="flex flex-wrap w-full">
                     <label class="w-full pb-1">Proposal Amount*</label>
-                    <input id="propAmo" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="UMamount" placeholder="Enter your proposal amount here" required>
-                </div>
-                <div class="flex flex-wrap w-full">
-                    <label class="w-full pb-1">Email Address*</label>
-                    <input id="email-credit" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="email" name="UMemail" placeholder="Enter your email" required>
+                    <input id="propAmo" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="invoAmo" placeholder="Do not include the $, e.g. 2489.99" required>
                 </div>
                 <div class="w-full">
                     <label class="w-full pb-1">Tell us how you would like to pay*</label>
@@ -83,15 +79,11 @@ textarea:focus {
             <form id="pay-by-check-form" class="hidden flex flex-wrap w-full font-copy" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="sales-confirmation-form" method="POST" netlify>
                 <div class="flex flex-wrap w-full">
                     <label class="w-full pb-1">Proposal Number*</label>
-                    <input id="propNum-chk" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="number" name="proposal-number" min="1000" max="9999" placeholder="Enter your proposal number here" required>
+                    <input id="propNum-chk" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="number" name="proposal-number" min="1000" max="999999" placeholder="e.g. 1234, 789043" required>
                 </div>
                 <div class="flex flex-wrap w-full">
                     <label class="w-full pb-1">Proposal Amount*</label>
-                    <input id="propAmo-chk" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="proposal-amount" placeholder="Enter your proposal amount here" required>
-                </div>
-                <div class="flex flex-wrap w-full">
-                    <label class="w-full pb-1">Email Address*</label>
-                    <input id="email-check" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="email" name="email-address" placeholder="Enter your email" required>
+                    <input id="propAmo-chk" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="proposal-amount" placeholder="Do not include the $, e.g. 2489.99" required>
                 </div>
                 <input type="text" name="field-for-coolguys" style="display:none" />
                 <div class="w-full">
@@ -103,6 +95,10 @@ textarea:focus {
                         <option name="Credit Card">Credit Card</option>
                         <option name="Check">Check</option>
                     </select>
+                </div>
+                <div class="flex flex-wrap w-full">
+                    <label class="w-full pb-1">Email Address*</label>
+                    <input id="email-check" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="email" name="email-address" placeholder="Enter your email" required>
                 </div>
                 <div class="flex flex-wrap items-center w-full pb-6">
                     <input id="agree-check" class="w-auto rounded-lg" type="checkbox" name="read-terms-and-conditions" required>
