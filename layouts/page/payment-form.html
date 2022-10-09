@@ -36,6 +36,9 @@ form {
                 <h2 class="font-copy text-lg">Invoice amount:</h2>
                 <span>$</span><input id="invo-amo" name="invoAmo" type="text" value="" class="mb-5" placeholder="Do not include the $, e.g. 2489.99" />
                 <br />
+                <h2 class="font-copy text-lg">Cardholder's Name:</h2>
+                <input id="card-holder" name="cardHolder" type="text" value="" class="mb-5" placeholder="Input the name that appears on the credit or debit card you intend to use for payment." required/>
+                <br />
                 <input type="submit" value="update payment details" class="bg-white text-left hover:cursor-pointer update-payment-details-button" />
               </form>
             </div>
@@ -61,10 +64,12 @@ form {
     const urlParams = new URLSearchParams(queryString);
     const invoNum = urlParams.get('invoNum');
     const invoAmo = urlParams.get('invoAmo') * 100;
+    const cardHolder = urlParams.get('cardHolder');
     const invoAmoRaw = urlParams.get('invoAmo');
     const invoAmoDoll = invoAmoRaw.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     document.querySelector("#invo-num").value = invoNum;
     document.querySelector("#invo-amo").value = invoAmoRaw;
+    document.querySelector("#card-holder").value = cardHolder;
 </script>
 
 <script>
@@ -72,7 +77,7 @@ form {
 const paymentForm = document.getElementById('payment-form');
 const paymentInfoError = document.getElementById('payment-info-error');
 
-if (invoAmo && invoNum) {
+if (invoAmo && invoNum && cardHolder) {
 // This is your test publishable API key.
 const stripe = Stripe("pk_live_51LcE9AEOReRjBETBhtUFDqPznCWuILDYFRRDvC4u2qGLKT1sV1lJMOpcvZIsNNc5y0uOeLWIW4q40Qp446aTCI5j00W7hVMEzP");
 
@@ -90,7 +95,7 @@ document
 
 // Fetches a payment intent and captures the client secret
 async function initialize() {
-  const { clientSecret } = await fetch("https://inside.georgiatechnologies.com/create.php?amount=" + invoAmo + "&invoNum=" + invoNum, {
+  const { clientSecret } = await fetch("https://inside.georgiatechnologies.com/create.php?amount=" + invoAmo + "&invoNum=" + invoNum + "&cardHolder=" + cardHolder, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ items }),
@@ -110,7 +115,7 @@ async function handleSubmit(e) {
     elements,
     confirmParams: {
       // Make sure to change this to your payment completion page
-      return_url: "https://www.georgiatechnologies.com/online_payment/approved?invoAmo=" + invoAmoRaw + "&invoNum=" + invoNum,
+      return_url: "https://www.georgiatechnologies.com/online_payment/approved?invoAmo=" + invoAmoRaw + "&invoNum=" + invoNum + "&cardHolder=" + cardHolder,
     },
   });
 

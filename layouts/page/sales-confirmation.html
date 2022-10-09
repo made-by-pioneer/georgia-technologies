@@ -57,6 +57,10 @@ textarea:focus {
                     <label class="w-full pb-1">Proposal Amount*</label>
                     <input id="propAmo" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="invoAmo" placeholder="Do not include the $, e.g. 2489.99" required>
                 </div>
+                <div class="flex flex-wrap w-full">
+                    <label class="w-full pb-1">Cardholder Name*</label>
+                    <input id="cardHolder" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" type="text" name="cardHolder" placeholder="Input the name that appears on the credit or debit card you intend to use for payment." required>
+                </div>
                 <div class="w-full">
                     <label class="w-full pb-1">Tell us how you would like to pay*</label>
                     <select id="payment-method-select-credit" class="w-full mb-5 py-2 px-3 border-2 rounded-lg" name="payment-method" onchange="updateFormCheck()" required>
