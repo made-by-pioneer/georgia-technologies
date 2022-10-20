@@ -78,7 +78,7 @@ form {
 const paymentForm = document.getElementById('payment-form');
 const paymentInfoError = document.getElementById('payment-info-error');
 
-if (invoAmo && invoNum && cardHolder) {
+if (invoAmoRaw && invoNum && cardHolder) {
 // This is your test publishable API key.
 const stripe = Stripe("pk_live_51LcE9AEOReRjBETBhtUFDqPznCWuILDYFRRDvC4u2qGLKT1sV1lJMOpcvZIsNNc5y0uOeLWIW4q40Qp446aTCI5j00W7hVMEzP");
 
@@ -96,7 +96,7 @@ document
 
 // Fetches a payment intent and captures the client secret
 async function initialize() {
-  const { clientSecret } = await fetch("https://inside.georgiatechnologies.com/create.php?amount=" + invoAmo + "&invoNum=" + invoNum + "&cardHolder=" + cardHolder, {
+  const { clientSecret } = await fetch("https://inside.georgiatechnologies.com/create.php?amount=" + invoAmoRaw + "&invoNum=" + invoNum + "&cardHolder=" + cardHolder, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ items }),
