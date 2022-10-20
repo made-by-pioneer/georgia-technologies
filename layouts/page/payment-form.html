@@ -65,11 +65,12 @@ form {
     const invoNum = urlParams.get('invoNum');
     const invoAmo = urlParams.get('invoAmo') * 100;
     const cardHolder = urlParams.get('cardHolder');
-    const invoAmoRaw = urlParams.get('invoAmo');
+    const invoAmoRaw = urlParams.get('invoAmo').replace(',', '').replace('.', '');
     const invoAmoDoll = invoAmoRaw.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     document.querySelector("#invo-num").value = invoNum;
     document.querySelector("#invo-amo").value = invoAmoRaw;
     document.querySelector("#card-holder").value = cardHolder;
+    console.log(invoAmoRaw);
 </script>
 
 <script>
